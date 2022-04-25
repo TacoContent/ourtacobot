@@ -12,6 +12,7 @@
 
 | NAME | DESCRIPTION | EXAMPLE USAGE | PERMISSION | COOLDOWN | CHANNELS |  
 |---|---|---|---|---|---|
+| [`commands`](#commands) | Gives a link to this documentation | `!taco commands` | EVERYONE | 30s | ALL |
 | [`discord`](#discord) | Display an invite to the TACO discord. This invite is an invite that you created, that is set to never expire, or a random invite if you haven't created one. If you haven't you should create an invite, as you get 25 tacos🌮 for inviting someone. | `!taco discord` | EVERYONE | 30s | ALL |  
 | [`tqotd`](#tqotd) | Displays the currently active TACO Question of the Day along with an invite to the discord (see `discord` command) | `!taco tqotd` | EVERYONE | 30s | ALL |  
 | [`tacos count`](#tacos-count) | Get the total tacos for yourself. | `!taco tacos count` | EVERYONE | 30s | ALL |  
@@ -23,6 +24,12 @@
 | [`invite`](#invite) | Invite OurTacoBot to your twitch channel. | `!taco invite` | EVERYONE | 30s | [@OurTacoBot](https://twitch.tv/ourtacobot) |  
 | [`leave`](#leave) | Have OurTacoBot leave your twitch channel. | `!taco leave` | EVERYONE | 30s | [@OurTacoBot](https://twitch.tv/ourtacobot) |  
 
+
+# COMMANDS
+
+`!taco commands`
+
+Gives a link to this documentation. 
 
 
 # DISCORD
