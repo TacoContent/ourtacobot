@@ -253,11 +253,8 @@ Take tacos from a user.
 ### PERMISSIONS
 - `MODERATOR`
 
-
 ### EXAMPLES
 - `!taco tacos take @DarthMinos 1 incorrect trivia answer`
-
-
 
 ### ARGUMENTS
 
