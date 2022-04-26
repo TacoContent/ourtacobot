@@ -207,9 +207,9 @@ Get the number of tacos for a user
 
 
 ### ARGUMENTS
-| NAME | DESCRIPTION | TYPE | DEFAULT/MIN/MAX | REQUIRED |
-| ---- | ----------- | ---- | -------------- | -------- |
-| `user` | The user to get the taco count for. | `string` | DEFAULT: `None` | `YES` |
+| NAME | DESCRIPTION | TYPE | DEFAULT/MIN/MAX | REQUIRED |  
+| ---- | ----------- | ---- | -------------- | -------- |  
+| `user` | The user to get the taco count for. | `string` | DEFAULT: `None` | `YES` |  
 ---
 ## TACOS GIVE
 Give a user tacos. The maximum amount of tacos that can be given at a time is 10. The maximum amount that can be given to a user in a rolling 24 hour period is 50. The maximum amount that can be given total in a rolling 24 hour period is 500.
@@ -230,11 +230,11 @@ Give a user tacos. The maximum amount of tacos that can be given at a time is 10
 
 
 ### ARGUMENTS
-| NAME | DESCRIPTION | TYPE | DEFAULT/MIN/MAX | REQUIRED |
-| ---- | ----------- | ---- | -------------- | -------- |
-| `user` | The user to give tacos to. | `string` | DEFAULT: `None` | `YES` |
-| `amount` | The amount of tacos to give. | `number` | DEFAULT: `None`  MIN: `1`  MAX: `10` | `YES` |
-| `reason` | The reason for the giving tacos. | `string` | DEFAULT: `No reason given` | `NO` |
+| NAME | DESCRIPTION | TYPE | DEFAULT/MIN/MAX | REQUIRED |  
+| ---- | ----------- | ---- | -------------- | -------- |  
+| `user` | The user to give tacos to. | `string` | DEFAULT: `None` | `YES` |  
+| `amount` | The amount of tacos to give. | `number` | DEFAULT: `None`  MIN: `1`  MAX: `10` | `YES` |  
+| `reason` | The reason for the giving tacos. | `string` | DEFAULT: `No reason given` | `NO` |  
 ---
 ## TACOS HELP
 Shows the help for the tacos subcommands.
@@ -274,11 +274,11 @@ Take tacos from a user.
 
 
 ### ARGUMENTS
-| NAME | DESCRIPTION | TYPE | DEFAULT/MIN/MAX | REQUIRED |
-| ---- | ----------- | ---- | -------------- | -------- |
-| `user` | The user to take tacos from. | `string` | DEFAULT: `None` | `YES` |
-| `amount` | The amount of tacos to take. | `number` | DEFAULT: `None`  MIN: `1`  MAX: `10` | `YES` |
-| `reason` | The reason for taking the tacos. | `string` | DEFAULT: `No reason given` | `NO` |
+| NAME | DESCRIPTION | TYPE | DEFAULT/MIN/MAX | REQUIRED |  
+| ---- | ----------- | ---- | -------------- | -------- |  
+| `user` | The user to take tacos from. | `string` | DEFAULT: `None` | `YES` |  
+| `amount` | The amount of tacos to take. | `number` | DEFAULT: `None`  MIN: `1`  MAX: `10` | `YES` |  
+| `reason` | The reason for taking the tacos. | `string` | DEFAULT: `No reason given` | `NO` |  
 ---
 ## TACOS TOP
 Get the leader board for users tacos.
@@ -303,7 +303,8 @@ Get the leader board for users tacos.
 
 
 
-### ARGUMENTS
-| NAME | DESCRIPTION | TYPE | DEFAULT/MIN/MAX | REQUIRED |
-| ---- | ----------- | ---- | -------------- | -------- |
+### ARGUMENTS  
+
+| NAME | DESCRIPTION | TYPE | DEFAULT/MIN/MAX | REQUIRED |  
+| ---- | ----------- | ---- | -------------- | -------- |  
 | `limit` | The amount of users to show on the leader board. | `number` | DEFAULT: `5`  MIN: `1`  MAX: `10` | `NO` |
