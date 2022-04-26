@@ -14,19 +14,21 @@ The following prefixes are accepted:
 
 # COMMAND LIST
 
+Commands with a 🛡️ are restricted to administrators.
+
 - [BIRTHDAY](#birthday)
 
 - [GIF](#gif)
 
 - [LINK](#link)
 
-- [MOVE](#move)
+- [MOVE🛡️](#move)
 
 - [SUGGEST](#suggest)
 
-- [TQOTD](#tqotd)
+- [TQOTD🛡️](#tqotd)
 
-  - [TQOTD GIVE](#tqotd-give)
+  - [TQOTD GIVE🛡️](#tqotd-give)
 
 - [TACOS](#tacos)
 
@@ -34,15 +36,15 @@ The following prefixes are accepted:
 
   - [TACOS GIFT](#tacos-gift)
 
-  - [TACOS GIVE](#tacos-give)
+  - [TACOS GIVE🛡️](#tacos-give)
 
-  - [TACOS PURGE](#tacos-purge)
+  - [TACOS PURGE🛡️](#tacos-purge)
 
 - [TEAM](#team)
 
   - [TEAM INVITE](#team-invite)
 
-  - [TEAM INVITE-USER](#team-invite-user)
+  - [TEAM INVITE-USER🛡️](#team-invite-user)
 
 - [TRIVIA](#trivia)
 
@@ -50,7 +52,7 @@ The following prefixes are accepted:
 
   - [TWITCH SET](#twitch-set)
 
-  - [TWITCH SET-USER](#twitch-set-user)
+  - [TWITCH SET-USER🛡️](#twitch-set-user)
 
   - [TWITCH GET](#twitch-get)
 
