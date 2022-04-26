@@ -1,6 +1,8 @@
-# OurTacoBot Twitch Commands
+[< BACK](/ourtacobot)
 
-![](https://i.imgur.com/ejJu8dem.png)
+# OURTACOBOT TWITCH COMMANDS
+
+<!-- ![](https://i.imgur.com/ejJu8dem.png) -->
 
 ### COMMAND PREFIXES
 The following prefixes are accepted:
