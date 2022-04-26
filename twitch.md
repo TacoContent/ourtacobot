@@ -36,8 +36,8 @@ The following prefixes are accepted:
 
   - [TACOS TOP](#tacos-top)
 
-
 ---
+
 ## COMMANDS
 Get a url to view documentation for all commands.
 
@@ -54,8 +54,6 @@ Get a url to view documentation for all commands.
 ### EXAMPLES
 - `!taco commands`
 
-
-
 ---
 ## DISCORD
 Promotes the TACO discord using an invite that you have created in the discord.
@@ -66,7 +64,6 @@ Promotes the TACO discord using an invite that you have created in the discord.
 ### ALIASES
 - `taco`
 
-
 ### COOLDOWN
 `30s`
 
@@ -76,8 +73,6 @@ Promotes the TACO discord using an invite that you have created in the discord.
 
 ### EXAMPLES
 - `!taco discord`
-
-
 
 ---
 ## INVITE
@@ -100,8 +95,6 @@ Invite OurTacoBot to your twitch channel.
 
 ### EXAMPLES
 - `!taco invite`
-
-
 
 ### RESTRICTED
 This command is restricted to the following twitch channels:
@@ -131,8 +124,6 @@ Remove OurTacoBot to your twitch channel.
 ### EXAMPLES
 - `!taco leave`
 
-
-
 ### RESTRICTED
 This command is restricted to the following twitch channels:
 
@@ -156,8 +147,6 @@ Set of commands to deal with tacos.
 ### EXAMPLES
 - `!taco tacos help`
 
-
-
 ---
 ## TACOS COUNT
 Get the number of tacos that you have.
@@ -169,7 +158,6 @@ Get the number of tacos that you have.
 - `balance`
 - `bal`
 
-
 ### COOLDOWN
 `30s`
 
@@ -179,8 +167,6 @@ Get the number of tacos that you have.
 
 ### EXAMPLES
 - `!taco tacos count`
-
-
 
 ---
 ## TACOS COUNT
@@ -207,11 +193,14 @@ Get the number of tacos for a user
 
 
 ### ARGUMENTS
+
 | NAME | DESCRIPTION | TYPE | DEFAULT/MIN/MAX | REQUIRED |  
-| ---- | ----------- | ---- | -------------- | -------- |  
+|---|---|---|---|---|  
 | `user` | The user to get the taco count for. | `string` | DEFAULT: `None` | `YES` |  
+
 ---
 ## TACOS GIVE
+
 Give a user tacos. The maximum amount of tacos that can be given at a time is 10. The maximum amount that can be given to a user in a rolling 24 hour period is 50. The maximum amount that can be given total in a rolling 24 hour period is 500.
 
 ### USAGE
@@ -223,18 +212,17 @@ Give a user tacos. The maximum amount of tacos that can be given at a time is 10
 ### PERMISSIONS
 - `MODERATOR`
 
-
 ### EXAMPLES
 - `!taco tacos give @DarthMinos 1 being awesome`
 
-
-
 ### ARGUMENTS
+
 | NAME | DESCRIPTION | TYPE | DEFAULT/MIN/MAX | REQUIRED |  
-| ---- | ----------- | ---- | -------------- | -------- |  
+|---|---|---|---|---|  
 | `user` | The user to give tacos to. | `string` | DEFAULT: `None` | `YES` |  
 | `amount` | The amount of tacos to give. | `number` | DEFAULT: `None`  MIN: `1`  MAX: `10` | `YES` |  
 | `reason` | The reason for the giving tacos. | `string` | DEFAULT: `No reason given` | `NO` |  
+
 ---
 ## TACOS HELP
 Shows the help for the tacos subcommands.
@@ -251,8 +239,6 @@ Shows the help for the tacos subcommands.
 
 ### EXAMPLES
 - `!taco tacos help`
-
-
 
 ---
 ## TACOS TAKE
@@ -274,11 +260,13 @@ Take tacos from a user.
 
 
 ### ARGUMENTS
+
 | NAME | DESCRIPTION | TYPE | DEFAULT/MIN/MAX | REQUIRED |  
-| ---- | ----------- | ---- | -------------- | -------- |  
+|---|---|---|---|---|  
 | `user` | The user to take tacos from. | `string` | DEFAULT: `None` | `YES` |  
 | `amount` | The amount of tacos to take. | `number` | DEFAULT: `None`  MIN: `1`  MAX: `10` | `YES` |  
 | `reason` | The reason for taking the tacos. | `string` | DEFAULT: `No reason given` | `NO` |  
+
 ---
 ## TACOS TOP
 Get the leader board for users tacos.
@@ -290,21 +278,17 @@ Get the leader board for users tacos.
 - `leaderboard`
 - `lb`
 
-
 ### COOLDOWN
 `30s`
 
 ### PERMISSIONS
 - `MODERATOR`
 
-
 ### EXAMPLES
 - `!taco tacos top 5`
-
-
 
 ### ARGUMENTS  
 
 | NAME | DESCRIPTION | TYPE | DEFAULT/MIN/MAX | REQUIRED |  
 | ---- | ----------- | ---- | -------------- | -------- |  
-| `limit` | The amount of users to show on the leader board. | `number` | DEFAULT: `5`  MIN: `1`  MAX: `10` | `NO` |
+| `limit` | The amount of users to show on the leader board. | `number` | DEFAULT: `5`  MIN: `1`  MAX: `10` | `NO` |  
