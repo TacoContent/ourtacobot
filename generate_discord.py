@@ -10,6 +10,8 @@ def main():
     settings = _load_settings()
     commands = settings.get('commands', {})
     bot_name = settings.get('bot_name', 'OurTacoBot')
+    print(f"[< BACK](/ourtacobot)")
+    print(f"")
     print(f"# {bot_name.upper()} DISCORD COMMANDS")
     print(f"")
     # icon = settings.get('icon', None)
