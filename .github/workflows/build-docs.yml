@@ -2,7 +2,7 @@ name: Build Documentation
 on:
   push:
     branches:
-      - develop
+    - gh-pages
 jobs:
   tacobot:
     runs-on: ubuntu-18.04
