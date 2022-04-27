@@ -1,7 +1,7 @@
 [⏪ BACK](/ourtacobot)<a name="top"></a>
 
 # OURTACOBOT TWITCH COMMANDS
-### GENERATED: 2022-04-27 19:32:57
+### GENERATED: 2022-04-27 23:01:29
 
 
 ### COMMAND PREFIXES
@@ -27,13 +27,13 @@ The following prefixes are accepted:
 
   - [TACOS COUNT](#tacos-count)  
 
-  - [TACOS COUNT](#tacos-count)  
+  - [TACOS COUNT🛡️](#tacos-count)  
 
-  - [TACOS GIVE](#tacos-give)  
+  - [TACOS GIVE🛡️](#tacos-give)  
 
-  - [TACOS TAKE](#tacos-take)  
+  - [TACOS TAKE🛡️](#tacos-take)  
 
-  - [TACOS TOP](#tacos-top)  
+  - [TACOS TOP🛡️](#tacos-top)  
 
 - [TQOTD](#tqotd)  
 
@@ -56,11 +56,6 @@ Get a url to view documentation for all commands.
 
 ### PERMISSIONS 🔑
 - `EVERYONE`  
-
-
-### EXAMPLES 📃
-- `!taco commands`  
-
 
 
 ![](https://i.imgur.com/8lx0Ohy.png)  
@@ -89,11 +84,6 @@ Promotes the TACO discord using an invite that you have created in the discord.
 
 ### PERMISSIONS 🔑
 - `EVERYONE`  
-
-
-### EXAMPLES 📃
-- `!taco discord`  
-
 
 
 ![](https://i.imgur.com/n0wBukf.png)  
@@ -125,11 +115,6 @@ Invite OurTacoBot to your twitch channel.
 - `EVERYONE`  
 
 
-### EXAMPLES 📃
-- `!taco invite`  
-
-
-
 ![](https://i.imgur.com/vJgtOCj.png)  
 
 
@@ -137,8 +122,8 @@ Invite OurTacoBot to your twitch channel.
 
 This command is restricted to the following twitch channels:  
 
-- [ourtaco](https://twitch.tv/ourtaco)  
-- [ourtacobot](https://twitch.tv/ourtacobot)  
+- [@OURTACO](https://twitch.tv/ourtaco)  
+- [@OURTACOBOT](https://twitch.tv/ourtacobot)  
 
 
 [🔼 TOP](#top)  
@@ -166,11 +151,6 @@ Remove OurTacoBot to your twitch channel.
 - `EVERYONE`  
 
 
-### EXAMPLES 📃
-- `!taco leave`  
-
-
-
 ![](https://i.imgur.com/6mkkHmk.png)  
 
 
@@ -178,8 +158,8 @@ Remove OurTacoBot to your twitch channel.
 
 This command is restricted to the following twitch channels:  
 
-- [ourtaco](https://twitch.tv/ourtaco)  
-- [ourtacobot](https://twitch.tv/ourtacobot)  
+- [@OURTACO](https://twitch.tv/ourtaco)  
+- [@OURTACOBOT](https://twitch.tv/ourtacobot)  
 
 
 [🔼 TOP](#top)  
@@ -199,11 +179,6 @@ Set of commands to deal with tacos.
 
 ### PERMISSIONS 🔑
 - `EVERYONE`  
-
-
-### EXAMPLES 📃
-- `!taco tacos help`  
-
 
 
 ---
@@ -226,11 +201,6 @@ Get the number of tacos that you have.
 
 ### PERMISSIONS 🔑
 - `EVERYONE`  
-
-
-### EXAMPLES 📃
-- `!taco tacos count`  
-
 
 
 ![](https://i.imgur.com/BHwu2db.png)  
@@ -258,11 +228,6 @@ Get the number of tacos for a user
 - `MODERATOR`  
 
 
-### EXAMPLES 📃
-- `!taco tacos count @DarthMinos`  
-
-
-
 ![](https://i.imgur.com/k1wxnVL.png)  
 
 
@@ -286,11 +251,6 @@ Give a user tacos. The maximum amount of tacos that can be given at a time is 10
 
 ### PERMISSIONS 🔑
 - `MODERATOR`  
-
-
-### EXAMPLES 📃
-- `!taco tacos give @DarthMinos 1 being awesome`  
-
 
 
 ![](https://i.imgur.com/IyvB6oq.png)  
@@ -318,11 +278,6 @@ Take tacos from a user.
 
 ### PERMISSIONS 🔑
 - `MODERATOR`  
-
-
-### EXAMPLES 📃
-- `!taco tacos take @DarthMinos 1 incorrect trivia answer`  
-
 
 
 ![](https://i.imgur.com/A3PS0Y7.png)  
@@ -358,11 +313,6 @@ Get the leader board for users tacos.
 - `MODERATOR`  
 
 
-### EXAMPLES 📃
-- `!taco tacos top 5`  
-
-
-
 ![](https://i.imgur.com/XY0y4Qc.png)  
 
 ![](https://i.imgur.com/hYJKHvj.png)  
@@ -394,11 +344,6 @@ Gives you the TACO question of the day.
 - `EVERYONE`  
 
 
-### EXAMPLES 📃
-- `!taco tqotd`  
-
-
-
 ![](https://i.imgur.com/A1MdC8Q.png)  
 
 
@@ -420,11 +365,6 @@ Gives you a command and a code to run in discord to link your twitch with your d
 
 ### PERMISSIONS 🔑
 - `EVERYONE`  
-
-
-### EXAMPLES 📃
-- `!taco link`  
-
 
 
 ![](https://i.imgur.com/opzviIC.png)  
@@ -450,11 +390,6 @@ Links your discord account with your twitch account.
 
 ### PERMISSIONS 🔑
 - `EVERYONE`  
-
-
-### EXAMPLES 📃
-- `!taco link ABC567`  
-
 
 
 ![](https://i.imgur.com/aZ4rSnO.png)  
