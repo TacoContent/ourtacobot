@@ -1,7 +1,7 @@
 [< BACK](/ourtacobot)
 
 # OURTACOBOT DISCORD COMMANDS
-### GENERATED: 2022-04-27 18:49:30
+### GENERATED: 2022-04-27 18:58:58
 
 
 ### COMMAND PREFIXES
@@ -115,7 +115,7 @@ Link your discord and twitch account together
 
 | NAME | DESCRIPTION | TYPE | DEFAULT/MIN/MAX | REQUIRED |  
 |---|---|---|---|---|  
-| `code` | The code given to you by the bot in twitch chat | `string` | DEFAULT: `None` | `:white_check_mark:` |  
+| `code` | The code given to you by the bot in twitch chat | `string` | DEFAULT: `None` | `✅` |  
 
 ---
 
@@ -135,7 +135,7 @@ Moves a message from one channel to another. Must be ran in the channel that the
 
 | NAME | DESCRIPTION | TYPE | DEFAULT/MIN/MAX | REQUIRED |  
 |---|---|---|---|---|  
-| `message_id` | The message id of the message to move | `string` | DEFAULT: `None` | `:white_check_mark:` |  
+| `message_id` | The message id of the message to move | `string` | DEFAULT: `None` | `✅` |  
 
 ---
 
@@ -181,7 +181,7 @@ Gives TQotD tacos to the user who answered the question
 
 | NAME | DESCRIPTION | TYPE | DEFAULT/MIN/MAX | REQUIRED |  
 |---|---|---|---|---|  
-| `user` | The user to give tacos to for answering the question | `user` | DEFAULT: `None` | `:white_check_mark:` |  
+| `user` | The user to give tacos to for answering the question | `user` | DEFAULT: `None` | `✅` |  
 
 ---
 
@@ -227,11 +227,9 @@ Gift someone a number of tacos. You can gift a maximum of 10 tacos per 24 hours 
 
 | NAME | DESCRIPTION | TYPE | DEFAULT/MIN/MAX | REQUIRED |  
 |---|---|---|---|---|  
-| `user` | The user to gift tacos to | `user` | DEFAULT: `None` | `:white_check_mark:` |  
-| `amount` | The amount of tacos to gift | `number` | DEFAULT: `None`  
-MIN: `1`  
-MAX: `10` | `:white_check_mark:` |  
-| `reason` | The reason for the gift | `string` | DEFAULT: `No reason given` | `:white_square_button:` |  
+| `user` | The user to gift tacos to | `user` | DEFAULT: `None` | `✅` |  
+| `amount` | The amount of tacos to gift | `number` | DEFAULT: `None`  MIN: `1`  MAX: `10` | `✅` |  
+| `reason` | The reason for the gift | `string` | DEFAULT: `No reason given` | `🔲` |  
 
 ---
 ## TACOS GIVE🛡️
@@ -251,11 +249,9 @@ Allows an admin to give someone tacos.
 
 | NAME | DESCRIPTION | TYPE | DEFAULT/MIN/MAX | REQUIRED |  
 |---|---|---|---|---|  
-| `user` | The user to give tacos to | `user` | DEFAULT: `None` | `:white_check_mark:` |  
-| `amount` | The amount of tacos to give | `number` | DEFAULT: `None`  
-MIN: `1`  
-MAX: `10` | `:white_check_mark:` |  
-| `reason` | The reason for the gift | `string` | DEFAULT: `No reason given` | `:white_square_button:` |  
+| `user` | The user to give tacos to | `user` | DEFAULT: `None` | `✅` |  
+| `amount` | The amount of tacos to give | `number` | DEFAULT: `None`  MIN: `1`  MAX: `10` | `✅` |  
+| `reason` | The reason for the gift | `string` | DEFAULT: `No reason given` | `🔲` |  
 
 ---
 ## TACOS PURGE🛡️
@@ -275,8 +271,8 @@ Allows an admin to purge all tacos from a user.
 
 | NAME | DESCRIPTION | TYPE | DEFAULT/MIN/MAX | REQUIRED |  
 |---|---|---|---|---|  
-| `user` | The user to purge tacos from | `user` | DEFAULT: `None` | `:white_check_mark:` |  
-| `reason` | The reason for the purge | `string` | DEFAULT: `No reason given` | `:white_square_button:` |  
+| `user` | The user to purge tacos from | `user` | DEFAULT: `None` | `✅` |  
+| `reason` | The reason for the purge | `string` | DEFAULT: `No reason given` | `🔲` |  
 
 ---
 
@@ -308,7 +304,7 @@ This will put in a request to join the twitch team. Once approved, you will have
 
 | NAME | DESCRIPTION | TYPE | DEFAULT/MIN/MAX | REQUIRED |  
 |---|---|---|---|---|  
-| `twitch_name` | The twitch name of the user to invite | `string` | DEFAULT: `None` | `:white_check_mark:` |  
+| `twitch_name` | The twitch name of the user to invite | `string` | DEFAULT: `None` | `✅` |  
 
 ---
 ## TEAM INVITE-USER🛡️
@@ -327,8 +323,8 @@ Admin version of the `invite` command. This will invite a user to the twitch tea
 
 | NAME | DESCRIPTION | TYPE | DEFAULT/MIN/MAX | REQUIRED |  
 |---|---|---|---|---|  
-| `user` | The user to invite | `user` | DEFAULT: `None` | `:white_check_mark:` |  
-| `twitch_name` | The twitch name of the user to invite | `string` | DEFAULT: `None` | `:white_check_mark:` |  
+| `user` | The user to invite | `user` | DEFAULT: `None` | `✅` |  
+| `twitch_name` | The twitch name of the user to invite | `string` | DEFAULT: `None` | `✅` |  
 
 ---
 
@@ -374,7 +370,7 @@ Set your twitch name. This will allow the bot to know your twitch account associ
 
 | NAME | DESCRIPTION | TYPE | DEFAULT/MIN/MAX | REQUIRED |  
 |---|---|---|---|---|  
-| `twitch_name` | The twitch name of the user to invite | `string` | DEFAULT: `None` | `:white_check_mark:` |  
+| `twitch_name` | The twitch name of the user to invite | `string` | DEFAULT: `None` | `✅` |  
 
 ---
 ## TWITCH SET-USER🛡️
@@ -393,8 +389,8 @@ Set a user's twitch name so Taco Bot can resolve a discord user to a twitch user
 
 | NAME | DESCRIPTION | TYPE | DEFAULT/MIN/MAX | REQUIRED |  
 |---|---|---|---|---|  
-| `user` | The user to set the twitch name for | `user` | DEFAULT: `None` | `:white_check_mark:` |  
-| `twitch_name` | The twitch name of the user to set | `string` | DEFAULT: `None` | `:white_square_button:` |  
+| `user` | The user to set the twitch name for | `user` | DEFAULT: `None` | `✅` |  
+| `twitch_name` | The twitch name of the user to set | `string` | DEFAULT: `None` | `🔲` |  
 
 ---
 ## TWITCH GET
@@ -413,5 +409,5 @@ Will tell you what the twitch username is associated with your, or the specified
 
 | NAME | DESCRIPTION | TYPE | DEFAULT/MIN/MAX | REQUIRED |  
 |---|---|---|---|---|  
-| `user` | The user to get the twitch name for | `user` | DEFAULT: `None` | `:white_square_button:` |  
+| `user` | The user to get the twitch name for | `user` | DEFAULT: `None` | `🔲` |  
 

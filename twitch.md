@@ -1,7 +1,7 @@
 [< BACK](/ourtacobot)
 
 # OURTACOBOT TWITCH COMMANDS
-### GENERATED: 2022-04-27 18:49:30
+### GENERATED: 2022-04-27 18:58:58
 
 
 ### COMMAND PREFIXES
@@ -251,7 +251,7 @@ Get the number of tacos for a user
 
 | NAME | DESCRIPTION | TYPE | DEFAULT/MIN/MAX | REQUIRED |  
 |---|---|---|---|---|  
-| `user` | The user to get the taco count for. | `string` | DEFAULT: `None` | `:white_check_mark:` |  
+| `user` | The user to get the taco count for. | `string` | DEFAULT: `None` | `✅` |  
 
 ---
 ## TACOS GIVE
@@ -280,11 +280,9 @@ Give a user tacos. The maximum amount of tacos that can be given at a time is 10
 
 | NAME | DESCRIPTION | TYPE | DEFAULT/MIN/MAX | REQUIRED |  
 |---|---|---|---|---|  
-| `user` | The user to give tacos to. | `string` | DEFAULT: `None` | `:white_check_mark:` |  
-| `amount` | The amount of tacos to give. | `number` | DEFAULT: `None`  
-MIN: `1`  
-MAX: `10` | `:white_check_mark:` |  
-| `reason` | The reason for the giving tacos. | `string` | DEFAULT: `No reason given` | `:white_square_button:` |  
+| `user` | The user to give tacos to. | `string` | DEFAULT: `None` | `✅` |  
+| `amount` | The amount of tacos to give. | `number` | DEFAULT: `None`  MIN: `1`  MAX: `10` | `✅` |  
+| `reason` | The reason for the giving tacos. | `string` | DEFAULT: `No reason given` | `🔲` |  
 
 ---
 ## TACOS TAKE
@@ -313,11 +311,9 @@ Take tacos from a user.
 
 | NAME | DESCRIPTION | TYPE | DEFAULT/MIN/MAX | REQUIRED |  
 |---|---|---|---|---|  
-| `user` | The user to take tacos from. | `string` | DEFAULT: `None` | `:white_check_mark:` |  
-| `amount` | The amount of tacos to take. | `number` | DEFAULT: `None`  
-MIN: `1`  
-MAX: `10` | `:white_check_mark:` |  
-| `reason` | The reason for taking the tacos. | `string` | DEFAULT: `No reason given` | `:white_square_button:` |  
+| `user` | The user to take tacos from. | `string` | DEFAULT: `None` | `✅` |  
+| `amount` | The amount of tacos to take. | `number` | DEFAULT: `None`  MIN: `1`  MAX: `10` | `✅` |  
+| `reason` | The reason for taking the tacos. | `string` | DEFAULT: `No reason given` | `🔲` |  
 
 ---
 ## TACOS TOP
@@ -354,9 +350,7 @@ Get the leader board for users tacos.
 
 | NAME | DESCRIPTION | TYPE | DEFAULT/MIN/MAX | REQUIRED |  
 |---|---|---|---|---|  
-| `limit` | The amount of users to show on the leader board. | `number` | DEFAULT: `5`  
-MIN: `1`  
-MAX: `10` | `:white_square_button:` |  
+| `limit` | The amount of users to show on the leader board. | `number` | DEFAULT: `5`  MIN: `1`  MAX: `10` | `🔲` |  
 
 ---
 
@@ -438,5 +432,5 @@ Links your discord account with your twitch account.
 
 | NAME | DESCRIPTION | TYPE | DEFAULT/MIN/MAX | REQUIRED |  
 |---|---|---|---|---|  
-| `code` | The code you received from the link command. | `string` | DEFAULT: `None` | `:white_check_mark:` |  
+| `code` | The code you received from the link command. | `string` | DEFAULT: `None` | `✅` |  
 
