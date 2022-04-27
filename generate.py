@@ -98,7 +98,8 @@ def _process_command(commands, command, parent_command=""):
         print(f"`{c_cooldown}s`")
         print(f"")
 
-    c_examples = [ _replace_prefix(example) for example in commands[command].get('example', []) ]
+    t_examples = commands[command].get('example', []) + commands[command].get('examples', [])
+    c_examples = [ _replace_prefix(example) for example in t_examples ]
     if c_examples and len(c_examples) > 0:
         print(f'### EXAMPLES 📃')
         print(f'{"".join([f"- `{e}`  {new_line_emoji}" for e in c_examples])}\n'.replace(f'{new_line_emoji}', '\n'))
