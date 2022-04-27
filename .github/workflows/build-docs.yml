@@ -29,10 +29,10 @@ jobs:
         python-version: "3.10"
     - name: run generate discord documentation
       run: |
-        python generate_discord.py > discord.md
+        python generate.py --discord > discord.md
     - name: run generate twitch documentation
       run: |
-        python generate_twitch.py > twitch.md
+        python generate.py --twitch > twitch.md
 
     - uses: EndBug/add-and-commit@v9
       with:

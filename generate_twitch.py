@@ -54,19 +54,23 @@ def _process_command_list(commands, command, parent_command=""):
 
 
 def _process_command(commands, command, parent_command=""):
+    c_admin = commands[command].get('admin', False)
+    shield = '🛡️' if c_admin > 0 else ''
     c_name = _get_formatted_key(command)
-    full_name = " ".join([parent_command, c_name]).strip()
+    full_name = ' '.join([parent_command, c_name]).strip()
     link_name = full_name.lower().replace(' ', '-')
     print(f'<a name="{link_name}"></a>')
-    print(f"## {full_name.upper()}")
+    print(f'## {full_name.upper()}{shield}')
     c_desc = _replace_prefix(commands[command].get("description", ""))
-    print(c_desc)
-    print(f"")
+    if len(c_desc) > 0:
+        print(c_desc)
+        print(f"")
     c_usage = _replace_prefix(commands[command].get("usage", ""))
-    print(f"### USAGE 🤗")
-    print(f"")
-    print(f"```{c_usage}```")
-    print(f"")
+    if len(c_usage) > 0:
+        print(f"### USAGE 🤗")
+        print(f"")
+        print(f"```{c_usage}```")
+        print(f"")
     c_aliases = commands[command].get("aliases", [])
     if c_aliases and len(c_aliases) > 0:
         print(f"### ALIASES 🔀")
@@ -74,15 +78,17 @@ def _process_command(commands, command, parent_command=""):
         print(f'{"".join([f"- `{a}`  {new_line_emoji}" for a in c_aliases])}'.replace(f"{new_line_emoji}", "\n"))
         print(f"")
     c_cooldown = commands[command].get("cooldown", -1)
-    print(f"### COOLDOWN 🕕")
-    print(f"`{c_cooldown}s`")
-    print(f"")
+    if c_cooldown > 0:
+        print(f"### COOLDOWN 🕕")
+        print(f"`{c_cooldown}s`")
+        print(f"")
     c_permissions = commands[command].get("permissions", [])
-    print(f"### PERMISSIONS 🔑")
-    print(
-        f'{"".join([f"- `{p.upper()}`  {new_line_emoji}" for p in c_permissions])}'.replace(f"{new_line_emoji}", "\n")
-    )
-    print(f"")
+    if c_permissions and len(c_permissions) > 0:
+        print(f"### PERMISSIONS 🔑")
+        print(
+            f'{"".join([f"- `{p.upper()}`  {new_line_emoji}" for p in c_permissions])}'.replace(f"{new_line_emoji}", "\n")
+        )
+        print(f"")
     c_examples = [_replace_prefix(example) for example in commands[command].get("examples", [])]
     if c_examples and len(c_examples) > 0:
         print(f"### EXAMPLES 📃")
