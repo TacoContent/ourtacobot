@@ -105,19 +105,19 @@ def _process_command(commands, command, parent_command=""):
         print(f'{"".join([f"- `{e}`  {new_line_emoji}" for e in c_examples])}\n'.replace(f'{new_line_emoji}', '\n'))
         print(f"")
 
+    c_previews = commands[command].get("previews", [])
+    if c_previews and len(c_previews) > 0:
+        for p in c_previews:
+            print(f"![]({p})  ")
+            print(f"")
+        print(f"")
+
     c_permissions = commands[command].get("permissions", [])
     if c_permissions and len(c_permissions) > 0:
         print(f"### PERMISSIONS 🔑")
         print(
             f'{"".join([f"- `{p.upper()}`  {new_line_emoji}" for p in c_permissions])}'.replace(f"{new_line_emoji}", "\n")
         )
-        print(f"")
-
-    c_previews = commands[command].get("previews", [])
-    if c_previews and len(c_previews) > 0:
-        for p in c_previews:
-            print(f"![]({p})  ")
-            print(f"")
         print(f"")
 
     c_arguments = commands[command].get('arguments', [])
