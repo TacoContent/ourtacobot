@@ -84,9 +84,10 @@ def _process_command(commands, command, parent_command=""):
     )
     print(f"")
     c_examples = [_replace_prefix(example) for example in commands[command].get("examples", [])]
-    print(f"### EXAMPLES 📃")
-    print(f'{"".join([f"- `{e}`  {new_line_emoji}" for e in c_examples])}\n'.replace(f"{new_line_emoji}", "\n"))
-    print(f"")
+    if c_examples and len(c_examples) > 0:
+        print(f"### EXAMPLES 📃")
+        print(f'{"".join([f"- `{e}`  {new_line_emoji}" for e in c_examples])}\n'.replace(f"{new_line_emoji}", "\n"))
+        print(f"")
     c_previews = commands[command].get("previews", [])
     if c_previews and len(c_previews) > 0:
         for p in c_previews:
@@ -109,8 +110,6 @@ def _process_command(commands, command, parent_command=""):
                 f"{new_line_emoji}", "\n"
             )
         )
-    c_enabled = commands[command].get("enabled", True)
-    # print(f"| {c_name} | {c_desc} | `{c_usage}` | {c_cooldown}s | {'  '.join([f'{p.upper()}' for p in c_permissions])} | {'  '.join([f'`{a}`' for a in c_aliases])} | {'  '.join([f'`{e}`' for e in c_examples])} | {'  '.join([f'[{c}](https://twitch.tv/{c})' for c in c_restricted])} | {c_enabled} |")
     c_subcommands = commands[command].get("subcommands", {})
     for sc in c_subcommands:
         print(f"---")

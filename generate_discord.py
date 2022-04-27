@@ -79,9 +79,10 @@ def _process_command(commands, command, parent_command=""):
         print(f"")
 
     c_examples = [ _replace_prefix(example) for example in commands[command].get('example', []) ]
-    print(f'### EXAMPLES 📃')
-    print(f'{"".join([f"- `{e}`  {new_line_emoji}" for e in c_examples])}\n'.replace(f'{new_line_emoji}', '\n'))
-    print(f"")
+    if c_examples and len(c_examples) > 0:
+        print(f'### EXAMPLES 📃')
+        print(f'{"".join([f"- `{e}`  {new_line_emoji}" for e in c_examples])}\n'.replace(f'{new_line_emoji}', '\n'))
+        print(f"")
     c_previews = commands[command].get("previews", [])
     if c_previews and len(c_previews) > 0:
         for p in c_previews:
@@ -130,8 +131,9 @@ def _process_arguments(arguments):
 
 def _get_formatted_key(key):
     return key.replace('_', '')
+
 def _replace_prefix(s):
-    return s.replace('{{prefix}}', '!taco ')
+    return s.replace('{{prefix}}', '.taco ')
 
 def _load_settings():
     settings = {}
