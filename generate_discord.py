@@ -62,23 +62,31 @@ def _process_command(commands, command, parent_command=""):
     print(c_desc)
     print(f"")
     c_usage = _replace_prefix(commands[command].get('usage', ''))
-    print(f'### USAGE')
+    print(f'### USAGE 🤗')
     print(f"")
     print(f'```{c_usage}```')
     print(f"")
     c_aliases = commands[command].get('aliases', [])
     if c_aliases and len(c_aliases) > 0:
-        print(f'### ALIASES')
+        print(f'### ALIASES 🔀')
         print(f"")
         print(f'{"".join([f"- `{a}`  {new_line_emoji}" for a in c_aliases])}'.replace(f'{new_line_emoji}', '\n'))
         print(f"")
 
     c_examples = [ _replace_prefix(example) for example in commands[command].get('example', []) ]
-    print(f'### EXAMPLES')
+    print(f'### EXAMPLES 📃')
     print(f'{"".join([f"- `{e}`  {new_line_emoji}" for e in c_examples])}\n'.replace(f'{new_line_emoji}', '\n'))
+    print(f"")
+    c_previews = commands[command].get("previews", [])
+    if c_previews and len(c_previews) > 0:
+        for p in c_previews:
+            print(f"![]({p})  ")
+            print(f"")
+        print(f"")
+
     c_arguments = commands[command].get('arguments', [])
     if c_arguments and len(c_arguments) > 0:
-        print(f"### ARGUMENTS")
+        print(f"### ARGUMENTS 🔖")
         print(f"")
         _process_arguments(c_arguments)
         print(f"")
@@ -107,11 +115,11 @@ def _process_arguments(arguments):
         if a_max is not None:
             a_max = str(a_max)
         if a_required:
-            a_required = 'YES'
+            a_required = ':white_check_mark:'
         else:
-            a_required = 'NO'
+            a_required = ':white_square_button:'
         if a_type == 'number':
-            print(f"| `{a_name}` | {a_description} | `{a_type}` | DEFAULT: `{a_default}`  MIN: `{a_min}`  MAX: `{a_max}` | `{a_required}` |  ")
+            print(f"| `{a_name}` | {a_description} | `{a_type}` | DEFAULT: `{a_default}`  \nMIN: `{a_min}`  \nMAX: `{a_max}` | `{a_required}` |  ")
         else:
             print(f"| `{a_name}` | {a_description} | `{a_type}` | DEFAULT: `{a_default}` | `{a_required}` |  ")
 

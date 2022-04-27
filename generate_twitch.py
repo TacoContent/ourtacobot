@@ -86,6 +86,7 @@ def _process_command(commands, command, parent_command=""):
     if c_previews and len(c_previews) > 0:
         for p in c_previews:
             print(f"![]({p})  ")
+            print(f"")
         print(f"")
     c_arguments = commands[command].get("arguments", [])
     if c_arguments and len(c_arguments) > 0:
@@ -129,12 +130,12 @@ def _process_arguments(arguments):
         if a_max is not None:
             a_max = str(a_max)
         if a_required:
-            a_required = "YES"
+            a_required = ':white_check_mark:'
         else:
-            a_required = "NO"
+            a_required = ':white_square_button:'
         if a_type == "number":
             print(
-                f"| `{a_name}` | {a_description} | `{a_type}` | DEFAULT: `{a_default}`  MIN: `{a_min}`  MAX: `{a_max}` | `{a_required}` |  "
+                f"| `{a_name}` | {a_description} | `{a_type}` | DEFAULT: `{a_default}`  \nMIN: `{a_min}`  \nMAX: `{a_max}` | `{a_required}` |  "
             )
         else:
             print(f"| `{a_name}` | {a_description} | `{a_type}` | DEFAULT: `{a_default}` | `{a_required}` |  ")
