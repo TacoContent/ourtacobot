@@ -10,7 +10,7 @@ def main():
     settings = _load_settings()
     commands = settings.get('commands', {})
     bot_name = settings.get('bot_name', 'OurTacoBot')
-    print(f"[< BACK](/ourtacobot)")
+    print(f"[◀ BACK](/ourtacobot)<a name=\"top\"></a>")
     print(f"")
     print(f"# {bot_name.upper()} DISCORD COMMANDS")
     print(f"### GENERATED: {datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
@@ -36,6 +36,7 @@ def main():
         print(f"---")
         print(f"")
         _process_command(commands, command)
+        print(f"[🔼 TOP](#top)")
 
 def _process_command_list(commands, command, parent_command=""):
     c_admin = commands[command].get('admin', False)
