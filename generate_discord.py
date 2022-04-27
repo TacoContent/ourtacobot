@@ -2,12 +2,15 @@ import json
 import os
 import sys
 
+# a hack to replace an emoji with a \n because python doesn't allow \n in an f-string
+# you will see `.replace(f'{new_line_emoji}', '\n')` in the code
+
 new_line_emoji = '🍔'
 def main():
     settings = _load_settings()
     commands = settings.get('commands', {})
     bot_name = settings.get('bot_name', 'OurTacoBot')
-    print(f"# {bot_name.upper()} DISCORD COMMANDS")
+    print(f"# {bot_name.upper()} TWITCH COMMANDS")
     print(f"")
     # icon = settings.get('icon', None)
     # if icon is not None:
@@ -22,7 +25,7 @@ def main():
     print(f"`!taco <command> [subcommand] [arg1...argN]`")
     print(f"")
     print(f"# COMMAND LIST")
-    print(f"Commands with a 🛡 are restricted to administrators.")
+    print(f"")
     for command in commands:
         _process_command_list(commands, command)
 
@@ -32,20 +35,26 @@ def main():
         _process_command(commands, command)
 
 def _process_command_list(commands, command, parent_command=""):
+    c_admin = commands[command].get('admin', False)
     c_name = _get_formatted_key(command)
+    shield = '🛡️' if c_admin > 0 else ''
+
     padding = "" if len(parent_command) == 0 else "  "
     full_name = ' '.join([parent_command, c_name]).strip()
     link_name = full_name.replace(' ', '-')
-    print(f'{padding}- [{full_name.upper()}](#{link_name})  ')
+    print(f'{padding}- [{full_name.upper()}{shield}](#{link_name})  ')
     print(f"")
     c_subcommands = commands[command].get('subcommands', {})
     for sc in c_subcommands:
         _process_command_list(c_subcommands, sc, full_name)
 
 def _process_command(commands, command, parent_command=""):
+    c_admin = commands[command].get('admin', False)
+    shield = '🛡️' if c_admin > 0 else ''
     c_name = _get_formatted_key(command)
     full_name = ' '.join([parent_command, c_name]).strip()
-    print(f'## {full_name.upper()}')
+
+    print(f'## {full_name.upper()}{shield}')
     c_desc = _replace_prefix(commands[command].get('description', ''))
     print(c_desc)
     print(f"")
@@ -60,15 +69,8 @@ def _process_command(commands, command, parent_command=""):
         print(f"")
         print(f'{"".join([f"- `{a}`  {new_line_emoji}" for a in c_aliases])}'.replace(f'{new_line_emoji}', '\n'))
         print(f"")
-    c_cooldown = commands[command].get('cooldown', -1)
-    print(f'### COOLDOWN')
-    print(f'`{c_cooldown}s`')
-    print(f"")
-    c_permissions = commands[command].get('permissions', [])
-    print(f'### PERMISSIONS')
-    print(f'{"".join([f"- `{p.upper()}`  {new_line_emoji}" for p in c_permissions])}'.replace(f'{new_line_emoji}', '\n'))
-    print(f"")
-    c_examples = [ _replace_prefix(example) for example in commands[command].get('examples', []) ]
+
+    c_examples = [ _replace_prefix(example) for example in commands[command].get('example', []) ]
     print(f'### EXAMPLES')
     print(f'{"".join([f"- `{e}`  {new_line_emoji}" for e in c_examples])}\n'.replace(f'{new_line_emoji}', '\n'))
     c_arguments = commands[command].get('arguments', [])
@@ -77,14 +79,7 @@ def _process_command(commands, command, parent_command=""):
         print(f"")
         _process_arguments(c_arguments)
         print(f"")
-    c_restricted = commands[command].get('restricted', [])
-    if len(c_restricted) > 0:
-        print(f'### RESTRICTED')
-        print(f"")
-        print(f"This command is restricted to the following twitch channels:  \n")
-        print(f"{''.join([f'- [{c}](https://twitch.tv/{c})  {new_line_emoji}' for c in c_restricted])}".replace(f'{new_line_emoji}', '\n'))
-    c_enabled = commands[command].get('enabled', True)
-    # print(f"| {c_name} | {c_desc} | `{c_usage}` | {c_cooldown}s | {'  '.join([f'{p.upper()}' for p in c_permissions])} | {'  '.join([f'`{a}`' for a in c_aliases])} | {'  '.join([f'`{e}`' for e in c_examples])} | {'  '.join([f'[{c}](https://twitch.tv/{c})' for c in c_restricted])} | {c_enabled} |")
+
     c_subcommands = commands[command].get('subcommands', {})
     for sc in c_subcommands:
         print(f"---")
@@ -125,7 +120,7 @@ def _replace_prefix(s):
 def _load_settings():
     settings = {}
     try:
-        with open("generate/tacobottwitch/app.manifest", encoding="UTF-8") as json_file:
+        with open("generate/tacobotdiscord/app.manifest", encoding="UTF-8") as json_file:
             settings.update(json.load(json_file))
     except Exception as e:
         print(e, file=sys.stderr)

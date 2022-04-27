@@ -10,15 +10,15 @@ jobs:
     steps:
     - uses: actions/checkout@v3
       with:
-        repository: 'TacoContent/TacoBot'
+        repository: 'https://github.com/TacoContent/TacoBot.git'
         token: "${{ github.token }}"
-        path: 'generate/tacobot/'
+        path: 'generate/tacobotdiscord/'
     - uses: actions/setup-python@v2
       with:
         python-version: 3.8
     - name: run generate documentation
       run: |
-        python generate_twitch.py > twitch-test.md
+        python generate_discord.py > discord-test.md
     - uses: EndBug/add-and-commit@v9
       with:
         message: 'Documentation Generated'
