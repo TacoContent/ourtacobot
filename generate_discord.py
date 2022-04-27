@@ -10,7 +10,7 @@ def main():
     settings = _load_settings()
     commands = settings.get('commands', {})
     bot_name = settings.get('bot_name', 'OurTacoBot')
-    print(f"# {bot_name.upper()} TWITCH COMMANDS")
+    print(f"# {bot_name.upper()} DISCORD COMMANDS")
     print(f"")
     # icon = settings.get('icon', None)
     # if icon is not None:
@@ -25,7 +25,7 @@ def main():
     print(f"`!taco <command> [subcommand] [arg1...argN]`")
     print(f"")
     print(f"# COMMAND LIST")
-    print(f"")
+    print(f"Commands with 🛡️ are only available to admins.")
     for command in commands:
         _process_command_list(commands, command)
 
