@@ -1,6 +1,8 @@
 [< BACK](/ourtacobot)
 
 # OURTACOBOT DISCORD COMMANDS
+### VERSION: 1.0.0-snapshot
+### GENERATED: 2022-04-27 15:10:35
 
 
 ### COMMAND PREFIXES
