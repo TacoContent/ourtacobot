@@ -1,7 +1,7 @@
 [⏪ BACK](/ourtacobot)<a name="top"></a>
 
 # OURTACOBOT TWITCH COMMANDS
-### GENERATED: 2022-04-27 23:10:43
+### GENERATED: 2022-04-27 23:28:21
 
 
 ### COMMAND PREFIXES
@@ -55,6 +55,11 @@ Get a url to view documentation for all commands.
 ### COOLDOWN 🕕
 `30s`
 
+### EXAMPLES 📃
+- `!taco commands`  
+
+
+
 ### PERMISSIONS 🔑
 - `EVERYONE`  
 
@@ -82,6 +87,11 @@ Promotes the TACO discord using an invite that you have created in the discord.
 
 ### COOLDOWN 🕕
 `30s`
+
+### EXAMPLES 📃
+- `!taco discord`  
+
+
 
 ### PERMISSIONS 🔑
 - `EVERYONE`  
@@ -111,6 +121,11 @@ Invite OurTacoBot to your twitch channel.
 
 ### COOLDOWN 🕕
 `30s`
+
+### EXAMPLES 📃
+- `!taco invite`  
+
+
 
 ### PERMISSIONS 🔑
 - `EVERYONE`  
@@ -148,6 +163,11 @@ Remove OurTacoBot to your twitch channel.
 ### COOLDOWN 🕕
 `30s`
 
+### EXAMPLES 📃
+- `!taco leave`  
+
+
+
 ### PERMISSIONS 🔑
 - `EVERYONE`  
 
@@ -178,6 +198,11 @@ Set of commands to deal with tacos.
 ### COOLDOWN 🕕
 `30s`
 
+### EXAMPLES 📃
+- `!taco tacos help`  
+
+
+
 ### PERMISSIONS 🔑
 - `EVERYONE`  
 
@@ -199,6 +224,11 @@ Get the number of tacos that you have.
 
 ### COOLDOWN 🕕
 `30s`
+
+### EXAMPLES 📃
+- `!taco tacos count`  
+
+
 
 ### PERMISSIONS 🔑
 - `EVERYONE`  
@@ -225,6 +255,11 @@ Get the number of tacos for a user
 ### COOLDOWN 🕕
 `30s`
 
+### EXAMPLES 📃
+- `!taco tacos count @DarthMinos`  
+
+
+
 ### PERMISSIONS 🔑
 - `MODERATOR`  
 
@@ -249,6 +284,11 @@ Give a user tacos. The maximum amount of tacos that can be given at a time is 10
 
 ### COOLDOWN 🕕
 `30s`
+
+### EXAMPLES 📃
+- `!taco tacos give @DarthMinos 1 being awesome`  
+
+
 
 ### PERMISSIONS 🔑
 - `MODERATOR`  
@@ -276,6 +316,11 @@ Take tacos from a user.
 
 ### COOLDOWN 🕕
 `30s`
+
+### EXAMPLES 📃
+- `!taco tacos take @DarthMinos 1 incorrect trivia answer`  
+
+
 
 ### PERMISSIONS 🔑
 - `MODERATOR`  
@@ -310,6 +355,11 @@ Get the leader board for users tacos.
 ### COOLDOWN 🕕
 `30s`
 
+### EXAMPLES 📃
+- `!taco tacos top 5`  
+
+
+
 ### PERMISSIONS 🔑
 - `MODERATOR`  
 
@@ -341,6 +391,11 @@ Gives you the TACO question of the day.
 ### COOLDOWN 🕕
 `30s`
 
+### EXAMPLES 📃
+- `!taco tqotd`  
+
+
+
 ### PERMISSIONS 🔑
 - `EVERYONE`  
 
@@ -363,6 +418,11 @@ Gives you a command and a code to run in discord to link your twitch with your d
 
 ### COOLDOWN 🕕
 `30s`
+
+### EXAMPLES 📃
+- `!taco link`  
+
+
 
 ### PERMISSIONS 🔑
 - `EVERYONE`  
@@ -388,6 +448,11 @@ Links your discord account with your twitch account.
 
 ### COOLDOWN 🕕
 `30s`
+
+### EXAMPLES 📃
+- `!taco link ABC567`  
+
+
 
 ### PERMISSIONS 🔑
 - `EVERYONE`  
