@@ -1,7 +1,7 @@
 [⏪ BACK](/ourtacobot)<a name="top"></a>
 
 # OURTACOBOT TWITCH COMMANDS
-### GENERATED: 2022-04-27 23:28:21
+### GENERATED: 2022-04-27 23:47:30
 
 
 ### COMMAND PREFIXES
@@ -60,11 +60,11 @@ Get a url to view documentation for all commands.
 
 
 
+![](https://i.imgur.com/8lx0Ohy.png)  
+
+
 ### PERMISSIONS 🔑
 - `EVERYONE`  
-
-
-![](https://i.imgur.com/8lx0Ohy.png)  
 
 
 
@@ -93,11 +93,11 @@ Promotes the TACO discord using an invite that you have created in the discord.
 
 
 
+![](https://i.imgur.com/n0wBukf.png)  
+
+
 ### PERMISSIONS 🔑
 - `EVERYONE`  
-
-
-![](https://i.imgur.com/n0wBukf.png)  
 
 
 
@@ -127,11 +127,11 @@ Invite OurTacoBot to your twitch channel.
 
 
 
+![](https://i.imgur.com/vJgtOCj.png)  
+
+
 ### PERMISSIONS 🔑
 - `EVERYONE`  
-
-
-![](https://i.imgur.com/vJgtOCj.png)  
 
 
 ### RESTRICTED 🔒
@@ -168,11 +168,11 @@ Remove OurTacoBot to your twitch channel.
 
 
 
+![](https://i.imgur.com/6mkkHmk.png)  
+
+
 ### PERMISSIONS 🔑
 - `EVERYONE`  
-
-
-![](https://i.imgur.com/6mkkHmk.png)  
 
 
 ### RESTRICTED 🔒
@@ -230,11 +230,11 @@ Get the number of tacos that you have.
 
 
 
+![](https://i.imgur.com/BHwu2db.png)  
+
+
 ### PERMISSIONS 🔑
 - `EVERYONE`  
-
-
-![](https://i.imgur.com/BHwu2db.png)  
 
 
 ---
@@ -260,11 +260,11 @@ Get the number of tacos for a user
 
 
 
+![](https://i.imgur.com/k1wxnVL.png)  
+
+
 ### PERMISSIONS 🔑
 - `MODERATOR`  
-
-
-![](https://i.imgur.com/k1wxnVL.png)  
 
 
 ### ARGUMENTS 🔖
@@ -290,11 +290,11 @@ Give a user tacos. The maximum amount of tacos that can be given at a time is 10
 
 
 
+![](https://i.imgur.com/IyvB6oq.png)  
+
+
 ### PERMISSIONS 🔑
 - `MODERATOR`  
-
-
-![](https://i.imgur.com/IyvB6oq.png)  
 
 
 ### ARGUMENTS 🔖
@@ -322,11 +322,11 @@ Take tacos from a user.
 
 
 
+![](https://i.imgur.com/A3PS0Y7.png)  
+
+
 ### PERMISSIONS 🔑
 - `MODERATOR`  
-
-
-![](https://i.imgur.com/A3PS0Y7.png)  
 
 
 ### ARGUMENTS 🔖
@@ -360,13 +360,13 @@ Get the leader board for users tacos.
 
 
 
-### PERMISSIONS 🔑
-- `MODERATOR`  
-
-
 ![](https://i.imgur.com/XY0y4Qc.png)  
 
 ![](https://i.imgur.com/hYJKHvj.png)  
+
+
+### PERMISSIONS 🔑
+- `MODERATOR`  
 
 
 ### ARGUMENTS 🔖
@@ -396,11 +396,11 @@ Gives you the TACO question of the day.
 
 
 
+![](https://i.imgur.com/A1MdC8Q.png)  
+
+
 ### PERMISSIONS 🔑
 - `EVERYONE`  
-
-
-![](https://i.imgur.com/A1MdC8Q.png)  
 
 
 
@@ -424,13 +424,13 @@ Gives you a command and a code to run in discord to link your twitch with your d
 
 
 
-### PERMISSIONS 🔑
-- `EVERYONE`  
-
-
 ![](https://i.imgur.com/opzviIC.png)  
 
 ![](https://i.imgur.com/OdqB6vK.png)  
+
+
+### PERMISSIONS 🔑
+- `EVERYONE`  
 
 
 
@@ -454,13 +454,13 @@ Links your discord account with your twitch account.
 
 
 
-### PERMISSIONS 🔑
-- `EVERYONE`  
-
-
 ![](https://i.imgur.com/aZ4rSnO.png)  
 
 ![](https://i.imgur.com/OdqB6vK.png)  
+
+
+### PERMISSIONS 🔑
+- `EVERYONE`  
 
 
 ### ARGUMENTS 🔖
