@@ -1,7 +1,7 @@
 [< BACK](/ourtacobot)
 
 # OURTACOBOT TWITCH COMMANDS
-### GENERATED: 2022-04-27 18:58:58
+### GENERATED: 2022-04-27 19:05:08
 
 
 ### COMMAND PREFIXES
@@ -43,6 +43,7 @@ The following prefixes are accepted:
 
 ---
 
+<a name="commands"></a>
 ## COMMANDS
 Get a url to view documentation for all commands.
 
@@ -67,6 +68,7 @@ Get a url to view documentation for all commands.
 
 ---
 
+<a name="discord"></a>
 ## DISCORD
 Promotes the TACO discord using an invite that you have created in the discord.
 
@@ -96,6 +98,7 @@ Promotes the TACO discord using an invite that you have created in the discord.
 
 ---
 
+<a name="invite"></a>
 ## INVITE
 Invite OurTacoBot to your twitch channel.
 
@@ -133,6 +136,7 @@ This command is restricted to the following twitch channels:
 
 ---
 
+<a name="leave"></a>
 ## LEAVE
 Remove OurTacoBot to your twitch channel.
 
@@ -170,6 +174,7 @@ This command is restricted to the following twitch channels:
 
 ---
 
+<a name="tacos"></a>
 ## TACOS
 Set of commands to deal with tacos.
 
@@ -190,6 +195,7 @@ Set of commands to deal with tacos.
 
 
 ---
+<a name="tacos-count"></a>
 ## TACOS COUNT
 Get the number of tacos that you have.
 
@@ -219,6 +225,7 @@ Get the number of tacos that you have.
 
 
 ---
+<a name="tacos-count"></a>
 ## TACOS COUNT
 Get the number of tacos for a user
 
@@ -254,6 +261,7 @@ Get the number of tacos for a user
 | `user` | The user to get the taco count for. | `string` | DEFAULT: `None` | `✅` |  
 
 ---
+<a name="tacos-give"></a>
 ## TACOS GIVE
 Give a user tacos. The maximum amount of tacos that can be given at a time is 10. The maximum amount that can be given to a user in a rolling 24 hour period is 50. The maximum amount that can be given total in a rolling 24 hour period is 500.
 
@@ -285,6 +293,7 @@ Give a user tacos. The maximum amount of tacos that can be given at a time is 10
 | `reason` | The reason for the giving tacos. | `string` | DEFAULT: `No reason given` | `🔲` |  
 
 ---
+<a name="tacos-take"></a>
 ## TACOS TAKE
 Take tacos from a user.
 
@@ -316,6 +325,7 @@ Take tacos from a user.
 | `reason` | The reason for taking the tacos. | `string` | DEFAULT: `No reason given` | `🔲` |  
 
 ---
+<a name="tacos-top"></a>
 ## TACOS TOP
 Get the leader board for users tacos.
 
@@ -354,6 +364,7 @@ Get the leader board for users tacos.
 
 ---
 
+<a name="tqotd"></a>
 ## TQOTD
 Gives you the TACO question of the day.
 
@@ -378,6 +389,7 @@ Gives you the TACO question of the day.
 
 ---
 
+<a name="link"></a>
 ## LINK
 Gives you a command and a code to run in discord to link your twitch with your discord account.
 
@@ -404,6 +416,7 @@ Gives you a command and a code to run in discord to link your twitch with your d
 
 ---
 
+<a name="link"></a>
 ## LINK
 Links your discord account with your twitch account.
 

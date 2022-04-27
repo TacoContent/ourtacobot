@@ -1,7 +1,7 @@
 [< BACK](/ourtacobot)
 
 # OURTACOBOT DISCORD COMMANDS
-### GENERATED: 2022-04-27 18:58:58
+### GENERATED: 2022-04-27 19:05:08
 
 
 ### COMMAND PREFIXES
@@ -58,6 +58,7 @@ Commands with 🛡️ are only available to admins.
 
 ---
 
+<a name="birthday"></a>
 ## BIRTHDAY
 Sets your birthday
 
@@ -78,6 +79,7 @@ Sets your birthday
 
 ---
 
+<a name="gif"></a>
 ## GIF
 Gets a random gif from the given tag
 
@@ -98,6 +100,7 @@ Gets a random gif from the given tag
 
 ---
 
+<a name="link"></a>
 ## LINK
 Link your discord and twitch account together
 
@@ -119,6 +122,7 @@ Link your discord and twitch account together
 
 ---
 
+<a name="move"></a>
 ## MOVE🛡️
 Moves a message from one channel to another. Must be ran in the channel that the message is in.
 
@@ -139,6 +143,7 @@ Moves a message from one channel to another. Must be ran in the channel that the
 
 ---
 
+<a name="suggest"></a>
 ## SUGGEST
 Starts a suggestion. I will DM you to ask you questions to create the suggestion.
 
@@ -153,6 +158,7 @@ Starts a suggestion. I will DM you to ask you questions to create the suggestion
 
 ---
 
+<a name="tqotd"></a>
 ## TQOTD🛡️
 Adds a question of the day
 
@@ -165,6 +171,7 @@ Adds a question of the day
 
 
 ---
+<a name="tqotd-give"></a>
 ## TQOTD GIVE🛡️
 Gives TQotD tacos to the user who answered the question
 
@@ -185,6 +192,7 @@ Gives TQotD tacos to the user who answered the question
 
 ---
 
+<a name="tacos"></a>
 ## TACOS
 Commands that will give info on tacos🌮.
 
@@ -197,6 +205,7 @@ Commands that will give info on tacos🌮.
 
 
 ---
+<a name="tacos-count"></a>
 ## TACOS COUNT
 Retrieve the number of tacos you have.
 
@@ -210,6 +219,7 @@ Retrieve the number of tacos you have.
 
 
 ---
+<a name="tacos-gift"></a>
 ## TACOS GIFT
 Gift someone a number of tacos. You can gift a maximum of 10 tacos per 24 hours (rolling).
 
@@ -232,6 +242,7 @@ Gift someone a number of tacos. You can gift a maximum of 10 tacos per 24 hours 
 | `reason` | The reason for the gift | `string` | DEFAULT: `No reason given` | `🔲` |  
 
 ---
+<a name="tacos-give"></a>
 ## TACOS GIVE🛡️
 Allows an admin to give someone tacos.
 
@@ -254,6 +265,7 @@ Allows an admin to give someone tacos.
 | `reason` | The reason for the gift | `string` | DEFAULT: `No reason given` | `🔲` |  
 
 ---
+<a name="tacos-purge"></a>
 ## TACOS PURGE🛡️
 Allows an admin to purge all tacos from a user.
 
@@ -276,6 +288,7 @@ Allows an admin to purge all tacos from a user.
 
 ---
 
+<a name="team"></a>
 ## TEAM
 Commands that will allow you to be a part of the Twitch Team.
 
@@ -288,6 +301,7 @@ Commands that will allow you to be a part of the Twitch Team.
 
 
 ---
+<a name="team-invite"></a>
 ## TEAM INVITE
 This will put in a request to join the twitch team. Once approved, you will have to accept it from your creator dashboard. Twitch Dashboard -> Settings -> Channel -> Featured Content => Scroll to the bottom.
 
@@ -307,6 +321,7 @@ This will put in a request to join the twitch team. Once approved, you will have
 | `twitch_name` | The twitch name of the user to invite | `string` | DEFAULT: `None` | `✅` |  
 
 ---
+<a name="team-invite-user"></a>
 ## TEAM INVITE-USER🛡️
 Admin version of the `invite` command. This will invite a user to the twitch team. Once approved, they will have to accept it from their creator dashboard. Twitch Dashboard -> Settings -> Channel -> Featured Content => Scroll to the bottom.
 
@@ -328,6 +343,7 @@ Admin version of the `invite` command. This will invite a user to the twitch tea
 
 ---
 
+<a name="trivia"></a>
 ## TRIVIA
 Start a trivia question to earn tacos.
 
@@ -342,6 +358,7 @@ Start a trivia question to earn tacos.
 
 ---
 
+<a name="twitch"></a>
 ## TWITCH
 Commands to set up your Twitch account with Taco Bot.
 
@@ -354,6 +371,7 @@ Commands to set up your Twitch account with Taco Bot.
 
 
 ---
+<a name="twitch-set"></a>
 ## TWITCH SET
 Set your twitch name. This will allow the bot to know your twitch account associated with your discord account.
 
@@ -373,6 +391,7 @@ Set your twitch name. This will allow the bot to know your twitch account associ
 | `twitch_name` | The twitch name of the user to invite | `string` | DEFAULT: `None` | `✅` |  
 
 ---
+<a name="twitch-set-user"></a>
 ## TWITCH SET-USER🛡️
 Set a user's twitch name so Taco Bot can resolve a discord user to a twitch user, and vice versa.
 
@@ -393,6 +412,7 @@ Set a user's twitch name so Taco Bot can resolve a discord user to a twitch user
 | `twitch_name` | The twitch name of the user to set | `string` | DEFAULT: `None` | `🔲` |  
 
 ---
+<a name="twitch-get"></a>
 ## TWITCH GET
 Will tell you what the twitch username is associated with your, or the specified, account.
 
