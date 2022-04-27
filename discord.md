@@ -1,7 +1,7 @@
 [⏪ BACK](/ourtacobot)<a name="top"></a>
 
 # OURTACOBOT DISCORD COMMANDS
-### GENERATED: 2022-04-27 19:14:50
+### GENERATED: 2022-04-27 19:32:57
 
 
 ### COMMAND PREFIXES
@@ -181,10 +181,6 @@ Adds a question of the day
 
 ```.taco tqotd [command]```
 
-### EXAMPLES 📃
-
-
-
 ---
 <a name="tqotd-give"></a>
 ## TQOTD GIVE🛡️
@@ -217,10 +213,6 @@ Commands that will give info on tacos🌮.
 ### USAGE 🤗
 
 ```.taco tacos <command>```
-
-### EXAMPLES 📃
-
-
 
 ---
 <a name="tacos-count"></a>
@@ -317,10 +309,6 @@ Commands that will allow you to be a part of the Twitch Team.
 
 ```.taco team <command>```
 
-### EXAMPLES 📃
-
-
-
 ---
 <a name="team-invite"></a>
 ## TEAM INVITE
@@ -392,10 +380,6 @@ Commands to set up your Twitch account with Taco Bot.
 ### USAGE 🤗
 
 ```.taco twitch <command>```
-
-### EXAMPLES 📃
-
-
 
 ---
 <a name="twitch-set"></a>
