@@ -9,17 +9,27 @@ jobs:
     name: Build TacoBot Documentation
     steps:
     - uses: actions/checkout@v3
+    - uses: actions/checkout@v3
       with:
         repository: 'TacoContent/TacoBot'
-        token: "${{ github.token }}"
         path: 'generate/tacobotdiscord/'
         ref: 'develop'
+    - uses: actions/checkout@v3
+      with:
+        repository: 'TacoContent/tacobottwitch'
+        path: 'generate/tacobottwitch/'
+        ref: 'develop'
+
     - uses: actions/setup-python@v2
       with:
         python-version: 3.8
-    - name: run generate documentation
+    - name: run generate discord documentation
       run: |
         python generate_discord.py > discord-test.md
+    - name: run generate twitch documentation
+      run: |
+        python generate_twitch.py > twitch-test.md
+
     - uses: EndBug/add-and-commit@v9
       with:
         message: 'Documentation Generated'
