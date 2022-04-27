@@ -1,7 +1,7 @@
 [< BACK](/ourtacobot)
 
 # OURTACOBOT TWITCH COMMANDS
-### GENERATED: 2022-04-27 16:55:36
+### GENERATED: 2022-04-27 16:57:44
 
 
 ### COMMAND PREFIXES
@@ -31,8 +31,6 @@ The following prefixes are accepted:
 
   - [TACOS GIVE](#tacos-give)  
 
-  - [TACOS HELP](#tacos-help)  
-
   - [TACOS TAKE](#tacos-take)  
 
   - [TACOS TOP](#tacos-top)  
@@ -58,6 +56,7 @@ Get a url to view documentation for all commands.
 
 
 
+![](https://i.imgur.com/8lx0Ohy.png)  
 ---
 
 ## DISCORD
@@ -84,6 +83,7 @@ Promotes the TACO discord using an invite that you have created in the discord.
 
 
 
+![](https://i.imgur.com/n0wBukf.png)  
 ---
 
 ## INVITE
@@ -111,6 +111,7 @@ Invite OurTacoBot to your twitch channel.
 
 
 
+![](https://i.imgur.com/vJgtOCj.png)  
 ### RESTRICTED 🔒
 
 This command is restricted to the following twitch channels:  
@@ -145,6 +146,7 @@ Remove OurTacoBot to your twitch channel.
 
 
 
+![](https://i.imgur.com/6mkkHmk.png)  
 ### RESTRICTED 🔒
 
 This command is restricted to the following twitch channels:  
@@ -199,6 +201,7 @@ Get the number of tacos that you have.
 
 
 
+![](https://i.imgur.com/BHwu2db.png)  
 ---
 ## TACOS COUNT
 Get the number of tacos for a user
@@ -225,6 +228,7 @@ Get the number of tacos for a user
 
 
 
+![](https://i.imgur.com/k1wxnVL.png)  
 ### ARGUMENTS 🔖
 
 | NAME | DESCRIPTION | TYPE | DEFAULT/MIN/MAX | REQUIRED |  
@@ -251,6 +255,7 @@ Give a user tacos. The maximum amount of tacos that can be given at a time is 10
 
 
 
+![](https://i.imgur.com/IyvB6oq.png)  
 ### ARGUMENTS 🔖
 
 | NAME | DESCRIPTION | TYPE | DEFAULT/MIN/MAX | REQUIRED |  
@@ -258,26 +263,6 @@ Give a user tacos. The maximum amount of tacos that can be given at a time is 10
 | `user` | The user to give tacos to. | `string` | DEFAULT: `None` | `YES` |  
 | `amount` | The amount of tacos to give. | `number` | DEFAULT: `None`  MIN: `1`  MAX: `10` | `YES` |  
 | `reason` | The reason for the giving tacos. | `string` | DEFAULT: `No reason given` | `NO` |  
-
----
-## TACOS HELP
-Shows the help for the tacos subcommands.
-
-### USAGE 🤗
-
-```!taco tacos help```
-
-### COOLDOWN 🕕
-`30s`
-
-### PERMISSIONS 🔑
-- `EVERYONE`  
-
-
-### EXAMPLES 📃
-- `!taco tacos help`  
-
-
 
 ---
 ## TACOS TAKE
@@ -299,6 +284,7 @@ Take tacos from a user.
 
 
 
+![](https://i.imgur.com/A3PS0Y7.png)  
 ### ARGUMENTS 🔖
 
 | NAME | DESCRIPTION | TYPE | DEFAULT/MIN/MAX | REQUIRED |  
@@ -333,6 +319,8 @@ Get the leader board for users tacos.
 
 
 
+![](https://i.imgur.com/XY0y4Qc.png)  
+![](https://i.imgur.com/hYJKHvj.png)  
 ### ARGUMENTS 🔖
 
 | NAME | DESCRIPTION | TYPE | DEFAULT/MIN/MAX | REQUIRED |  
