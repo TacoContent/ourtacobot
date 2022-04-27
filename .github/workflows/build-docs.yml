@@ -13,6 +13,7 @@ jobs:
         repository: 'TacoContent/TacoBot'
         token: "${{ github.token }}"
         path: 'generate/tacobotdiscord/'
+        ref: 'develop'
     - uses: actions/setup-python@v2
       with:
         python-version: 3.8
