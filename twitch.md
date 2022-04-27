@@ -1,7 +1,7 @@
 [< BACK](/ourtacobot)
 
 # OURTACOBOT TWITCH COMMANDS
-### GENERATED: 2022-04-27 18:18:38
+### GENERATED: 2022-04-27 18:49:30
 
 
 ### COMMAND PREFIXES
@@ -64,6 +64,7 @@ Get a url to view documentation for all commands.
 
 ![](https://i.imgur.com/8lx0Ohy.png)  
 
+
 ---
 
 ## DISCORD
@@ -91,6 +92,7 @@ Promotes the TACO discord using an invite that you have created in the discord.
 
 
 ![](https://i.imgur.com/n0wBukf.png)  
+
 
 ---
 
@@ -120,6 +122,7 @@ Invite OurTacoBot to your twitch channel.
 
 
 ![](https://i.imgur.com/vJgtOCj.png)  
+
 
 ### RESTRICTED 🔒
 
@@ -156,6 +159,7 @@ Remove OurTacoBot to your twitch channel.
 
 
 ![](https://i.imgur.com/6mkkHmk.png)  
+
 
 ### RESTRICTED 🔒
 
@@ -213,6 +217,7 @@ Get the number of tacos that you have.
 
 ![](https://i.imgur.com/BHwu2db.png)  
 
+
 ---
 ## TACOS COUNT
 Get the number of tacos for a user
@@ -241,11 +246,12 @@ Get the number of tacos for a user
 
 ![](https://i.imgur.com/k1wxnVL.png)  
 
+
 ### ARGUMENTS 🔖
 
 | NAME | DESCRIPTION | TYPE | DEFAULT/MIN/MAX | REQUIRED |  
 |---|---|---|---|---|  
-| `user` | The user to get the taco count for. | `string` | DEFAULT: `None` | `YES` |  
+| `user` | The user to get the taco count for. | `string` | DEFAULT: `None` | `:white_check_mark:` |  
 
 ---
 ## TACOS GIVE
@@ -269,13 +275,16 @@ Give a user tacos. The maximum amount of tacos that can be given at a time is 10
 
 ![](https://i.imgur.com/IyvB6oq.png)  
 
+
 ### ARGUMENTS 🔖
 
 | NAME | DESCRIPTION | TYPE | DEFAULT/MIN/MAX | REQUIRED |  
 |---|---|---|---|---|  
-| `user` | The user to give tacos to. | `string` | DEFAULT: `None` | `YES` |  
-| `amount` | The amount of tacos to give. | `number` | DEFAULT: `None`  MIN: `1`  MAX: `10` | `YES` |  
-| `reason` | The reason for the giving tacos. | `string` | DEFAULT: `No reason given` | `NO` |  
+| `user` | The user to give tacos to. | `string` | DEFAULT: `None` | `:white_check_mark:` |  
+| `amount` | The amount of tacos to give. | `number` | DEFAULT: `None`  
+MIN: `1`  
+MAX: `10` | `:white_check_mark:` |  
+| `reason` | The reason for the giving tacos. | `string` | DEFAULT: `No reason given` | `:white_square_button:` |  
 
 ---
 ## TACOS TAKE
@@ -299,13 +308,16 @@ Take tacos from a user.
 
 ![](https://i.imgur.com/A3PS0Y7.png)  
 
+
 ### ARGUMENTS 🔖
 
 | NAME | DESCRIPTION | TYPE | DEFAULT/MIN/MAX | REQUIRED |  
 |---|---|---|---|---|  
-| `user` | The user to take tacos from. | `string` | DEFAULT: `None` | `YES` |  
-| `amount` | The amount of tacos to take. | `number` | DEFAULT: `None`  MIN: `1`  MAX: `10` | `YES` |  
-| `reason` | The reason for taking the tacos. | `string` | DEFAULT: `No reason given` | `NO` |  
+| `user` | The user to take tacos from. | `string` | DEFAULT: `None` | `:white_check_mark:` |  
+| `amount` | The amount of tacos to take. | `number` | DEFAULT: `None`  
+MIN: `1`  
+MAX: `10` | `:white_check_mark:` |  
+| `reason` | The reason for taking the tacos. | `string` | DEFAULT: `No reason given` | `:white_square_button:` |  
 
 ---
 ## TACOS TOP
@@ -334,13 +346,17 @@ Get the leader board for users tacos.
 
 
 ![](https://i.imgur.com/XY0y4Qc.png)  
+
 ![](https://i.imgur.com/hYJKHvj.png)  
+
 
 ### ARGUMENTS 🔖
 
 | NAME | DESCRIPTION | TYPE | DEFAULT/MIN/MAX | REQUIRED |  
 |---|---|---|---|---|  
-| `limit` | The amount of users to show on the leader board. | `number` | DEFAULT: `5`  MIN: `1`  MAX: `10` | `NO` |  
+| `limit` | The amount of users to show on the leader board. | `number` | DEFAULT: `5`  
+MIN: `1`  
+MAX: `10` | `:white_square_button:` |  
 
 ---
 
@@ -365,6 +381,7 @@ Gives you the TACO question of the day.
 
 ![](https://i.imgur.com/A1MdC8Q.png)  
 
+
 ---
 
 ## LINK
@@ -387,7 +404,9 @@ Gives you a command and a code to run in discord to link your twitch with your d
 
 
 ![](https://i.imgur.com/opzviIC.png)  
+
 ![](https://i.imgur.com/OdqB6vK.png)  
+
 
 ---
 
@@ -411,11 +430,13 @@ Links your discord account with your twitch account.
 
 
 ![](https://i.imgur.com/aZ4rSnO.png)  
+
 ![](https://i.imgur.com/OdqB6vK.png)  
+
 
 ### ARGUMENTS 🔖
 
 | NAME | DESCRIPTION | TYPE | DEFAULT/MIN/MAX | REQUIRED |  
 |---|---|---|---|---|  
-| `code` | The code you received from the link command. | `string` | DEFAULT: `None` | `YES` |  
+| `code` | The code you received from the link command. | `string` | DEFAULT: `None` | `:white_check_mark:` |  
 
