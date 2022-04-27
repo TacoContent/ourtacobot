@@ -1,7 +1,7 @@
 [< BACK](/ourtacobot)
 
 # OURTACOBOT TWITCH COMMANDS
-### GENERATED: 2022-04-27 16:57:44
+### GENERATED: 2022-04-27 18:17:11
 
 
 ### COMMAND PREFIXES
@@ -35,6 +35,12 @@ The following prefixes are accepted:
 
   - [TACOS TOP](#tacos-top)  
 
+- [TQOTD](#tqotd)  
+
+- [LINK](#link)  
+
+- [LINK](#link)  
+
 ---
 
 ## COMMANDS
@@ -57,6 +63,7 @@ Get a url to view documentation for all commands.
 
 
 ![](https://i.imgur.com/8lx0Ohy.png)  
+
 ---
 
 ## DISCORD
@@ -84,6 +91,7 @@ Promotes the TACO discord using an invite that you have created in the discord.
 
 
 ![](https://i.imgur.com/n0wBukf.png)  
+
 ---
 
 ## INVITE
@@ -112,6 +120,7 @@ Invite OurTacoBot to your twitch channel.
 
 
 ![](https://i.imgur.com/vJgtOCj.png)  
+
 ### RESTRICTED 🔒
 
 This command is restricted to the following twitch channels:  
@@ -147,6 +156,7 @@ Remove OurTacoBot to your twitch channel.
 
 
 ![](https://i.imgur.com/6mkkHmk.png)  
+
 ### RESTRICTED 🔒
 
 This command is restricted to the following twitch channels:  
@@ -202,6 +212,7 @@ Get the number of tacos that you have.
 
 
 ![](https://i.imgur.com/BHwu2db.png)  
+
 ---
 ## TACOS COUNT
 Get the number of tacos for a user
@@ -229,6 +240,7 @@ Get the number of tacos for a user
 
 
 ![](https://i.imgur.com/k1wxnVL.png)  
+
 ### ARGUMENTS 🔖
 
 | NAME | DESCRIPTION | TYPE | DEFAULT/MIN/MAX | REQUIRED |  
@@ -256,6 +268,7 @@ Give a user tacos. The maximum amount of tacos that can be given at a time is 10
 
 
 ![](https://i.imgur.com/IyvB6oq.png)  
+
 ### ARGUMENTS 🔖
 
 | NAME | DESCRIPTION | TYPE | DEFAULT/MIN/MAX | REQUIRED |  
@@ -285,6 +298,7 @@ Take tacos from a user.
 
 
 ![](https://i.imgur.com/A3PS0Y7.png)  
+
 ### ARGUMENTS 🔖
 
 | NAME | DESCRIPTION | TYPE | DEFAULT/MIN/MAX | REQUIRED |  
@@ -321,9 +335,87 @@ Get the leader board for users tacos.
 
 ![](https://i.imgur.com/XY0y4Qc.png)  
 ![](https://i.imgur.com/hYJKHvj.png)  
+
 ### ARGUMENTS 🔖
 
 | NAME | DESCRIPTION | TYPE | DEFAULT/MIN/MAX | REQUIRED |  
 |---|---|---|---|---|  
 | `limit` | The amount of users to show on the leader board. | `number` | DEFAULT: `5`  MIN: `1`  MAX: `10` | `NO` |  
+
+---
+
+## TQOTD
+Gives you the TACO question of the day.
+
+### USAGE 🤗
+
+```!taco tqotd```
+
+### COOLDOWN 🕕
+`30s`
+
+### PERMISSIONS 🔑
+- `EVERYONE`  
+
+
+### EXAMPLES 📃
+- `!taco tqotd`  
+
+
+
+![](https://i.imgur.com/A1MdC8Q.png)  
+
+---
+
+## LINK
+Gives you a command and a code to run in discord to link your twitch with your discord account.
+
+### USAGE 🤗
+
+```!taco link```
+
+### COOLDOWN 🕕
+`30s`
+
+### PERMISSIONS 🔑
+- `EVERYONE`  
+
+
+### EXAMPLES 📃
+- `!taco link`  
+
+
+
+![](https://i.imgur.com/opzviIC.png)  
+![](https://i.imgur.com/OdqB6vK.png)  
+
+---
+
+## LINK
+Links your discord account with your twitch account.
+
+### USAGE 🤗
+
+```!taco link <code>```
+
+### COOLDOWN 🕕
+`30s`
+
+### PERMISSIONS 🔑
+- `EVERYONE`  
+
+
+### EXAMPLES 📃
+- `!taco link ABC567`  
+
+
+
+![](https://i.imgur.com/aZ4rSnO.png)  
+![](https://i.imgur.com/OdqB6vK.png)  
+
+### ARGUMENTS 🔖
+
+| NAME | DESCRIPTION | TYPE | DEFAULT/MIN/MAX | REQUIRED |  
+|---|---|---|---|---|  
+| `code` | The code you received from the link command. | `string` | DEFAULT: `None` | `YES` |  
 
