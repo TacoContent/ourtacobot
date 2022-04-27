@@ -37,8 +37,7 @@ def main():
     print(f"`!taco <command> [subcommand] [arg1...argN]`")
     print(f"")
     print(f"# COMMAND LIST")
-    if DOC_FORMAT == "discord":
-        print(f"Commands with 🛡️ are only available to admins.")
+    print(f"Commands with 🛡️ are only available to admins.")
     for command in commands:
         _process_command_list(commands, command)
 
