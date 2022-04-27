@@ -1,4 +1,6 @@
-# OURTACOBOT TWITCH COMMANDS
+[< BACK](/ourtacobot)
+
+# OURTACOBOT DISCORD COMMANDS
 
 
 ### COMMAND PREFIXES
@@ -12,7 +14,7 @@ The following prefixes are accepted:
 `!taco <command> [subcommand] [arg1...argN]`
 
 # COMMAND LIST
-
+Commands with 🛡️ are only available to admins.
 - [BIRTHDAY](#birthday)  
 
 - [GIF](#gif)  
