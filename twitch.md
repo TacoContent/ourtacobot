@@ -1,7 +1,7 @@
 [< BACK](/ourtacobot)
 
 # OURTACOBOT TWITCH COMMANDS
-### GENERATED: 2022-04-27 16:35:33
+### GENERATED: 2022-04-27 16:55:36
 
 
 ### COMMAND PREFIXES
@@ -57,6 +57,7 @@ Get a url to view documentation for all commands.
 - `!taco commands`  
 
 
+
 ---
 
 ## DISCORD
@@ -80,6 +81,7 @@ Promotes the TACO discord using an invite that you have created in the discord.
 
 ### EXAMPLES 📃
 - `!taco discord`  
+
 
 
 ---
@@ -106,6 +108,7 @@ Invite OurTacoBot to your twitch channel.
 
 ### EXAMPLES 📃
 - `!taco invite`  
+
 
 
 ### RESTRICTED 🔒
@@ -141,6 +144,7 @@ Remove OurTacoBot to your twitch channel.
 - `!taco leave`  
 
 
+
 ### RESTRICTED 🔒
 
 This command is restricted to the following twitch channels:  
@@ -168,6 +172,7 @@ Set of commands to deal with tacos.
 - `!taco tacos help`  
 
 
+
 ---
 ## TACOS COUNT
 Get the number of tacos that you have.
@@ -191,6 +196,7 @@ Get the number of tacos that you have.
 
 ### EXAMPLES 📃
 - `!taco tacos count`  
+
 
 
 ---
@@ -218,6 +224,7 @@ Get the number of tacos for a user
 - `!taco tacos count @DarthMinos`  
 
 
+
 ### ARGUMENTS 🔖
 
 | NAME | DESCRIPTION | TYPE | DEFAULT/MIN/MAX | REQUIRED |  
@@ -241,6 +248,7 @@ Give a user tacos. The maximum amount of tacos that can be given at a time is 10
 
 ### EXAMPLES 📃
 - `!taco tacos give @DarthMinos 1 being awesome`  
+
 
 
 ### ARGUMENTS 🔖
@@ -270,6 +278,7 @@ Shows the help for the tacos subcommands.
 - `!taco tacos help`  
 
 
+
 ---
 ## TACOS TAKE
 Take tacos from a user.
@@ -287,6 +296,7 @@ Take tacos from a user.
 
 ### EXAMPLES 📃
 - `!taco tacos take @DarthMinos 1 incorrect trivia answer`  
+
 
 
 ### ARGUMENTS 🔖
@@ -320,6 +330,7 @@ Get the leader board for users tacos.
 
 ### EXAMPLES 📃
 - `!taco tacos top 5`  
+
 
 
 ### ARGUMENTS 🔖
