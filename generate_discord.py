@@ -1,7 +1,7 @@
 import json
 import os
 import sys
-
+import datetime
 # a hack to replace an emoji with a \n because python doesn't allow \n in an f-string
 # you will see `.replace(f'{new_line_emoji}', '\n')` in the code
 
@@ -13,6 +13,8 @@ def main():
     print(f"[< BACK](/ourtacobot)")
     print(f"")
     print(f"# {bot_name.upper()} DISCORD COMMANDS")
+    print(f"### VERSION: {settings.get('version', '1.0.0-snapshot')}")
+    print(f"### GENERATED: {datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
     print(f"")
     # icon = settings.get('icon', None)
     # if icon is not None:

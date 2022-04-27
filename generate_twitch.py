@@ -1,7 +1,7 @@
 import json
 import os
 import sys
-
+import datetime
 new_line_emoji = '🍔'
 def main():
     settings = _load_settings()
@@ -10,6 +10,8 @@ def main():
     print(f"[< BACK](/ourtacobot)")
     print(f"")
     print(f"# {bot_name.upper()} TWITCH COMMANDS")
+    print(f"### VERSION: {settings.get('version', '1.0.0-snapshot')}")
+    print(f"### GENERATED: {datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
     print(f"")
     # icon = settings.get('icon', None)
     # if icon is not None:

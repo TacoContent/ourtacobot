@@ -3,9 +3,14 @@ on:
   push:
     branches:
     - gh-pages
+  schedule:
+  - cron: '0 12 * * *'
+  repository_dispatch:
+    types:
+    - build_documentation
 jobs:
-  tacobot:
-    runs-on: ubuntu-18.04
+  generate_documentation:
+    runs-on: ubuntu-latest
     name: Build TacoBot Documentation
     steps:
     - uses: actions/checkout@v3
@@ -19,10 +24,9 @@ jobs:
         repository: 'TacoContent/tacobottwitch'
         path: 'generate/tacobottwitch/'
         ref: 'develop'
-
     - uses: actions/setup-python@v2
       with:
-        python-version: 3.8
+        python-version: 3.10
     - name: run generate discord documentation
       run: |
         python generate_discord.py > discord.md
