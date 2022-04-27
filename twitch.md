@@ -1,7 +1,7 @@
-[◀ BACK](/ourtacobot)<a name="top"></a>
+[⏪ BACK](/ourtacobot)<a name="top"></a>
 
 # OURTACOBOT TWITCH COMMANDS
-### GENERATED: 2022-04-27 19:09:02
+### GENERATED: 2022-04-27 19:14:50
 
 
 ### COMMAND PREFIXES
@@ -66,7 +66,9 @@ Get a url to view documentation for all commands.
 ![](https://i.imgur.com/8lx0Ohy.png)  
 
 
-[🔼 TOP](#top)
+
+[🔼 TOP](#top)  
+
 ---
 
 <a name="discord"></a>
@@ -97,7 +99,9 @@ Promotes the TACO discord using an invite that you have created in the discord.
 ![](https://i.imgur.com/n0wBukf.png)  
 
 
-[🔼 TOP](#top)
+
+[🔼 TOP](#top)  
+
 ---
 
 <a name="invite"></a>
@@ -136,7 +140,8 @@ This command is restricted to the following twitch channels:
 - [ourtaco](https://twitch.tv/ourtaco)  
 - [ourtacobot](https://twitch.tv/ourtacobot)  
 
-[🔼 TOP](#top)
+
+[🔼 TOP](#top)  
 
 ---
 
@@ -176,7 +181,9 @@ This command is restricted to the following twitch channels:
 - [ourtaco](https://twitch.tv/ourtaco)  
 - [ourtacobot](https://twitch.tv/ourtacobot)  
 
-[🔼 TOP](#top)
+
+[🔼 TOP](#top)  
+
 ---
 
 <a name="tacos"></a>
@@ -367,7 +374,9 @@ Get the leader board for users tacos.
 |---|---|---|---|---|  
 | `limit` | The amount of users to show on the leader board. | `number` | DEFAULT: `5`  MIN: `1`  MAX: `10` | `🔲` |  
 
-[🔼 TOP](#top)
+
+[🔼 TOP](#top)  
+
 ---
 
 <a name="tqotd"></a>
@@ -393,7 +402,9 @@ Gives you the TACO question of the day.
 ![](https://i.imgur.com/A1MdC8Q.png)  
 
 
-[🔼 TOP](#top)
+
+[🔼 TOP](#top)  
+
 ---
 
 <a name="link"></a>
@@ -421,7 +432,9 @@ Gives you a command and a code to run in discord to link your twitch with your d
 ![](https://i.imgur.com/OdqB6vK.png)  
 
 
-[🔼 TOP](#top)
+
+[🔼 TOP](#top)  
+
 ---
 
 <a name="link"></a>
@@ -455,4 +468,6 @@ Links your discord account with your twitch account.
 |---|---|---|---|---|  
 | `code` | The code you received from the link command. | `string` | DEFAULT: `None` | `✅` |  
 
-[🔼 TOP](#top)
+
+[🔼 TOP](#top)  
+
