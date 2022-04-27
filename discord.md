@@ -1,7 +1,7 @@
-[< BACK](/ourtacobot)
+[◀ BACK](/ourtacobot)<a name="top"></a>
 
 # OURTACOBOT DISCORD COMMANDS
-### GENERATED: 2022-04-27 19:05:08
+### GENERATED: 2022-04-27 19:09:02
 
 
 ### COMMAND PREFIXES
@@ -77,6 +77,7 @@ Sets your birthday
 
 
 
+[🔼 TOP](#top)
 ---
 
 <a name="gif"></a>
@@ -98,6 +99,7 @@ Gets a random gif from the given tag
 
 
 
+[🔼 TOP](#top)
 ---
 
 <a name="link"></a>
@@ -120,6 +122,7 @@ Link your discord and twitch account together
 |---|---|---|---|---|  
 | `code` | The code given to you by the bot in twitch chat | `string` | DEFAULT: `None` | `✅` |  
 
+[🔼 TOP](#top)
 ---
 
 <a name="move"></a>
@@ -141,6 +144,7 @@ Moves a message from one channel to another. Must be ran in the channel that the
 |---|---|---|---|---|  
 | `message_id` | The message id of the message to move | `string` | DEFAULT: `None` | `✅` |  
 
+[🔼 TOP](#top)
 ---
 
 <a name="suggest"></a>
@@ -156,6 +160,7 @@ Starts a suggestion. I will DM you to ask you questions to create the suggestion
 
 
 
+[🔼 TOP](#top)
 ---
 
 <a name="tqotd"></a>
@@ -190,6 +195,7 @@ Gives TQotD tacos to the user who answered the question
 |---|---|---|---|---|  
 | `user` | The user to give tacos to for answering the question | `user` | DEFAULT: `None` | `✅` |  
 
+[🔼 TOP](#top)
 ---
 
 <a name="tacos"></a>
@@ -286,6 +292,7 @@ Allows an admin to purge all tacos from a user.
 | `user` | The user to purge tacos from | `user` | DEFAULT: `None` | `✅` |  
 | `reason` | The reason for the purge | `string` | DEFAULT: `No reason given` | `🔲` |  
 
+[🔼 TOP](#top)
 ---
 
 <a name="team"></a>
@@ -341,6 +348,7 @@ Admin version of the `invite` command. This will invite a user to the twitch tea
 | `user` | The user to invite | `user` | DEFAULT: `None` | `✅` |  
 | `twitch_name` | The twitch name of the user to invite | `string` | DEFAULT: `None` | `✅` |  
 
+[🔼 TOP](#top)
 ---
 
 <a name="trivia"></a>
@@ -356,6 +364,7 @@ Start a trivia question to earn tacos.
 
 
 
+[🔼 TOP](#top)
 ---
 
 <a name="twitch"></a>
@@ -431,3 +440,4 @@ Will tell you what the twitch username is associated with your, or the specified
 |---|---|---|---|---|  
 | `user` | The user to get the twitch name for | `user` | DEFAULT: `None` | `🔲` |  
 
+[🔼 TOP](#top)
