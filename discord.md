@@ -1,60 +1,57 @@
-[< BACK](/ourtacobot)
+# OURTACOBOT TWITCH COMMANDS
 
-# OURTACOBOT DISCORD COMMANDS
 
 ### COMMAND PREFIXES
-The following prefixes are accepted:
+The following prefixes are accepted:  
 
-- `.taco `
-- `!taco `
-- `?taco `
+- `.taco `  
+- `!taco `  
+- `?taco `  
 
 
 `!taco <command> [subcommand] [arg1...argN]`
 
 # COMMAND LIST
 
-Commands with a 🛡️ are restricted to administrators.
+- [BIRTHDAY](#birthday)  
 
-- [BIRTHDAY](#birthday)
+- [GIF](#gif)  
 
-- [GIF](#gif)
+- [LINK](#link)  
 
-- [LINK](#link)
+- [MOVE🛡️](#move)  
 
-- [MOVE🛡️](#move)
+- [SUGGEST](#suggest)  
 
-- [SUGGEST](#suggest)
+- [TQOTD🛡️](#tqotd)  
 
-- [TQOTD🛡️](#tqotd)
+  - [TQOTD GIVE🛡️](#tqotd-give)  
 
-  - [TQOTD GIVE🛡️](#tqotd-give)
+- [TACOS](#tacos)  
 
-- [TACOS](#tacos)
+  - [TACOS COUNT](#tacos-count)  
 
-  - [TACOS COUNT](#tacos-count)
+  - [TACOS GIFT](#tacos-gift)  
 
-  - [TACOS GIFT](#tacos-gift)
+  - [TACOS GIVE🛡️](#tacos-give)  
 
-  - [TACOS GIVE🛡️](#tacos-give)
+  - [TACOS PURGE🛡️](#tacos-purge)  
 
-  - [TACOS PURGE🛡️](#tacos-purge)
+- [TEAM](#team)  
 
-- [TEAM](#team)
+  - [TEAM INVITE](#team-invite)  
 
-  - [TEAM INVITE](#team-invite)
+  - [TEAM INVITE-USER🛡️](#team-invite-user)  
 
-  - [TEAM INVITE-USER🛡️](#team-invite-user)
+- [TRIVIA](#trivia)  
 
-- [TRIVIA](#trivia)
+- [TWITCH](#twitch)  
 
-- [TWITCH](#twitch)
+  - [TWITCH SET](#twitch-set)  
 
-  - [TWITCH SET](#twitch-set)
+  - [TWITCH SET-USER🛡️](#twitch-set-user)  
 
-  - [TWITCH SET-USER🛡️](#twitch-set-user)
-
-  - [TWITCH GET](#twitch-get)
+  - [TWITCH GET](#twitch-get)  
 
 ---
 
@@ -67,12 +64,12 @@ Sets your birthday
 
 ### ALIASES
 
-- `bday`
+- `bday`  
 
 
 ### EXAMPLES
-- `.taco birthday`
-- `.taco bday`
+- `.taco birthday`  
+- `.taco bday`  
 
 
 ---
@@ -86,12 +83,12 @@ Gets a random gif from the given tag
 
 ### ALIASES
 
-- `giphy`
+- `giphy`  
 
 
 ### EXAMPLES
-- `.taco gif`
-- `.taco gif taco tuesday`
+- `.taco gif`  
+- `.taco gif taco tuesday`  
 
 
 ---
@@ -104,8 +101,8 @@ Link your discord and twitch account together
 ```.taco link [code]```
 
 ### EXAMPLES
-- `.taco link`
-- `.taco link 123456`
+- `.taco link`  
+- `.taco link 123456`  
 
 
 ### ARGUMENTS
@@ -124,7 +121,7 @@ Moves a message from one channel to another. Must be ran in the channel that the
 ```.taco move <message_id>```
 
 ### EXAMPLES
-- `.taco move 12345678901234567890123456789`
+- `.taco move 12345678901234567890123456789`  
 
 
 ### ARGUMENTS
@@ -143,7 +140,7 @@ Starts a suggestion. I will DM you to ask you questions to create the suggestion
 ```.taco suggest```
 
 ### EXAMPLES
-- `.taco suggest`
+- `.taco suggest`  
 
 
 ---
@@ -167,7 +164,7 @@ Gives TQotD tacos to the user who answered the question
 ```.taco tqotd give <@user>```
 
 ### EXAMPLES
-- `.taco tqotd give @DarthMinos#1161`
+- `.taco tqotd give @DarthMinos#1161`  
 
 
 ### ARGUMENTS
@@ -197,7 +194,7 @@ Retrieve the number of tacos you have.
 ```.taco tacos count```
 
 ### EXAMPLES
-- `.taco tacos count`
+- `.taco tacos count`  
 
 
 ---
@@ -209,8 +206,8 @@ Gift someone a number of tacos. You can gift a maximum of 10 tacos per 24 hours 
 ```.taco tacos gift <@user#1234> <amount> [reason]```
 
 ### EXAMPLES
-- `.taco tacos gift @user#1234 10`
-- `.taco tacos gift @user#1234 10 You are awesome!`
+- `.taco tacos gift @user#1234 10`  
+- `.taco tacos gift @user#1234 10 You are awesome!`  
 
 
 ### ARGUMENTS
@@ -230,8 +227,8 @@ Allows an admin to give someone tacos.
 ```.taco tacos give <@user#1234> <amount> [reason]```
 
 ### EXAMPLES
-- `.taco tacos give @user#1234 10`
-- `.taco tacos give @user#1234 10 You are awesome!`
+- `.taco tacos give @user#1234 10`  
+- `.taco tacos give @user#1234 10 You are awesome!`  
 
 
 ### ARGUMENTS
@@ -251,8 +248,8 @@ Allows an admin to purge all tacos from a user.
 ```.taco tacos purge <@user#1234> [reason]```
 
 ### EXAMPLES
-- `.taco tacos purge @user#1234`
-- `.taco tacos purge @user#1234 Exploited the taco system`
+- `.taco tacos purge @user#1234`  
+- `.taco tacos purge @user#1234 Exploited the taco system`  
 
 
 ### ARGUMENTS
@@ -283,7 +280,7 @@ This will put in a request to join the twitch team. Once approved, you will have
 ```.taco team invite <twitch_name>```
 
 ### EXAMPLES
-- `.taco team invite darthminos`
+- `.taco team invite darthminos`  
 
 
 ### ARGUMENTS
@@ -301,7 +298,7 @@ Admin version of the `invite` command. This will invite a user to the twitch tea
 ```.taco team invite-user <@user#1234> <twitch_name>```
 
 ### EXAMPLES
-- `.taco team invite-user @DarthMinos#1161 darthminos`
+- `.taco team invite-user @DarthMinos#1161 darthminos`  
 
 
 ### ARGUMENTS
@@ -321,7 +318,7 @@ Start a trivia question to earn tacos.
 ```.taco trivia```
 
 ### EXAMPLES
-- `.taco trivia`
+- `.taco trivia`  
 
 
 ---
@@ -345,7 +342,7 @@ Set your twitch name. This will allow the bot to know your twitch account associ
 ```.taco twitch set [twitch_name]```
 
 ### EXAMPLES
-- `.taco twitch set darthminos`
+- `.taco twitch set darthminos`  
 
 
 ### ARGUMENTS
@@ -363,7 +360,7 @@ Set a user's twitch name so Taco Bot can resolve a discord user to a twitch user
 ```.taco twitch set-user <@user#1234> [twitch_name]```
 
 ### EXAMPLES
-- `taco twitch set-user @DarthMinos#1161 darthminos`
+- `taco twitch set-user @DarthMinos#1161 darthminos`  
 
 
 ### ARGUMENTS
@@ -382,11 +379,12 @@ Will tell you what the twitch username is associated with your, or the specified
 ```.taco twitch get [@user#1234]```
 
 ### EXAMPLES
-- `taco twitch get @DarthMinos#1161`
+- `taco twitch get @DarthMinos#1161`  
 
 
 ### ARGUMENTS
 
-| NAME | DESCRIPTION | TYPE | DEFAULT/MIN/MAX | REQUIRED |
-|---|---|---|---|---|
-| `user` | The user to get the twitch name for | `user` | DEFAULT: `None` | `NO` |
+| NAME | DESCRIPTION | TYPE | DEFAULT/MIN/MAX | REQUIRED |  
+|---|---|---|---|---|  
+| `user` | The user to get the twitch name for | `user` | DEFAULT: `None` | `NO` |  
+

@@ -1,42 +1,39 @@
-[< BACK](/ourtacobot)
+# OURTACOBOT DISCORD COMMANDS
 
-# OURTACOBOT TWITCH COMMANDS
-
-<!-- ![](https://i.imgur.com/ejJu8dem.png) -->
 
 ### COMMAND PREFIXES
-The following prefixes are accepted:
+The following prefixes are accepted:  
 
-- `!taco `
-- `#taco `
-- `?taco `
+- `!taco `  
+- `#taco `  
+- `?taco `  
 
 
 `!taco <command> [subcommand] [arg1...argN]`
 
 # COMMAND LIST
+Commands with a 🛡 are restricted to administrators.
+- [COMMANDS](#commands)  
 
-- [COMMANDS](#commands)
+- [DISCORD](#discord)  
 
-- [DISCORD](#discord)
+- [INVITE](#invite)  
 
-- [INVITE](#invite)
+- [LEAVE](#leave)  
 
-- [LEAVE](#leave)
+- [TACOS](#tacos)  
 
-- [TACOS](#tacos)
+  - [TACOS COUNT](#tacos-count)  
 
-  - [TACOS COUNT](#tacos-count)
+  - [TACOS COUNT](#tacos-count)  
 
-  - [TACOS COUNT](#tacos-count)
+  - [TACOS GIVE](#tacos-give)  
 
-  - [TACOS GIVE](#tacos-give)
+  - [TACOS HELP](#tacos-help)  
 
-  - [TACOS HELP](#tacos-help)
+  - [TACOS TAKE](#tacos-take)  
 
-  - [TACOS TAKE](#tacos-take)
-
-  - [TACOS TOP](#tacos-top)
+  - [TACOS TOP](#tacos-top)  
 
 ---
 
@@ -44,154 +41,179 @@ The following prefixes are accepted:
 Get a url to view documentation for all commands.
 
 ### USAGE
+
 ```!taco commands```
 
 ### COOLDOWN
 `30s`
 
 ### PERMISSIONS
-- `EVERYONE`
+- `EVERYONE`  
 
 
 ### EXAMPLES
-- `!taco commands`
+- `!taco commands`  
+
 
 ---
+
 ## DISCORD
 Promotes the TACO discord using an invite that you have created in the discord.
 
 ### USAGE
+
 ```!taco discord```
 
 ### ALIASES
-- `taco`
+
+- `taco`  
+
 
 ### COOLDOWN
 `30s`
 
 ### PERMISSIONS
-- `EVERYONE`
+- `EVERYONE`  
 
 
 ### EXAMPLES
-- `!taco discord`
+- `!taco discord`  
+
 
 ---
+
 ## INVITE
 Invite OurTacoBot to your twitch channel.
 
 ### USAGE
+
 ```!taco invite```
 
 ### ALIASES
-- `inv`
-- `join`
+
+- `inv`  
+- `join`  
 
 
 ### COOLDOWN
 `30s`
 
 ### PERMISSIONS
-- `EVERYONE`
+- `EVERYONE`  
 
 
 ### EXAMPLES
-- `!taco invite`
+- `!taco invite`  
+
 
 ### RESTRICTED
-This command is restricted to the following twitch channels:
 
-- [ourtaco](https://twitch.tv/ourtaco)
-- [ourtacobot](https://twitch.tv/ourtacobot)
+This command is restricted to the following twitch channels:  
+
+- [ourtaco](https://twitch.tv/ourtaco)  
+- [ourtacobot](https://twitch.tv/ourtacobot)  
 
 ---
+
 ## LEAVE
 Remove OurTacoBot to your twitch channel.
 
 ### USAGE
+
 ```!taco leave```
 
 ### ALIASES
-- `part`
-- `remove`
+
+- `part`  
+- `remove`  
 
 
 ### COOLDOWN
 `30s`
 
 ### PERMISSIONS
-- `EVERYONE`
+- `EVERYONE`  
 
 
 ### EXAMPLES
-- `!taco leave`
+- `!taco leave`  
+
 
 ### RESTRICTED
-This command is restricted to the following twitch channels:
 
-- [ourtaco](https://twitch.tv/ourtaco)
-- [ourtacobot](https://twitch.tv/ourtacobot)
+This command is restricted to the following twitch channels:  
+
+- [ourtaco](https://twitch.tv/ourtaco)  
+- [ourtacobot](https://twitch.tv/ourtacobot)  
 
 ---
+
 ## TACOS
 Set of commands to deal with tacos.
 
 ### USAGE
+
 ```!taco tacos help```
 
 ### COOLDOWN
 `30s`
 
 ### PERMISSIONS
-- `EVERYONE`
+- `EVERYONE`  
 
 
 ### EXAMPLES
-- `!taco tacos help`
+- `!taco tacos help`  
+
 
 ---
 ## TACOS COUNT
 Get the number of tacos that you have.
 
 ### USAGE
+
 ```!taco tacos count```
 
 ### ALIASES
-- `balance`
-- `bal`
+
+- `balance`  
+- `bal`  
+
 
 ### COOLDOWN
 `30s`
 
 ### PERMISSIONS
-- `EVERYONE`
+- `EVERYONE`  
 
 
 ### EXAMPLES
-- `!taco tacos count`
+- `!taco tacos count`  
+
 
 ---
 ## TACOS COUNT
 Get the number of tacos for a user
 
 ### USAGE
+
 ```!taco tacos count <user>```
 
 ### ALIASES
-- `balance`
-- `bal`
+
+- `balance`  
+- `bal`  
 
 
 ### COOLDOWN
 `30s`
 
 ### PERMISSIONS
-- `MODERATOR`
+- `MODERATOR`  
 
 
 ### EXAMPLES
-- `!taco tacos count @DarthMinos`
-
+- `!taco tacos count @DarthMinos`  
 
 
 ### ARGUMENTS
@@ -202,20 +224,22 @@ Get the number of tacos for a user
 
 ---
 ## TACOS GIVE
-
 Give a user tacos. The maximum amount of tacos that can be given at a time is 10. The maximum amount that can be given to a user in a rolling 24 hour period is 50. The maximum amount that can be given total in a rolling 24 hour period is 500.
 
 ### USAGE
+
 ```!taco tacos give <user> <amount> [reason]```
 
 ### COOLDOWN
 `30s`
 
 ### PERMISSIONS
-- `MODERATOR`
+- `MODERATOR`  
+
 
 ### EXAMPLES
-- `!taco tacos give @DarthMinos 1 being awesome`
+- `!taco tacos give @DarthMinos 1 being awesome`  
+
 
 ### ARGUMENTS
 
@@ -230,33 +254,38 @@ Give a user tacos. The maximum amount of tacos that can be given at a time is 10
 Shows the help for the tacos subcommands.
 
 ### USAGE
+
 ```!taco tacos help```
 
 ### COOLDOWN
 `30s`
 
 ### PERMISSIONS
-- `EVERYONE`
+- `EVERYONE`  
 
 
 ### EXAMPLES
-- `!taco tacos help`
+- `!taco tacos help`  
+
 
 ---
 ## TACOS TAKE
 Take tacos from a user.
 
 ### USAGE
+
 ```!taco tacos take <user> <amount> [reason]```
 
 ### COOLDOWN
 `30s`
 
 ### PERMISSIONS
-- `MODERATOR`
+- `MODERATOR`  
+
 
 ### EXAMPLES
-- `!taco tacos take @DarthMinos 1 incorrect trivia answer`
+- `!taco tacos take @DarthMinos 1 incorrect trivia answer`  
+
 
 ### ARGUMENTS
 
@@ -271,23 +300,29 @@ Take tacos from a user.
 Get the leader board for users tacos.
 
 ### USAGE
+
 ```!taco tacos top [limit]```
 
 ### ALIASES
-- `leaderboard`
-- `lb`
+
+- `leaderboard`  
+- `lb`  
+
 
 ### COOLDOWN
 `30s`
 
 ### PERMISSIONS
-- `MODERATOR`
+- `MODERATOR`  
+
 
 ### EXAMPLES
-- `!taco tacos top 5`
+- `!taco tacos top 5`  
 
-### ARGUMENTS  
+
+### ARGUMENTS
 
 | NAME | DESCRIPTION | TYPE | DEFAULT/MIN/MAX | REQUIRED |  
-| ---- | ----------- | ---- | -------------- | -------- |  
+|---|---|---|---|---|  
 | `limit` | The amount of users to show on the leader board. | `number` | DEFAULT: `5`  MIN: `1`  MAX: `10` | `NO` |  
+
