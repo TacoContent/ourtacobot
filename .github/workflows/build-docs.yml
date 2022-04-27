@@ -10,7 +10,7 @@ jobs:
     steps:
     - uses: actions/checkout@v3
       with:
-        repository: 'https://github.com/TacoContent/TacoBot.git'
+        repository: 'TacoContent/TacoBot'
         token: "${{ github.token }}"
         path: 'generate/tacobotdiscord/'
     - uses: actions/setup-python@v2
