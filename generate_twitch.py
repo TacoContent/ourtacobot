@@ -4,7 +4,8 @@ import sys
 import datetime
 
 new_line_emoji = "🍔"
-
+APP_MANIFEST = "generate/tacobottwitch/app.manifest"
+# APP_MANIFEST = "app.manifest"
 
 def main():
     settings = _load_settings()
@@ -85,6 +86,7 @@ def _process_command(commands, command, parent_command=""):
     if c_previews and len(c_previews) > 0:
         for p in c_previews:
             print(f"![]({p})  ")
+        print(f"")
     c_arguments = commands[command].get("arguments", [])
     if c_arguments and len(c_arguments) > 0:
         print(f"### ARGUMENTS 🔖")
@@ -149,7 +151,7 @@ def _replace_prefix(s):
 def _load_settings():
     settings = {}
     try:
-        with open("generate/tacobottwitch/app.manifest", encoding="UTF-8") as json_file:
+        with open(APP_MANIFEST, encoding="UTF-8") as json_file:
             settings.update(json.load(json_file))
     except Exception as e:
         print(e, file=sys.stderr)
