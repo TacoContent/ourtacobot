@@ -53,6 +53,8 @@ def _process_command_list(commands, command, parent_command=""):
 def _process_command(commands, command, parent_command=""):
     c_name = _get_formatted_key(command)
     full_name = " ".join([parent_command, c_name]).strip()
+    link_name = full_name.lower().replace(' ', '-')
+    print(f'<a name="{link_name}"></a>')
     print(f"## {full_name.upper()}")
     c_desc = _replace_prefix(commands[command].get("description", ""))
     print(c_desc)
