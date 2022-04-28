@@ -6,7 +6,6 @@ import datetime
 # you will see `.replace(f'{new_line_emoji}', '\n')` in the code
 
 new_line_emoji = '🍔'
-prefixes = []
 def main():
     args = sys.argv[1:]
     if len(args) == 0:
@@ -34,7 +33,7 @@ def main():
         print(f"The following prefixes are accepted:  \n")
         print(f"{''.join([f'- `{p}`  {new_line_emoji}' for p in prefixes])}".replace(f'{new_line_emoji}', '\n'))
     print(f"")
-    print(f"`!taco <command> [subcommand] [arg1...argN]`")
+    print(f"`{_replace_prefix('{{prefix}}', prefixes=prefixes)}<command> [subcommand] [arg1...argN]`")
     print(f"")
     print(f"# COMMAND LIST")
     print(f"Commands with 🛡️ are only available to admins.")
@@ -44,7 +43,7 @@ def main():
     for command in commands:
         print(f"---")
         print(f"")
-        _process_command(commands, command)
+        _process_command(commands, command, prefixes=prefixes)
         print(f"")
         print(f"[🔼 TOP](#top)  ")
         print(f"")
@@ -64,7 +63,7 @@ def _process_command_list(commands, command, parent_command=""):
     for sc in c_subcommands:
         _process_command_list(c_subcommands, sc, full_name)
 
-def _process_command(commands, command, parent_command=""):
+def _process_command(commands, command, parent_command="", prefixes=None):
     c_admin = commands[command].get('admin', False)
     shield = '🛡️' if c_admin > 0 else ''
     c_name = _get_formatted_key(command)
@@ -73,12 +72,12 @@ def _process_command(commands, command, parent_command=""):
     print(f'<a name="{link_name}"></a>')
     print(f'## {full_name.upper()}{shield}')
 
-    c_desc = _replace_prefix(commands[command].get("description", ""))
+    c_desc = _replace_prefix(commands[command].get("description", ""), prefixes=prefixes)
     if len(c_desc) > 0:
         print(c_desc)
         print(f"")
 
-    c_usage = _replace_prefix(commands[command].get("usage", ""))
+    c_usage = _replace_prefix(commands[command].get("usage", ""), prefixes=prefixes)
     if len(c_usage) > 0:
         print(f"### USAGE 🤗")
         print(f"")
@@ -99,7 +98,7 @@ def _process_command(commands, command, parent_command=""):
         print(f"")
 
     t_examples = commands[command].get('example', []) + commands[command].get('examples', [])
-    c_examples = [ _replace_prefix(example) for example in t_examples ]
+    c_examples = [ _replace_prefix(example, prefixes=prefixes) for example in t_examples ]
     if c_examples and len(c_examples) > 0:
         print(f'### EXAMPLES 📃')
         print(f'{"".join([f"- `{e}`  {new_line_emoji}" for e in c_examples])}\n'.replace(f'{new_line_emoji}', '\n'))
@@ -124,7 +123,7 @@ def _process_command(commands, command, parent_command=""):
     if c_arguments and len(c_arguments) > 0:
         print(f"### ARGUMENTS 🔖")
         print(f"")
-        _process_arguments(c_arguments)
+        _process_arguments(c_arguments, prefixes=prefixes)
         print(f"")
 
     c_restricted = commands[command].get("restricted", [])
@@ -142,17 +141,17 @@ def _process_command(commands, command, parent_command=""):
     c_subcommands = commands[command].get('subcommands', {})
     for sc in c_subcommands:
         print(f"---")
-        _process_command(c_subcommands, sc, full_name)
+        _process_command(c_subcommands, sc, full_name, prefixes=prefixes)
 
 
-def _process_arguments(arguments):
+def _process_arguments(arguments, prefixes=None):
     print(f"| NAME | DESCRIPTION | TYPE | DEFAULT/MIN/MAX | REQUIRED |  ")
     print(f"|---|---|---|---|---|  ")
     for argument in arguments:
         a_name = argument
         a_type = arguments[argument].get('type', 'string')
         a_required = arguments[argument].get('required', False)
-        a_description = _replace_prefix(arguments[argument].get('description', ''))
+        a_description = _replace_prefix(arguments[argument].get('description', ''), prefixes=prefixes)
         a_default = arguments[argument].get('default', None)
         a_min = arguments[argument].get('min', None)
         a_max = arguments[argument].get('max', None)
@@ -174,7 +173,7 @@ def _process_arguments(arguments):
 def _get_formatted_key(key):
     return key.replace('_', '')
 
-def _replace_prefix(s):
+def _replace_prefix(s, prefixes=['!taco ', '?taco ', '#taco ']):
     if prefixes and len(prefixes) > 0:
         return s.replace('{{prefix}}', prefixes[0])
     else:
@@ -186,7 +185,11 @@ def _load_settings(format):
         with open(f"generate/tacobot{format.lower()}/app.manifest", encoding="UTF-8") as json_file:
             settings.update(json.load(json_file))
     except Exception as e:
-        print(e, file=sys.stderr)
+        try:
+            with open(f"{format.lower()}.app.manifest", encoding="UTF-8") as json_file:
+                settings.update(json.load(json_file))
+        except Exception as e:
+            print(e, file=sys.stderr)
     return settings
 
 if __name__ == "__main__":

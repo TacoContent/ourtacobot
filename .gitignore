@@ -2,7 +2,7 @@
 \.idea/
 __pycache__/**
 generate/**
-app.manifest
+*.app.manifest
 *.env
 .env
 # Created by https://www.toptal.com/developers/gitignore/api/linux
