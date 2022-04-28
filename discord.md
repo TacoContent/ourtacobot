@@ -1,7 +1,7 @@
 [⏪ BACK](/ourtacobot)<a name="top"></a>
 
 # OURTACOBOT DISCORD COMMANDS
-### GENERATED: 2022-04-28 00:29:51
+### GENERATED: 2022-04-28 00:35:48
 
 
 ### COMMAND PREFIXES
@@ -133,7 +133,7 @@ Gets a random gif from the given tag
 
 | NAME | DESCRIPTION | TYPE | DEFAULT/MIN/MAX | REQUIRED |  
 |---|---|---|---|---|  
-| `search_term` | The string to search for | `string` | DEFAULT: `None` | `🔲` |  
+| `search_term` | The string to search for | `string` | DEFAULT: `taco` | `🔲` |  
 
 
 [🔼 TOP](#top)  
