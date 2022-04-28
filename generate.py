@@ -49,8 +49,7 @@ def main():
         print(f"")
 
 def _process_command_list(commands, command, parent_command=""):
-    c_admin = commands[command].get('admin', False)
-    c_admin = c_admin or any(x in ["moderator", "broadcaster", "bot", "bot_owner"] for x in [x.lower() for x in commands[command].get('permissions', [])])
+    c_admin = commands[command].get('admin', False) or any(x in ["moderator", "broadcaster", "bot", "bot_owner"] for x in [x.lower() for x in commands[command].get('permissions', [])])
     c_name = _get_formatted_key(command)
     shield = '🛡️' if c_admin > 0 else ''
 
@@ -64,7 +63,7 @@ def _process_command_list(commands, command, parent_command=""):
         _process_command_list(c_subcommands, sc, full_name)
 
 def _process_command(commands, command, parent_command="", prefixes=None):
-    c_admin = commands[command].get('admin', False)
+    c_admin = commands[command].get('admin', False) or any(x in ["moderator", "broadcaster", "bot", "bot_owner"] for x in [x.lower() for x in commands[command].get('permissions', [])])
     shield = '🛡️' if c_admin > 0 else ''
     c_name = _get_formatted_key(command)
     full_name = ' '.join([parent_command, c_name]).strip()
