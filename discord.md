@@ -1,7 +1,7 @@
 [⏪ BACK](/ourtacobot)<a name="top"></a>
 
 # OURTACOBOT DISCORD COMMANDS
-### GENERATED: 2022-04-28 00:18:30
+### GENERATED: 2022-04-28 12:29:29
 
 
 ### COMMAND PREFIXES
@@ -12,7 +12,7 @@ The following prefixes are accepted:
 - `?taco `  
 
 
-`!taco <command> [subcommand] [arg1...argN]`
+`.taco <command> [subcommand] [arg1...argN]`
 
 # COMMAND LIST
 Commands with 🛡️ are only available to admins.
@@ -68,7 +68,7 @@ Sets your birthday
 
 ### USAGE 🤗
 
-```!taco birthday```
+```.taco birthday```
 
 ### ALIASES 🔀
 
@@ -76,8 +76,8 @@ Sets your birthday
 
 
 ### EXAMPLES 📃
-- `!taco birthday`  
-- `!taco bday`  
+- `.taco birthday`  
+- `.taco bday`  
 
 
 
@@ -92,7 +92,7 @@ Shows the changelog
 
 ### USAGE 🤗
 
-```!taco changelog```
+```.taco changelog```
 
 ### ALIASES 🔀
 
@@ -100,8 +100,8 @@ Shows the changelog
 
 
 ### EXAMPLES 📃
-- `!taco changelog`  
-- `!taco cl`  
+- `.taco changelog`  
+- `.taco cl`  
 
 
 
@@ -116,7 +116,7 @@ Gets a random gif from the given tag
 
 ### USAGE 🤗
 
-```!taco gif [search_term]```
+```.taco gif [search_term]```
 
 ### ALIASES 🔀
 
@@ -124,8 +124,8 @@ Gets a random gif from the given tag
 
 
 ### EXAMPLES 📃
-- `!taco gif`  
-- `!taco gif taco tuesday`  
+- `.taco gif`  
+- `.taco gif taco tuesday`  
 
 
 
@@ -133,7 +133,7 @@ Gets a random gif from the given tag
 
 | NAME | DESCRIPTION | TYPE | DEFAULT/MIN/MAX | REQUIRED |  
 |---|---|---|---|---|  
-| `search_term` | The string to search for | `string` | DEFAULT: `None` | `🔲` |  
+| `search_term` | The string to search for | `string` | DEFAULT: `taco` | `🔲` |  
 
 
 [🔼 TOP](#top)  
@@ -146,10 +146,10 @@ Request a code from the bot to link your discord account to your twitch account
 
 ### USAGE 🤗
 
-```!taco link```
+```.taco link```
 
 ### EXAMPLES 📃
-- `!taco link`  
+- `.taco link`  
 
 
 
@@ -164,10 +164,10 @@ Use a code from the bot to link your discord account to your twitch account
 
 ### USAGE 🤗
 
-```!taco link <code>```
+```.taco link <code>```
 
 ### EXAMPLES 📃
-- `!taco link ABC123`  
+- `.taco link ABC123`  
 
 
 
@@ -188,10 +188,10 @@ Moves a message from one channel to another. Must be ran in the channel that the
 
 ### USAGE 🤗
 
-```!taco move <message_id>```
+```.taco move <message_id>```
 
 ### EXAMPLES 📃
-- `!taco move 12345678901234567890123456789`  
+- `.taco move 12345678901234567890123456789`  
 
 
 
@@ -212,10 +212,10 @@ Starts a suggestion. I will DM you to ask you questions to create the suggestion
 
 ### USAGE 🤗
 
-```!taco suggest```
+```.taco suggest```
 
 ### EXAMPLES 📃
-- `!taco suggest`  
+- `.taco suggest`  
 
 
 
@@ -230,7 +230,7 @@ Adds a question of the day
 
 ### USAGE 🤗
 
-```!taco tqotd [command]```
+```.taco tqotd [command]```
 
 ---
 <a name="tqotd-give"></a>
@@ -239,10 +239,10 @@ Gives TQotD tacos to the user who answered the question
 
 ### USAGE 🤗
 
-```!taco tqotd give <@user>```
+```.taco tqotd give <@user>```
 
 ### EXAMPLES 📃
-- `!taco tqotd give @DarthMinos#1161`  
+- `.taco tqotd give @DarthMinos#1161`  
 
 
 
@@ -263,7 +263,7 @@ Commands that will give info on tacos🌮.
 
 ### USAGE 🤗
 
-```!taco tacos <command>```
+```.taco tacos <command>```
 
 ---
 <a name="tacos-count"></a>
@@ -272,10 +272,10 @@ Retrieve the number of tacos you have.
 
 ### USAGE 🤗
 
-```!taco tacos count```
+```.taco tacos count```
 
 ### EXAMPLES 📃
-- `!taco tacos count`  
+- `.taco tacos count`  
 
 
 
@@ -286,11 +286,11 @@ Gift someone a number of tacos. You can gift a maximum of 10 tacos per 24 hours 
 
 ### USAGE 🤗
 
-```!taco tacos gift <@user#1234> <amount> [reason]```
+```.taco tacos gift <@user#1234> <amount> [reason]```
 
 ### EXAMPLES 📃
-- `!taco tacos gift @user#1234 10`  
-- `!taco tacos gift @user#1234 10 You are awesome!`  
+- `.taco tacos gift @user#1234 10`  
+- `.taco tacos gift @user#1234 10 You are awesome!`  
 
 
 
@@ -309,11 +309,11 @@ Allows an admin to give someone tacos.
 
 ### USAGE 🤗
 
-```!taco tacos give <@user#1234> <amount> [reason]```
+```.taco tacos give <@user#1234> <amount> [reason]```
 
 ### EXAMPLES 📃
-- `!taco tacos give @user#1234 10`  
-- `!taco tacos give @user#1234 10 You are awesome!`  
+- `.taco tacos give @user#1234 10`  
+- `.taco tacos give @user#1234 10 You are awesome!`  
 
 
 
@@ -332,11 +332,11 @@ Allows an admin to purge all tacos from a user.
 
 ### USAGE 🤗
 
-```!taco tacos purge <@user#1234> [reason]```
+```.taco tacos purge <@user#1234> [reason]```
 
 ### EXAMPLES 📃
-- `!taco tacos purge @user#1234`  
-- `!taco tacos purge @user#1234 Exploited the taco system`  
+- `.taco tacos purge @user#1234`  
+- `.taco tacos purge @user#1234 Exploited the taco system`  
 
 
 
@@ -358,7 +358,7 @@ Commands that will allow you to be a part of the Twitch Team.
 
 ### USAGE 🤗
 
-```!taco team <command>```
+```.taco team <command>```
 
 ---
 <a name="team-invite"></a>
@@ -367,10 +367,10 @@ This will put in a request to join the twitch team. Once approved, you will have
 
 ### USAGE 🤗
 
-```!taco team invite <twitch_name>```
+```.taco team invite <twitch_name>```
 
 ### EXAMPLES 📃
-- `!taco team invite darthminos`  
+- `.taco team invite darthminos`  
 
 
 
@@ -387,10 +387,10 @@ Admin version of the `invite` command. This will invite a user to the twitch tea
 
 ### USAGE 🤗
 
-```!taco team invite-user <@user#1234> <twitch_name>```
+```.taco team invite-user <@user#1234> <twitch_name>```
 
 ### EXAMPLES 📃
-- `!taco team invite-user @DarthMinos#1161 darthminos`  
+- `.taco team invite-user @DarthMinos#1161 darthminos`  
 
 
 
@@ -412,10 +412,10 @@ Start a trivia question to earn tacos.
 
 ### USAGE 🤗
 
-```!taco trivia```
+```.taco trivia```
 
 ### EXAMPLES 📃
-- `!taco trivia`  
+- `.taco trivia`  
 
 
 
@@ -430,7 +430,7 @@ Commands to set up your Twitch account with Taco Bot.
 
 ### USAGE 🤗
 
-```!taco twitch <command>```
+```.taco twitch <command>```
 
 ---
 <a name="twitch-set"></a>
@@ -439,10 +439,10 @@ Set your twitch name. This will allow the bot to know your twitch account associ
 
 ### USAGE 🤗
 
-```!taco twitch set [twitch_name]```
+```.taco twitch set [twitch_name]```
 
 ### EXAMPLES 📃
-- `!taco twitch set darthminos`  
+- `.taco twitch set darthminos`  
 
 
 
@@ -459,10 +459,10 @@ Set a user's twitch name so Taco Bot can resolve a discord user to a twitch user
 
 ### USAGE 🤗
 
-```!taco twitch set-user <@user#1234> [twitch_name]```
+```.taco twitch set-user <@user#1234> [twitch_name]```
 
 ### EXAMPLES 📃
-- `!taco twitch set-user @DarthMinos#1161 darthminos`  
+- `.taco twitch set-user @DarthMinos#1161 darthminos`  
 
 
 
@@ -480,10 +480,10 @@ Will tell you what the twitch username is associated with your, or the specified
 
 ### USAGE 🤗
 
-```!taco twitch get [@user#1234]```
+```.taco twitch get [@user#1234]```
 
 ### EXAMPLES 📃
-- `!taco twitch get @DarthMinos#1161`  
+- `.taco twitch get @DarthMinos#1161`  
 
 
 
