@@ -1,7 +1,7 @@
 [⏪ BACK](/ourtacobot)<a name="top"></a>
 
 # OURTACOBOT DISCORD COMMANDS
-### GENERATED: 2022-04-27 23:47:30
+### GENERATED: 2022-04-28 00:00:53
 
 
 ### COMMAND PREFIXES
@@ -19,6 +19,8 @@ Commands with 🛡️ are only available to admins.
 - [BIRTHDAY](#birthday)  
 
 - [GIF](#gif)  
+
+- [LINK](#link)  
 
 - [LINK](#link)  
 
@@ -88,7 +90,7 @@ Gets a random gif from the given tag
 
 ### USAGE 🤗
 
-```.taco gif [search term]```
+```.taco gif [search_term]```
 
 ### ALIASES 🔀
 
@@ -101,6 +103,12 @@ Gets a random gif from the given tag
 
 
 
+### ARGUMENTS 🔖
+
+| NAME | DESCRIPTION | TYPE | DEFAULT/MIN/MAX | REQUIRED |  
+|---|---|---|---|---|  
+| `search_term` | The string to search for | `string` | DEFAULT: `None` | `🔲` |  
+
 
 [🔼 TOP](#top)  
 
@@ -108,15 +116,32 @@ Gets a random gif from the given tag
 
 <a name="link"></a>
 ## LINK
-Link your discord and twitch account together
+Request a code from the bot to link your discord account to your twitch account
 
 ### USAGE 🤗
 
-```.taco link [code]```
+```.taco link```
 
 ### EXAMPLES 📃
 - `.taco link`  
-- `.taco link 123456`  
+
+
+
+
+[🔼 TOP](#top)  
+
+---
+
+<a name="link"></a>
+## LINK
+Use a code from the bot to link your discord account to your twitch account
+
+### USAGE 🤗
+
+```.taco link <code>```
+
+### EXAMPLES 📃
+- `.taco link ABC123`  
 
 
 
