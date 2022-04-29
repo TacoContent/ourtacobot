@@ -41,7 +41,7 @@ def main():
     for command in commands:
         _process_command_list(commands, command)
 
-    if len(events) > 0 and len(event_triggers) > 0:
+    if len(events) > 0:
         print(f"")
         print(f"# EVENT LIST")
         event_triggers = events.get('triggers', {})
@@ -57,20 +57,22 @@ def main():
         print(f"[🔼 TOP](#top)  ")
         print(f"")
 
-    if len(events) > 0 and len(event_triggers) > 0:
-        print("")
-        print("# EVENTS  ")
-        print("")
-        print(f"{events.get('description', '')}")
-        print("")
-        for event in event_triggers:
-            event_obj = event_triggers.get(event, {})
-            print(f"---")
-            print(f"")
-            _process_event(event_obj)
-            print(f"")
-            print(f"[🔼 TOP](#top)  ")
-            print(f"")
+    if len(events) > 0:
+        event_triggers = events.get('triggers', {})
+        if len(event_triggers) > 0:
+            print("")
+            print("# EVENTS  ")
+            print("")
+            print(f"{events.get('description', '')}")
+            print("")
+            for event in event_triggers:
+                event_obj = event_triggers.get(event, {})
+                print(f"---")
+                print(f"")
+                _process_event(event_obj)
+                print(f"")
+                print(f"[🔼 TOP](#top)  ")
+                print(f"")
 def _process_command_list(commands, command, parent_command=""):
     c_admin = commands[command].get('admin', False) or any(x in ["moderator", "broadcaster", "bot", "bot_owner"] for x in [x.lower() for x in commands[command].get('permissions', [])])
     c_name = _get_formatted_key(command)
