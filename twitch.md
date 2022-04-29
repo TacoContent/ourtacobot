@@ -1,7 +1,7 @@
 [⏪ BACK](/ourtacobot)<a name="top"></a>
 
 # OURTACOBOT TWITCH COMMANDS
-### GENERATED: 2022-04-29 21:00:30
+### GENERATED: 2022-04-29 21:31:49
 
 
 ### COMMAND PREFIXES
@@ -41,6 +41,24 @@ Commands with 🛡️ are only available to admins.
 - [LINK](#link)  
 
 - [LINK](#link)  
+
+
+# EVENT LIST
+- [FIRST CHAT](#first-chat)  
+
+- [HOST OR RAID](#host-or-raid)  
+
+- [CHEER](#cheer)  
+
+- [SUBSCRIPTION](#subscription)  
+
+- [STREAM RAIDERS EPIC PLACEMENT](#stream-raiders-epic-placement)  
+
+- [DIXPER](#dixper)  
+
+- [STREAM ELEMENTS TIP](#stream-elements-tip)  
+
+- [POKEMON COMMUNITY GAME](#pokemon-community-game)  
 
 ---
 
@@ -468,6 +486,91 @@ Links your discord account with your twitch account.
 | NAME | DESCRIPTION | TYPE | DEFAULT/MIN/MAX | REQUIRED |  
 |---|---|---|---|---|  
 | `code` | The code you received from the link command. | `string` | DEFAULT: `None` | `✅` |  
+
+
+[🔼 TOP](#top)  
+
+
+# EVENTS  
+
+Here are some events that @ourtacobot will act on.
+
+---
+
+<a name="first-chat"></a>
+## FIRST CHAT  
+
+The first time someone chats in your channel, in a rolling 24 hour period, I will give them 1 taco.
+
+
+[🔼 TOP](#top)  
+
+---
+
+<a name="host-or-raid"></a>
+## HOST OR RAID  
+
+When an incoming raid/host from a TACO member is detected I will give the raiding channel 5 tacos.
+
+
+[🔼 TOP](#top)  
+
+---
+
+<a name="cheer"></a>
+## CHEER  
+
+When a cheer >= 100 bits is detected I will give the person 5 tacos for supporting.
+
+
+[🔼 TOP](#top)  
+
+---
+
+<a name="subscription"></a>
+## SUBSCRIPTION  
+
+When a user subscribes, or gifts a subscription to the channel I will give them 5 tacos.
+
+
+[🔼 TOP](#top)  
+
+---
+
+<a name="stream-raiders-epic-placement"></a>
+## STREAM RAIDERS EPIC PLACEMENT  
+
+When someone places an Epic on the Battlefield for Stream Raiders, I will give them 2 tacos.
+
+
+[🔼 TOP](#top)  
+
+---
+
+<a name="dixper"></a>
+## DIXPER  
+
+When someone purchases Dixper packs, I will give them 5 tacos.
+
+
+[🔼 TOP](#top)  
+
+---
+
+<a name="stream-elements-tip"></a>
+## STREAM ELEMENTS TIP  
+
+When someone tips through Stream Elements, I will give them 5 tacos.
+
+
+[🔼 TOP](#top)  
+
+---
+
+<a name="pokemon-community-game"></a>
+## POKEMON COMMUNITY GAME  
+
+If you have the Pokemon Community Game running in your channel, I will try to catch Pokemon in your channel.
 
 
 [🔼 TOP](#top)  
