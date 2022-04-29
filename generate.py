@@ -89,7 +89,7 @@ def _process_events_list(event):
     e_name = event.get('name', '')
     link_name = e_name.lower().replace(' ', '-')
     e_description = event.get('description', '')
-    if e_name is '' or e_description is '':
+    if e_name == '' or e_description == '':
         return
     print(f'- [{e_name.upper()}](#{link_name})  ')
     print(f"")
@@ -98,7 +98,7 @@ def _process_event(event):
     e_name = event.get('name', '')
     link_name = e_name.lower().replace(' ', '-')
     e_description = event.get('description', '')
-    if e_name is '' or e_description is '':
+    if e_name == '' or e_description == '':
         return
     print(f'<a name="{link_name}"></a>')
     print(f'## {e_name.upper()}  ')
