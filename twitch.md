@@ -1,7 +1,7 @@
 [⏪ BACK](/ourtacobot)<a name="top"></a>
 
 # OURTACOBOT TWITCH COMMANDS
-### GENERATED: 2022-04-28 12:29:29
+### GENERATED: 2022-04-29 20:21:14
 
 
 ### COMMAND PREFIXES
@@ -239,7 +239,7 @@ Get the number of tacos that you have.
 
 ---
 <a name="tacos-count"></a>
-## TACOS COUNT
+## TACOS COUNT🛡️
 Get the number of tacos for a user
 
 ### USAGE 🤗
@@ -275,7 +275,7 @@ Get the number of tacos for a user
 
 ---
 <a name="tacos-give"></a>
-## TACOS GIVE
+## TACOS GIVE🛡️
 Give a user tacos. The maximum amount of tacos that can be given at a time is 10. The maximum amount that can be given to a user in a rolling 24 hour period is 50. The maximum amount that can be given total in a rolling 24 hour period is 500.
 
 ### USAGE 🤗
@@ -307,7 +307,7 @@ Give a user tacos. The maximum amount of tacos that can be given at a time is 10
 
 ---
 <a name="tacos-take"></a>
-## TACOS TAKE
+## TACOS TAKE🛡️
 Take tacos from a user.
 
 ### USAGE 🤗
@@ -339,7 +339,7 @@ Take tacos from a user.
 
 ---
 <a name="tacos-top"></a>
-## TACOS TOP
+## TACOS TOP🛡️
 Get the leader board for users tacos.
 
 ### USAGE 🤗
