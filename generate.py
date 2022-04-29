@@ -20,6 +20,7 @@ def main():
     settings = _load_settings(DOC_FORMAT)
     prefixes = settings.get('prefixes', [])
     commands = settings.get('commands', {})
+    events = settings.get('events', {})
     bot_name = settings.get('bot_name', 'OurTacoBot')
     print(f"[⏪ BACK](/ourtacobot)<a name=\"top\"></a>")
     print(f"")
@@ -40,6 +41,14 @@ def main():
     for command in commands:
         _process_command_list(commands, command)
 
+    if len(events) > 0 and len(event_triggers) > 0:
+        print(f"")
+        print(f"# EVENT LIST")
+        event_triggers = events.get('triggers', {})
+        for event in event_triggers:
+            event_obj = event_triggers.get(event, {})
+            _process_events_list(event_obj)
+
     for command in commands:
         print(f"---")
         print(f"")
@@ -48,6 +57,20 @@ def main():
         print(f"[🔼 TOP](#top)  ")
         print(f"")
 
+    if len(events) > 0 and len(event_triggers) > 0:
+        print("")
+        print("# EVENTS  ")
+        print("")
+        print(f"{events.get('description', '')}")
+        print("")
+        for event in event_triggers:
+            event_obj = event_triggers.get(event, {})
+            print(f"---")
+            print(f"")
+            _process_event(event_obj)
+            print(f"")
+            print(f"[🔼 TOP](#top)  ")
+            print(f"")
 def _process_command_list(commands, command, parent_command=""):
     c_admin = commands[command].get('admin', False) or any(x in ["moderator", "broadcaster", "bot", "bot_owner"] for x in [x.lower() for x in commands[command].get('permissions', [])])
     c_name = _get_formatted_key(command)
@@ -62,6 +85,27 @@ def _process_command_list(commands, command, parent_command=""):
     for sc in c_subcommands:
         _process_command_list(c_subcommands, sc, full_name)
 
+def _process_events_list(event):
+    e_name = event.get('name', '')
+    link_name = e_name.lower().replace(' ', '-')
+    e_description = event.get('description', '')
+    if e_name is '' or e_description is '':
+        return
+    print(f'- [{e_name.upper()}](#{link_name})  ')
+    print(f"")
+
+def _process_event(event):
+    e_name = event.get('name', '')
+    link_name = e_name.lower().replace(' ', '-')
+    e_description = event.get('description', '')
+    if e_name is '' or e_description is '':
+        return
+    print(f'<a name="{link_name}"></a>')
+    print(f'## {e_name.upper()}  ')
+    print(f"")
+    print(e_description)
+    print(f"")
+
 def _process_command(commands, command, parent_command="", prefixes=None):
     c_admin = commands[command].get('admin', False) or any(x in ["moderator", "broadcaster", "bot", "bot_owner"] for x in [x.lower() for x in commands[command].get('permissions', [])])
     shield = '🛡️' if c_admin > 0 else ''
@@ -69,7 +113,7 @@ def _process_command(commands, command, parent_command="", prefixes=None):
     full_name = ' '.join([parent_command, c_name]).strip()
     link_name = full_name.lower().replace(' ', '-')
     print(f'<a name="{link_name}"></a>')
-    print(f'## {full_name.upper()}{shield}')
+    print(f'## {full_name.upper()}{shield}  ')
 
     c_desc = _replace_prefix(commands[command].get("description", ""), prefixes=prefixes)
     if len(c_desc) > 0:
