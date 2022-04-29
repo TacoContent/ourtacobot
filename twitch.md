@@ -1,7 +1,7 @@
 [⏪ BACK](/ourtacobot)<a name="top"></a>
 
 # OURTACOBOT TWITCH COMMANDS
-### GENERATED: 2022-04-29 20:21:14
+### GENERATED: 2022-04-29 21:00:30
 
 
 ### COMMAND PREFIXES
@@ -45,7 +45,7 @@ Commands with 🛡️ are only available to admins.
 ---
 
 <a name="commands"></a>
-## COMMANDS
+## COMMANDS  
 Get a url to view documentation for all commands.
 
 ### USAGE 🤗
@@ -73,7 +73,7 @@ Get a url to view documentation for all commands.
 ---
 
 <a name="discord"></a>
-## DISCORD
+## DISCORD  
 Promotes the TACO discord using an invite that you have created in the discord.
 
 ### USAGE 🤗
@@ -106,7 +106,7 @@ Promotes the TACO discord using an invite that you have created in the discord.
 ---
 
 <a name="invite"></a>
-## INVITE
+## INVITE  
 Invite OurTacoBot to your twitch channel.
 
 ### USAGE 🤗
@@ -147,7 +147,7 @@ This command is restricted to the following twitch channels:
 ---
 
 <a name="leave"></a>
-## LEAVE
+## LEAVE  
 Remove OurTacoBot to your twitch channel.
 
 ### USAGE 🤗
@@ -188,7 +188,7 @@ This command is restricted to the following twitch channels:
 ---
 
 <a name="tacos"></a>
-## TACOS
+## TACOS  
 Set of commands to deal with tacos.
 
 ### USAGE 🤗
@@ -209,7 +209,7 @@ Set of commands to deal with tacos.
 
 ---
 <a name="tacos-count"></a>
-## TACOS COUNT
+## TACOS COUNT  
 Get the number of tacos that you have.
 
 ### USAGE 🤗
@@ -239,7 +239,7 @@ Get the number of tacos that you have.
 
 ---
 <a name="tacos-count"></a>
-## TACOS COUNT🛡️
+## TACOS COUNT🛡️  
 Get the number of tacos for a user
 
 ### USAGE 🤗
@@ -275,7 +275,7 @@ Get the number of tacos for a user
 
 ---
 <a name="tacos-give"></a>
-## TACOS GIVE🛡️
+## TACOS GIVE🛡️  
 Give a user tacos. The maximum amount of tacos that can be given at a time is 10. The maximum amount that can be given to a user in a rolling 24 hour period is 50. The maximum amount that can be given total in a rolling 24 hour period is 500.
 
 ### USAGE 🤗
@@ -307,7 +307,7 @@ Give a user tacos. The maximum amount of tacos that can be given at a time is 10
 
 ---
 <a name="tacos-take"></a>
-## TACOS TAKE🛡️
+## TACOS TAKE🛡️  
 Take tacos from a user.
 
 ### USAGE 🤗
@@ -339,7 +339,7 @@ Take tacos from a user.
 
 ---
 <a name="tacos-top"></a>
-## TACOS TOP🛡️
+## TACOS TOP🛡️  
 Get the leader board for users tacos.
 
 ### USAGE 🤗
@@ -381,7 +381,7 @@ Get the leader board for users tacos.
 ---
 
 <a name="tqotd"></a>
-## TQOTD
+## TQOTD  
 Gives you the TACO question of the day.
 
 ### USAGE 🤗
@@ -409,7 +409,7 @@ Gives you the TACO question of the day.
 ---
 
 <a name="link"></a>
-## LINK
+## LINK  
 Gives you a command and a code to run in discord to link your twitch with your discord account.
 
 ### USAGE 🤗
@@ -439,7 +439,7 @@ Gives you a command and a code to run in discord to link your twitch with your d
 ---
 
 <a name="link"></a>
-## LINK
+## LINK  
 Links your discord account with your twitch account.
 
 ### USAGE 🤗

@@ -1,7 +1,7 @@
 [⏪ BACK](/ourtacobot)<a name="top"></a>
 
 # OURTACOBOT DISCORD COMMANDS
-### GENERATED: 2022-04-29 20:21:14
+### GENERATED: 2022-04-29 21:00:30
 
 
 ### COMMAND PREFIXES
@@ -63,7 +63,7 @@ Commands with 🛡️ are only available to admins.
 ---
 
 <a name="birthday"></a>
-## BIRTHDAY
+## BIRTHDAY  
 Sets your birthday
 
 ### USAGE 🤗
@@ -87,7 +87,7 @@ Sets your birthday
 ---
 
 <a name="changelog"></a>
-## CHANGELOG
+## CHANGELOG  
 Shows the changelog
 
 ### USAGE 🤗
@@ -111,7 +111,7 @@ Shows the changelog
 ---
 
 <a name="gif"></a>
-## GIF
+## GIF  
 Gets a random gif from the given tag
 
 ### USAGE 🤗
@@ -141,7 +141,7 @@ Gets a random gif from the given tag
 ---
 
 <a name="link"></a>
-## LINK
+## LINK  
 Request a code from the bot to link your discord account to your twitch account
 
 ### USAGE 🤗
@@ -159,7 +159,7 @@ Request a code from the bot to link your discord account to your twitch account
 ---
 
 <a name="link"></a>
-## LINK
+## LINK  
 Use a code from the bot to link your discord account to your twitch account
 
 ### USAGE 🤗
@@ -183,7 +183,7 @@ Use a code from the bot to link your discord account to your twitch account
 ---
 
 <a name="move"></a>
-## MOVE🛡️
+## MOVE🛡️  
 Moves a message from one channel to another. Must be ran in the channel that the message is in.
 
 ### USAGE 🤗
@@ -207,7 +207,7 @@ Moves a message from one channel to another. Must be ran in the channel that the
 ---
 
 <a name="suggest"></a>
-## SUGGEST
+## SUGGEST  
 Starts a suggestion. I will DM you to ask you questions to create the suggestion.
 
 ### USAGE 🤗
@@ -225,7 +225,7 @@ Starts a suggestion. I will DM you to ask you questions to create the suggestion
 ---
 
 <a name="tqotd"></a>
-## TQOTD🛡️
+## TQOTD🛡️  
 Adds a question of the day
 
 ### USAGE 🤗
@@ -234,7 +234,7 @@ Adds a question of the day
 
 ---
 <a name="tqotd-give"></a>
-## TQOTD GIVE🛡️
+## TQOTD GIVE🛡️  
 Gives TQotD tacos to the user who answered the question
 
 ### USAGE 🤗
@@ -258,7 +258,7 @@ Gives TQotD tacos to the user who answered the question
 ---
 
 <a name="tacos"></a>
-## TACOS
+## TACOS  
 Commands that will give info on tacos🌮.
 
 ### USAGE 🤗
@@ -267,7 +267,7 @@ Commands that will give info on tacos🌮.
 
 ---
 <a name="tacos-count"></a>
-## TACOS COUNT
+## TACOS COUNT  
 Retrieve the number of tacos you have.
 
 ### USAGE 🤗
@@ -281,7 +281,7 @@ Retrieve the number of tacos you have.
 
 ---
 <a name="tacos-gift"></a>
-## TACOS GIFT
+## TACOS GIFT  
 Gift someone a number of tacos. You can gift a maximum of 10 tacos per 24 hours (rolling).
 
 ### USAGE 🤗
@@ -304,7 +304,7 @@ Gift someone a number of tacos. You can gift a maximum of 10 tacos per 24 hours 
 
 ---
 <a name="tacos-give"></a>
-## TACOS GIVE🛡️
+## TACOS GIVE🛡️  
 Allows an admin to give someone tacos.
 
 ### USAGE 🤗
@@ -327,7 +327,7 @@ Allows an admin to give someone tacos.
 
 ---
 <a name="tacos-purge"></a>
-## TACOS PURGE🛡️
+## TACOS PURGE🛡️  
 Allows an admin to purge all tacos from a user.
 
 ### USAGE 🤗
@@ -353,7 +353,7 @@ Allows an admin to purge all tacos from a user.
 ---
 
 <a name="team"></a>
-## TEAM
+## TEAM  
 Commands that will allow you to be a part of the Twitch Team.
 
 ### USAGE 🤗
@@ -362,7 +362,7 @@ Commands that will allow you to be a part of the Twitch Team.
 
 ---
 <a name="team-invite"></a>
-## TEAM INVITE
+## TEAM INVITE  
 This will put in a request to join the twitch team. Once approved, you will have to accept it from your creator dashboard. Twitch Dashboard -> Settings -> Channel -> Featured Content => Scroll to the bottom.
 
 ### USAGE 🤗
@@ -382,7 +382,7 @@ This will put in a request to join the twitch team. Once approved, you will have
 
 ---
 <a name="team-invite-user"></a>
-## TEAM INVITE-USER🛡️
+## TEAM INVITE-USER🛡️  
 Admin version of the `invite` command. This will invite a user to the twitch team. Once approved, they will have to accept it from their creator dashboard. Twitch Dashboard -> Settings -> Channel -> Featured Content => Scroll to the bottom.
 
 ### USAGE 🤗
@@ -407,7 +407,7 @@ Admin version of the `invite` command. This will invite a user to the twitch tea
 ---
 
 <a name="trivia"></a>
-## TRIVIA
+## TRIVIA  
 Start a trivia question to earn tacos.
 
 ### USAGE 🤗
@@ -425,7 +425,7 @@ Start a trivia question to earn tacos.
 ---
 
 <a name="twitch"></a>
-## TWITCH
+## TWITCH  
 Commands to set up your Twitch account with Taco Bot.
 
 ### USAGE 🤗
@@ -434,7 +434,7 @@ Commands to set up your Twitch account with Taco Bot.
 
 ---
 <a name="twitch-set"></a>
-## TWITCH SET
+## TWITCH SET  
 Set your twitch name. This will allow the bot to know your twitch account associated with your discord account.
 
 ### USAGE 🤗
@@ -454,7 +454,7 @@ Set your twitch name. This will allow the bot to know your twitch account associ
 
 ---
 <a name="twitch-set-user"></a>
-## TWITCH SET-USER🛡️
+## TWITCH SET-USER🛡️  
 Set a user's twitch name so Taco Bot can resolve a discord user to a twitch user, and vice versa.
 
 ### USAGE 🤗
@@ -475,7 +475,7 @@ Set a user's twitch name so Taco Bot can resolve a discord user to a twitch user
 
 ---
 <a name="twitch-get"></a>
-## TWITCH GET
+## TWITCH GET  
 Will tell you what the twitch username is associated with your, or the specified, account.
 
 ### USAGE 🤗
