@@ -1,7 +1,7 @@
 [⏪ BACK](/ourtacobot)<a name="top"></a>
 
 # OURTACOBOT TWITCH COMMANDS
-### GENERATED: 2022-04-30 19:36:43
+### GENERATED: 2022-04-30 20:19:01
 
 
 ### COMMAND PREFIXES
@@ -23,6 +23,12 @@ Commands with 🛡️ are only available to admins.
 - [INVITE](#invite)  
 
 - [LEAVE](#leave)  
+
+- [POKEMON🛡️](#pokemon)  
+
+  - [POKEMON START🛡️](#pokemon-start)  
+
+  - [POKEMON STOP🛡️](#pokemon-stop)  
 
 - [TACOS](#tacos)  
 
@@ -199,6 +205,98 @@ This command is restricted to the following twitch channels:
 
 - [@OURTACO](https://twitch.tv/ourtaco)  
 - [@OURTACOBOT](https://twitch.tv/ourtacobot)  
+
+
+[🔼 TOP](#top)  
+
+---
+
+<a name="pokemon"></a>
+## POKEMON🛡️  
+Allows you to control if the bot will participate in the pokemon community game. If you do not have the pokemon game in your channel, the bot will already not participate.
+
+### USAGE 🤗
+
+```!taco pokemon <on/off>```
+
+### COOLDOWN 🕕
+`30s`
+
+### EXAMPLES 📃
+- `!taco pokemon on`  
+- `!taco pokemon start`  
+- `!taco pokemon enable`  
+- `!taco pokemon off`  
+- `!taco pokemon stop`  
+- `!taco pokemon disable`  
+
+
+
+### PERMISSIONS 🔑
+- `MODERATOR`  
+
+
+---
+<a name="pokemon-start"></a>
+## POKEMON START🛡️  
+Enables the bot to participate in the pokemon community game.
+
+### USAGE 🤗
+
+```!taco pokemon start```
+
+### ALIASES 🔀
+
+- `start`  
+- `on`  
+- `enable`  
+
+
+### COOLDOWN 🕕
+`30s`
+
+### EXAMPLES 📃
+- `!taco pokemon start`  
+
+
+
+![](https://i.imgur.com/SP3RlsM.png)  
+
+
+### PERMISSIONS 🔑
+- `MODERATOR`  
+
+
+---
+<a name="pokemon-stop"></a>
+## POKEMON STOP🛡️  
+Disables the bot from participating in the pokemon community game.
+
+### USAGE 🤗
+
+```!taco pokemon stop```
+
+### ALIASES 🔀
+
+- `stop`  
+- `off`  
+- `disable`  
+
+
+### COOLDOWN 🕕
+`30s`
+
+### EXAMPLES 📃
+- `!taco pokemon stop`  
+
+
+
+![](https://i.imgur.com/oc6hRpS.png)  
+
+
+### PERMISSIONS 🔑
+- `MODERATOR`  
+
 
 
 [🔼 TOP](#top)  
