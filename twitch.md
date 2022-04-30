@@ -1,7 +1,7 @@
 [⏪ BACK](/ourtacobot)<a name="top"></a>
 
 # OURTACOBOT TWITCH COMMANDS
-### GENERATED: 2022-04-30 20:19:01
+### GENERATED: 2022-04-30 20:25:18
 
 
 ### COMMAND PREFIXES
@@ -256,7 +256,9 @@ Enables the bot to participate in the pokemon community game.
 `30s`
 
 ### EXAMPLES 📃
+- `!taco pokemon on`  
 - `!taco pokemon start`  
+- `!taco pokemon enable`  
 
 
 
@@ -287,7 +289,9 @@ Disables the bot from participating in the pokemon community game.
 `30s`
 
 ### EXAMPLES 📃
+- `!taco pokemon off`  
 - `!taco pokemon stop`  
+- `!taco pokemon disable`  
 
 
 
