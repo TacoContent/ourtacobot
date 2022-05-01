@@ -1,7 +1,7 @@
 [⏪ BACK](/ourtacobot)<a name="top"></a>
 
 # OURTACOBOT DISCORD COMMANDS
-### GENERATED: 2022-05-01 07:53:26
+### GENERATED: 2022-05-01 07:54:00
 
 
 ### COMMAND PREFIXES
@@ -24,7 +24,7 @@ Commands with 🛡️ are only available to admins.
 
 - [LINK](#link_command)  
 
-- [LINK](#link_command)  
+- [LINK](#_link_command)  
 
 - [MOVE🛡️](#move_command)  
 

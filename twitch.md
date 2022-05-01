@@ -1,7 +1,7 @@
 [⏪ BACK](/ourtacobot)<a name="top"></a>
 
 # OURTACOBOT TWITCH COMMANDS
-### GENERATED: 2022-05-01 07:53:26
+### GENERATED: 2022-05-01 07:54:00
 
 
 ### COMMAND PREFIXES
@@ -40,7 +40,7 @@ Commands with 🛡️ are only available to admins.
 
   - [TACOS COUNT](#tacos-count_command)  
 
-  - [TACOS COUNT🛡️](#tacos-count_command)  
+  - [TACOS COUNT🛡️](#tacos-_count_command)  
 
   - [TACOS GIVE🛡️](#tacos-give_command)  
 
@@ -52,7 +52,7 @@ Commands with 🛡️ are only available to admins.
 
 - [LINK](#link_command)  
 
-- [LINK](#link_command)  
+- [LINK](#_link_command)  
 
 
 # EVENT LIST
