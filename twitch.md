@@ -1,7 +1,7 @@
 [⏪ BACK](/ourtacobot)<a name="top"></a>
 
 # OURTACOBOT TWITCH COMMANDS
-### GENERATED: 2022-05-01 07:44:50
+### GENERATED: 2022-05-01 07:53:26
 
 
 ### COMMAND PREFIXES
@@ -16,43 +16,43 @@ The following prefixes are accepted:
 
 # COMMAND LIST
 Commands with 🛡️ are only available to admins.
-- [COMMANDS](#commands)  
+- [COMMANDS](#commands_command)  
 
-- [DISCORD](#discord)  
+- [DISCORD](#discord_command)  
 
-- [DIXPER🛡️](#dixper)  
+- [DIXPER🛡️](#dixper_command)  
 
-  - [DIXPER START🛡️](#dixper-start)  
+  - [DIXPER START🛡️](#dixper-start_command)  
 
-  - [DIXPER STOP🛡️](#dixper-stop)  
+  - [DIXPER STOP🛡️](#dixper-stop_command)  
 
-- [INVITE](#invite)  
+- [INVITE](#invite_command)  
 
-- [LEAVE](#leave)  
+- [LEAVE](#leave_command)  
 
-- [POKEMON🛡️](#pokemon)  
+- [POKEMON🛡️](#pokemon_command)  
 
-  - [POKEMON START🛡️](#pokemon-start)  
+  - [POKEMON START🛡️](#pokemon-start_command)  
 
-  - [POKEMON STOP🛡️](#pokemon-stop)  
+  - [POKEMON STOP🛡️](#pokemon-stop_command)  
 
-- [TACOS](#tacos)  
+- [TACOS](#tacos_command)  
 
-  - [TACOS COUNT](#tacos-count)  
+  - [TACOS COUNT](#tacos-count_command)  
 
-  - [TACOS COUNT🛡️](#tacos-count)  
+  - [TACOS COUNT🛡️](#tacos-count_command)  
 
-  - [TACOS GIVE🛡️](#tacos-give)  
+  - [TACOS GIVE🛡️](#tacos-give_command)  
 
-  - [TACOS TAKE🛡️](#tacos-take)  
+  - [TACOS TAKE🛡️](#tacos-take_command)  
 
-  - [TACOS TOP🛡️](#tacos-top)  
+  - [TACOS TOP🛡️](#tacos-top_command)  
 
-- [TQOTD](#tqotd)  
+- [TQOTD](#tqotd_command)  
 
-- [LINK](#link)  
+- [LINK](#link_command)  
 
-- [LINK](#link)  
+- [LINK](#link_command)  
 
 
 # EVENT LIST
@@ -74,7 +74,7 @@ Commands with 🛡️ are only available to admins.
 
 ---
 
-<a name="commands"></a>
+<a name="commands_command"></a>
 ## COMMANDS  
 Get a url to view documentation for all commands.
 
@@ -102,7 +102,7 @@ Get a url to view documentation for all commands.
 
 ---
 
-<a name="discord"></a>
+<a name="discord_command"></a>
 ## DISCORD  
 Promotes the TACO discord using an invite that you have created in the discord.
 
@@ -135,7 +135,7 @@ Promotes the TACO discord using an invite that you have created in the discord.
 
 ---
 
-<a name="dixper"></a>
+<a name="dixper_command"></a>
 ## DIXPER🛡️  
 Allows you to control if the bot will give tacos for purchase of dixper packs. If you do not use dixper in your channel, this will not matter.
 
@@ -161,7 +161,7 @@ Allows you to control if the bot will give tacos for purchase of dixper packs. I
 
 
 ---
-<a name="dixper-start"></a>
+<a name="dixper-start_command"></a>
 ## DIXPER START🛡️  
 Enables the bot to give tacos when people purchase dixper packs.
 
@@ -191,7 +191,7 @@ Enables the bot to give tacos when people purchase dixper packs.
 
 
 ---
-<a name="dixper-stop"></a>
+<a name="dixper-stop_command"></a>
 ## DIXPER STOP🛡️  
 Disabled the bot from giving tacos when people purchase dixper packs.
 
@@ -225,7 +225,7 @@ Disabled the bot from giving tacos when people purchase dixper packs.
 
 ---
 
-<a name="invite"></a>
+<a name="invite_command"></a>
 ## INVITE  
 Invite OurTacoBot to your twitch channel.
 
@@ -266,7 +266,7 @@ This command is restricted to the following twitch channels:
 
 ---
 
-<a name="leave"></a>
+<a name="leave_command"></a>
 ## LEAVE  
 Remove OurTacoBot to your twitch channel.
 
@@ -307,7 +307,7 @@ This command is restricted to the following twitch channels:
 
 ---
 
-<a name="pokemon"></a>
+<a name="pokemon_command"></a>
 ## POKEMON🛡️  
 Allows you to control if the bot will participate in the pokemon community game. If you do not have the pokemon game in your channel, the bot will already not participate.
 
@@ -333,7 +333,7 @@ Allows you to control if the bot will participate in the pokemon community game.
 
 
 ---
-<a name="pokemon-start"></a>
+<a name="pokemon-start_command"></a>
 ## POKEMON START🛡️  
 Enables the bot to participate in the pokemon community game.
 
@@ -366,7 +366,7 @@ Enables the bot to participate in the pokemon community game.
 
 
 ---
-<a name="pokemon-stop"></a>
+<a name="pokemon-stop_command"></a>
 ## POKEMON STOP🛡️  
 Disables the bot from participating in the pokemon community game.
 
@@ -403,7 +403,7 @@ Disables the bot from participating in the pokemon community game.
 
 ---
 
-<a name="tacos"></a>
+<a name="tacos_command"></a>
 ## TACOS  
 Set of commands to deal with tacos.
 
@@ -424,7 +424,7 @@ Set of commands to deal with tacos.
 
 
 ---
-<a name="tacos-count"></a>
+<a name="tacos-count_command"></a>
 ## TACOS COUNT  
 Get the number of tacos that you have.
 
@@ -454,7 +454,7 @@ Get the number of tacos that you have.
 
 
 ---
-<a name="tacos-count"></a>
+<a name="tacos-_count_command"></a>
 ## TACOS COUNT🛡️  
 Get the number of tacos for a user
 
@@ -490,7 +490,7 @@ Get the number of tacos for a user
 | `user` | The user to get the taco count for. | `string` | DEFAULT: `None` | `✅` |  
 
 ---
-<a name="tacos-give"></a>
+<a name="tacos-give_command"></a>
 ## TACOS GIVE🛡️  
 Give a user tacos. The maximum amount of tacos that can be given at a time is 10. The maximum amount that can be given to a user in a rolling 24 hour period is 50. The maximum amount that can be given total in a rolling 24 hour period is 500.
 
@@ -522,7 +522,7 @@ Give a user tacos. The maximum amount of tacos that can be given at a time is 10
 | `reason` | The reason for the giving tacos. | `string` | DEFAULT: `No reason given` | `🔲` |  
 
 ---
-<a name="tacos-take"></a>
+<a name="tacos-take_command"></a>
 ## TACOS TAKE🛡️  
 Take tacos from a user.
 
@@ -554,7 +554,7 @@ Take tacos from a user.
 | `reason` | The reason for taking the tacos. | `string` | DEFAULT: `No reason given` | `🔲` |  
 
 ---
-<a name="tacos-top"></a>
+<a name="tacos-top_command"></a>
 ## TACOS TOP🛡️  
 Get the leader board for users tacos.
 
@@ -596,7 +596,7 @@ Get the leader board for users tacos.
 
 ---
 
-<a name="tqotd"></a>
+<a name="tqotd_command"></a>
 ## TQOTD  
 Gives you the TACO question of the day.
 
@@ -624,7 +624,7 @@ Gives you the TACO question of the day.
 
 ---
 
-<a name="link"></a>
+<a name="link_command"></a>
 ## LINK  
 Gives you a command and a code to run in discord to link your twitch with your discord account.
 
@@ -654,7 +654,7 @@ Gives you a command and a code to run in discord to link your twitch with your d
 
 ---
 
-<a name="link"></a>
+<a name="_link_command"></a>
 ## LINK  
 Links your discord account with your twitch account.
 
