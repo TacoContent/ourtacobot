@@ -1,7 +1,7 @@
 [⏪ BACK](/ourtacobot)<a name="top"></a>
 
 # OURTACOBOT TWITCH COMMANDS
-### GENERATED: 2022-04-30 12:20:42
+### GENERATED: 2022-05-01 06:04:26
 
 
 ### COMMAND PREFIXES
@@ -20,9 +20,21 @@ Commands with 🛡️ are only available to admins.
 
 - [DISCORD](#discord)  
 
+- [DIXPER🛡️](#dixper)  
+
+  - [DIXPER START🛡️](#dixper-start)  
+
+  - [DIXPER STOP🛡️](#dixper-stop)  
+
 - [INVITE](#invite)  
 
 - [LEAVE](#leave)  
+
+- [POKEMON🛡️](#pokemon)  
+
+  - [POKEMON START🛡️](#pokemon-start)  
+
+  - [POKEMON STOP🛡️](#pokemon-stop)  
 
 - [TACOS](#tacos)  
 
@@ -123,6 +135,96 @@ Promotes the TACO discord using an invite that you have created in the discord.
 
 ---
 
+<a name="dixper"></a>
+## DIXPER🛡️  
+Allows you to control if the bot will give tacos for purchase of dixper packs. If you do not use dixper in your channel, this will not matter.
+
+### USAGE 🤗
+
+```!taco dixper <on/off>```
+
+### COOLDOWN 🕕
+`30s`
+
+### EXAMPLES 📃
+- `!taco dixper on`  
+- `!taco dixper start`  
+- `!taco dixper enable`  
+- `!taco dixper off`  
+- `!taco dixper stop`  
+- `!taco dixper disable`  
+
+
+
+### PERMISSIONS 🔑
+- `MODERATOR`  
+
+
+---
+<a name="dixper-start"></a>
+## DIXPER START🛡️  
+Enables the bot to give tacos when people purchase dixper packs.
+
+### USAGE 🤗
+
+```!taco dixper start```
+
+### ALIASES 🔀
+
+- `start`  
+- `on`  
+- `enable`  
+
+
+### COOLDOWN 🕕
+`30s`
+
+### EXAMPLES 📃
+- `!taco dixper on`  
+- `!taco dixper start`  
+- `!taco dixper enable`  
+
+
+
+### PERMISSIONS 🔑
+- `MODERATOR`  
+
+
+---
+<a name="dixper-stop"></a>
+## DIXPER STOP🛡️  
+Disabled the bot from giving tacos when people purchase dixper packs.
+
+### USAGE 🤗
+
+```!taco dixper stop```
+
+### ALIASES 🔀
+
+- `stop`  
+- `off`  
+- `disable`  
+
+
+### COOLDOWN 🕕
+`30s`
+
+### EXAMPLES 📃
+- `!taco dixper off`  
+- `!taco dixper stop`  
+- `!taco dixper disable`  
+
+
+
+### PERMISSIONS 🔑
+- `MODERATOR`  
+
+
+
+[🔼 TOP](#top)  
+
+---
+
 <a name="invite"></a>
 ## INVITE  
 Invite OurTacoBot to your twitch channel.
@@ -199,6 +301,102 @@ This command is restricted to the following twitch channels:
 
 - [@OURTACO](https://twitch.tv/ourtaco)  
 - [@OURTACOBOT](https://twitch.tv/ourtacobot)  
+
+
+[🔼 TOP](#top)  
+
+---
+
+<a name="pokemon"></a>
+## POKEMON🛡️  
+Allows you to control if the bot will participate in the pokemon community game. If you do not have the pokemon game in your channel, the bot will already not participate.
+
+### USAGE 🤗
+
+```!taco pokemon <on/off>```
+
+### COOLDOWN 🕕
+`30s`
+
+### EXAMPLES 📃
+- `!taco pokemon on`  
+- `!taco pokemon start`  
+- `!taco pokemon enable`  
+- `!taco pokemon off`  
+- `!taco pokemon stop`  
+- `!taco pokemon disable`  
+
+
+
+### PERMISSIONS 🔑
+- `MODERATOR`  
+
+
+---
+<a name="pokemon-start"></a>
+## POKEMON START🛡️  
+Enables the bot to participate in the pokemon community game.
+
+### USAGE 🤗
+
+```!taco pokemon start```
+
+### ALIASES 🔀
+
+- `start`  
+- `on`  
+- `enable`  
+
+
+### COOLDOWN 🕕
+`30s`
+
+### EXAMPLES 📃
+- `!taco pokemon on`  
+- `!taco pokemon start`  
+- `!taco pokemon enable`  
+
+
+
+![](https://i.imgur.com/SP3RlsM.png)  
+
+
+### PERMISSIONS 🔑
+- `MODERATOR`  
+
+
+---
+<a name="pokemon-stop"></a>
+## POKEMON STOP🛡️  
+Disables the bot from participating in the pokemon community game.
+
+### USAGE 🤗
+
+```!taco pokemon stop```
+
+### ALIASES 🔀
+
+- `stop`  
+- `off`  
+- `disable`  
+
+
+### COOLDOWN 🕕
+`30s`
+
+### EXAMPLES 📃
+- `!taco pokemon off`  
+- `!taco pokemon stop`  
+- `!taco pokemon disable`  
+
+
+
+![](https://i.imgur.com/oc6hRpS.png)  
+
+
+### PERMISSIONS 🔑
+- `MODERATOR`  
+
 
 
 [🔼 TOP](#top)  
@@ -498,7 +696,7 @@ Here are some events that @ourtacobot will act on.
 ---
 
 <a name="first-chat"></a>
-## FIRST CHAT  
+### FIRST CHAT  
 
 The first time someone chats in your channel, in a rolling 24 hour period, I will give them 1 taco.
 
@@ -508,7 +706,7 @@ The first time someone chats in your channel, in a rolling 24 hour period, I wil
 ---
 
 <a name="host-or-raid"></a>
-## HOST OR RAID  
+### HOST OR RAID  
 
 When an incoming raid/host from a TACO member is detected I will give the raiding channel 5 tacos.
 
@@ -518,7 +716,7 @@ When an incoming raid/host from a TACO member is detected I will give the raidin
 ---
 
 <a name="cheer"></a>
-## CHEER  
+### CHEER  
 
 When a cheer >= 100 bits is detected I will give the person 5 tacos for supporting.
 
@@ -528,7 +726,7 @@ When a cheer >= 100 bits is detected I will give the person 5 tacos for supporti
 ---
 
 <a name="subscription"></a>
-## SUBSCRIPTION  
+### SUBSCRIPTION  
 
 When a user subscribes, or gifts a subscription to the channel I will give them 5 tacos.
 
@@ -538,7 +736,7 @@ When a user subscribes, or gifts a subscription to the channel I will give them 
 ---
 
 <a name="stream-raiders-epic-placement"></a>
-## STREAM RAIDERS EPIC PLACEMENT  
+### STREAM RAIDERS EPIC PLACEMENT  
 
 When someone places an Epic on the Battlefield for Stream Raiders, I will give them 2 tacos.
 
@@ -548,7 +746,7 @@ When someone places an Epic on the Battlefield for Stream Raiders, I will give t
 ---
 
 <a name="dixper"></a>
-## DIXPER  
+### DIXPER  
 
 When someone purchases Dixper packs, I will give them 5 tacos.
 
@@ -558,7 +756,7 @@ When someone purchases Dixper packs, I will give them 5 tacos.
 ---
 
 <a name="stream-elements-tip"></a>
-## STREAM ELEMENTS TIP  
+### STREAM ELEMENTS TIP  
 
 When someone tips through Stream Elements, I will give them 5 tacos.
 
@@ -568,7 +766,7 @@ When someone tips through Stream Elements, I will give them 5 tacos.
 ---
 
 <a name="pokemon-community-game"></a>
-## POKEMON COMMUNITY GAME  
+### POKEMON COMMUNITY GAME  
 
 If you have the Pokemon Community Game running in your channel, I will try to catch Pokemon in your channel.
 
