@@ -81,7 +81,7 @@ def _process_command_list(commands, command, parent_command=""):
     padding = "" if len(parent_command) == 0 else "  "
     full_name = ' '.join([parent_command, c_name]).strip()
     link_name = full_name.lower().replace(' ', '-')
-    print(f'{padding}- [{full_name.upper()}{shield}](#{link_name})  ')
+    print(f'{padding}- [{full_name.upper()}{shield}](#{link_name}_command)  ')
     print(f"")
     c_subcommands = commands[command].get('subcommands', {})
     for sc in c_subcommands:
@@ -113,8 +113,9 @@ def _process_command(commands, command, parent_command="", prefixes=None):
     shield = '🛡️' if c_admin > 0 else ''
     c_name = _get_formatted_key(command)
     full_name = ' '.join([parent_command, c_name]).strip()
-    link_name = full_name.lower().replace(' ', '-')
-    print(f'<a name="{link_name}"></a>')
+    link_full_name = ' '.join([parent_command, command]).strip().replace(' ', '-')
+    link_name = link_full_name.lower().replace(' ', '-')
+    print(f'<a name="{link_name}_command"></a>')
     print(f'## {full_name.upper()}{shield}  ')
 
     c_desc = _replace_prefix(commands[command].get("description", ""), prefixes=prefixes)
