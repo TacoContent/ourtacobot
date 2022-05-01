@@ -1,7 +1,7 @@
 [⏪ BACK](/ourtacobot)<a name="top"></a>
 
 # OURTACOBOT TWITCH COMMANDS
-### GENERATED: 2022-04-30 23:03:04
+### GENERATED: 2022-05-01 06:04:26
 
 
 ### COMMAND PREFIXES
@@ -19,6 +19,12 @@ Commands with 🛡️ are only available to admins.
 - [COMMANDS](#commands)  
 
 - [DISCORD](#discord)  
+
+- [DIXPER🛡️](#dixper)  
+
+  - [DIXPER START🛡️](#dixper-start)  
+
+  - [DIXPER STOP🛡️](#dixper-stop)  
 
 - [INVITE](#invite)  
 
@@ -122,6 +128,96 @@ Promotes the TACO discord using an invite that you have created in the discord.
 
 ### PERMISSIONS 🔑
 - `EVERYONE`  
+
+
+
+[🔼 TOP](#top)  
+
+---
+
+<a name="dixper"></a>
+## DIXPER🛡️  
+Allows you to control if the bot will give tacos for purchase of dixper packs. If you do not use dixper in your channel, this will not matter.
+
+### USAGE 🤗
+
+```!taco dixper <on/off>```
+
+### COOLDOWN 🕕
+`30s`
+
+### EXAMPLES 📃
+- `!taco dixper on`  
+- `!taco dixper start`  
+- `!taco dixper enable`  
+- `!taco dixper off`  
+- `!taco dixper stop`  
+- `!taco dixper disable`  
+
+
+
+### PERMISSIONS 🔑
+- `MODERATOR`  
+
+
+---
+<a name="dixper-start"></a>
+## DIXPER START🛡️  
+Enables the bot to give tacos when people purchase dixper packs.
+
+### USAGE 🤗
+
+```!taco dixper start```
+
+### ALIASES 🔀
+
+- `start`  
+- `on`  
+- `enable`  
+
+
+### COOLDOWN 🕕
+`30s`
+
+### EXAMPLES 📃
+- `!taco dixper on`  
+- `!taco dixper start`  
+- `!taco dixper enable`  
+
+
+
+### PERMISSIONS 🔑
+- `MODERATOR`  
+
+
+---
+<a name="dixper-stop"></a>
+## DIXPER STOP🛡️  
+Disabled the bot from giving tacos when people purchase dixper packs.
+
+### USAGE 🤗
+
+```!taco dixper stop```
+
+### ALIASES 🔀
+
+- `stop`  
+- `off`  
+- `disable`  
+
+
+### COOLDOWN 🕕
+`30s`
+
+### EXAMPLES 📃
+- `!taco dixper off`  
+- `!taco dixper stop`  
+- `!taco dixper disable`  
+
+
+
+### PERMISSIONS 🔑
+- `MODERATOR`  
 
 
 
