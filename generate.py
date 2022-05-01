@@ -80,7 +80,8 @@ def _process_command_list(commands, command, parent_command=""):
 
     padding = "" if len(parent_command) == 0 else "  "
     full_name = ' '.join([parent_command, c_name]).strip()
-    link_name = full_name.lower().replace(' ', '-')
+    link_full_name = ' '.join([parent_command, command]).strip().replace(' ', '-')
+    link_name = link_full_name.lower().replace(' ', '-')
     print(f'{padding}- [{full_name.upper()}{shield}](#{link_name}_command)  ')
     print(f"")
     c_subcommands = commands[command].get('subcommands', {})
