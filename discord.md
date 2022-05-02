@@ -1,7 +1,7 @@
 [⏪ BACK](/ourtacobot)<a name="top"></a>
 
 # OURTACOBOT DISCORD COMMANDS
-### GENERATED: 2022-05-02 18:03:43
+### GENERATED: 2022-05-02 18:30:55
 
 
 ### COMMAND PREFIXES
@@ -15,7 +15,8 @@ The following prefixes are accepted:
 `.taco <command> [subcommand] [arg1...argN]`
 
 # COMMAND LIST
-Commands with 🛡️ are only available to admins.
+Commands with 🛡️ are only available to moderators.
+
 - [BIRTHDAY](#birthday_command)  
 
 - [CHANGELOG](#changelog_command)  

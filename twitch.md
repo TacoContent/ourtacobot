@@ -1,7 +1,7 @@
 [⏪ BACK](/ourtacobot)<a name="top"></a>
 
 # OURTACOBOT TWITCH COMMANDS
-### GENERATED: 2022-05-02 18:03:44
+### GENERATED: 2022-05-02 18:30:55
 
 
 ### COMMAND PREFIXES
@@ -15,7 +15,9 @@ The following prefixes are accepted:
 `!taco <command> [subcommand] [arg1...argN]`
 
 # COMMAND LIST
-Commands with 🛡️ are only available to admins.
+Commands with 🛡️ are only available to moderators.
+Commands with 🔒 can only be ran in the specified channels.
+
 - [COMMANDS](#commands_command)  
 
 - [DISCORD](#discord_command)  
@@ -26,9 +28,9 @@ Commands with 🛡️ are only available to admins.
 
   - [DIXPER STOP🛡️](#dixper-stop_command)  
 
-- [INVITE](#invite_command)  
+- [INVITE🔒](#invite_command)  
 
-- [LEAVE](#leave_command)  
+- [LEAVE🔒](#leave_command)  
 
 - [POKEMON🛡️](#pokemon_command)  
 
