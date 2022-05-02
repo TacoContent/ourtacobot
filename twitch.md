@@ -1,7 +1,7 @@
 [⏪ BACK](/ourtacobot)<a name="top"></a>
 
 # OURTACOBOT TWITCH COMMANDS
-### GENERATED: 2022-05-02 12:29:18
+### GENERATED: 2022-05-02 17:45:07
 
 
 ### COMMAND PREFIXES
@@ -36,6 +36,20 @@ Commands with 🛡️ are only available to admins.
 
   - [POKEMON STOP🛡️](#pokemon-stop_command)  
 
+- [STREAMELEMENTS🛡️](#streamelements_command)  
+
+  - [STREAMELEMENTS START🛡️](#streamelements-start_command)  
+
+  - [STREAMELEMENTS STOP🛡️](#streamelements-stop_command)  
+
+  - [STREAMELEMENTS TIP🛡️](#streamelements-tip_command)  
+
+- [STREAMRAIDERS🛡️](#streamraiders_command)  
+
+  - [STREAMRAIDERS START🛡️](#streamraiders-start_command)  
+
+  - [STREAMRAIDERS STOP🛡️](#streamraiders-stop_command)  
+
 - [TACOS](#tacos_command)  
 
   - [TACOS COUNT](#tacos-count_command)  
@@ -58,7 +72,9 @@ Commands with 🛡️ are only available to admins.
 # EVENT LIST
 - [FIRST CHAT](#first-chat_event)  
 
-- [HOST OR RAID](#host-or-raid_event)  
+- [RAID](#raid_event)  
+
+- [HOST](#host_event)  
 
 - [CHEER](#cheer_event)  
 
@@ -403,6 +419,212 @@ Disables the bot from participating in the pokemon community game.
 
 ---
 
+<a name="streamelements_command"></a>
+## STREAMELEMENTS🛡️  
+Allows you to control if the bot will give tacos for streamelements tips. If you do not use streamelements  in your channel, this setting doesn't matter.
+
+### USAGE 🤗
+
+```!taco streamelements <on/off>```
+
+### COOLDOWN 🕕
+`30s`
+
+### EXAMPLES 📃
+- `!taco streamelements on`  
+- `!taco streamelements start`  
+- `!taco streamelements enable`  
+- `!taco streamelements off`  
+- `!taco streamelements stop`  
+- `!taco streamelements disable`  
+
+
+
+### PERMISSIONS 🔑
+- `MODERATOR`  
+
+
+---
+<a name="streamelements-start_command"></a>
+## STREAMELEMENTS START🛡️  
+Enables the bot to give tacos if someone tips through streamelements.
+
+### USAGE 🤗
+
+```!taco streamelements start```
+
+### ALIASES 🔀
+
+- `start`  
+- `on`  
+- `enable`  
+
+
+### COOLDOWN 🕕
+`30s`
+
+### EXAMPLES 📃
+- `!taco streamelements on`  
+- `!taco streamelements start`  
+- `!taco streamelements enable`  
+
+
+
+### PERMISSIONS 🔑
+- `MODERATOR`  
+
+
+---
+<a name="streamelements-stop_command"></a>
+## STREAMELEMENTS STOP🛡️  
+Disables the bot from giving tacos if someone tips through streamelements.
+
+### USAGE 🤗
+
+```!taco streamelements stop```
+
+### ALIASES 🔀
+
+- `stop`  
+- `off`  
+- `disable`  
+
+
+### COOLDOWN 🕕
+`30s`
+
+### EXAMPLES 📃
+- `!taco streamelements off`  
+- `!taco streamelements stop`  
+- `!taco streamelements disable`  
+
+
+
+### PERMISSIONS 🔑
+- `MODERATOR`  
+
+
+---
+<a name="streamelements-tip_command"></a>
+## STREAMELEMENTS TIP🛡️  
+Sets the streamelements tip message so the bot knows what to look for. Make sure to include the `{user}`, `{currency}`, `{amount}` tags. If you use the default message, you do not need to set this.
+
+### USAGE 🤗
+
+```!taco streamelements tip <message>```
+
+### ALIASES 🔀
+
+- `tip`  
+
+
+### COOLDOWN 🕕
+`30s`
+
+### EXAMPLES 📃
+- `!taco streamelements tip {user} just tipped {currency}{amount} PogChamp`  
+
+
+
+### PERMISSIONS 🔑
+- `BROADCASTER`  
+
+
+
+[🔼 TOP](#top)  
+
+---
+
+<a name="streamraiders_command"></a>
+## STREAMRAIDERS🛡️  
+Allows you to control if the bot will give tacos for streamraiders tips. If you do not use streamraiders  in your channel, this setting doesn't matter.
+
+### USAGE 🤗
+
+```!taco streamraiders <on/off>```
+
+### COOLDOWN 🕕
+`30s`
+
+### EXAMPLES 📃
+- `!taco streamraiders on`  
+- `!taco streamraiders start`  
+- `!taco streamraiders enable`  
+- `!taco streamraiders off`  
+- `!taco streamraiders stop`  
+- `!taco streamraiders disable`  
+
+
+
+### PERMISSIONS 🔑
+- `MODERATOR`  
+
+
+---
+<a name="streamraiders-start_command"></a>
+## STREAMRAIDERS START🛡️  
+Enables the bot to give tacos if someone Epic on the battlefield in streamraiders.
+
+### USAGE 🤗
+
+```!taco streamraiders start```
+
+### ALIASES 🔀
+
+- `start`  
+- `on`  
+- `enable`  
+
+
+### COOLDOWN 🕕
+`30s`
+
+### EXAMPLES 📃
+- `!taco streamraiders on`  
+- `!taco streamraiders start`  
+- `!taco streamraiders enable`  
+
+
+
+### PERMISSIONS 🔑
+- `MODERATOR`  
+
+
+---
+<a name="streamraiders-stop_command"></a>
+## STREAMRAIDERS STOP🛡️  
+Disables the bot from giving tacos if someone places an Epic on the battlefield in streamraiders.
+
+### USAGE 🤗
+
+```!taco streamraiders stop```
+
+### ALIASES 🔀
+
+- `stop`  
+- `off`  
+- `disable`  
+
+
+### COOLDOWN 🕕
+`30s`
+
+### EXAMPLES 📃
+- `!taco streamraiders off`  
+- `!taco streamraiders stop`  
+- `!taco streamraiders disable`  
+
+
+
+### PERMISSIONS 🔑
+- `MODERATOR`  
+
+
+
+[🔼 TOP](#top)  
+
+---
+
 <a name="tacos_command"></a>
 ## TACOS  
 Set of commands to deal with tacos.
@@ -705,10 +927,20 @@ The first time someone chats in your channel, in a rolling 24 hour period, I wil
 
 ---
 
-<a name="host-or-raid_event"></a>
-### HOST OR RAID  
+<a name="raid_event"></a>
+### RAID  
 
-When an incoming raid/host from a TACO member is detected I will give the raiding channel 5 tacos.
+When an incoming raid from a TACO member is detected I will give the raiding channel 5 tacos.
+
+
+[🔼 TOP](#top)  
+
+---
+
+<a name="host_event"></a>
+### HOST  
+
+When an incoming host from a TACO member is detected I will give the raiding channel 5 tacos.
 
 
 [🔼 TOP](#top)  
