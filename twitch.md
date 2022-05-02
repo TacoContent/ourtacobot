@@ -1,7 +1,7 @@
 [⏪ BACK](/ourtacobot)<a name="top"></a>
 
 # OURTACOBOT TWITCH COMMANDS
-### GENERATED: 2022-05-02 17:55:52
+### GENERATED: 2022-05-02 17:58:46
 
 
 ### COMMAND PREFIXES
@@ -202,6 +202,9 @@ Enables the bot to give tacos when people purchase dixper packs.
 
 
 
+![](https://i.imgur.com/3fkoGdY.png)  
+
+
 ### PERMISSIONS 🔑
 - `MODERATOR`  
 
@@ -230,6 +233,9 @@ Disabled the bot from giving tacos when people purchase dixper packs.
 - `!taco dixper stop`  
 - `!taco dixper disable`  
 
+
+
+![](https://i.imgur.com/0a2SjiQ.png)  
 
 
 ### PERMISSIONS 🔑
