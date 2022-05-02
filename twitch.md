@@ -1,7 +1,7 @@
 [⏪ BACK](/ourtacobot)<a name="top"></a>
 
 # OURTACOBOT TWITCH COMMANDS
-### GENERATED: 2022-05-02 17:45:07
+### GENERATED: 2022-05-02 17:55:52
 
 
 ### COMMAND PREFIXES
@@ -470,6 +470,9 @@ Enables the bot to give tacos if someone tips through streamelements.
 
 
 
+![](https://i.imgur.com/meTuhIQ.png)  
+
+
 ### PERMISSIONS 🔑
 - `MODERATOR`  
 
@@ -500,6 +503,9 @@ Disables the bot from giving tacos if someone tips through streamelements.
 
 
 
+![](https://i.imgur.com/Uzy2O9B.png)  
+
+
 ### PERMISSIONS 🔑
 - `MODERATOR`  
 
@@ -524,6 +530,9 @@ Sets the streamelements tip message so the bot knows what to look for. Make sure
 ### EXAMPLES 📃
 - `!taco streamelements tip {user} just tipped {currency}{amount} PogChamp`  
 
+
+
+![](https://i.imgur.com/X5rOzTo.png)  
 
 
 ### PERMISSIONS 🔑
