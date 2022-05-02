@@ -37,7 +37,10 @@ def main():
     print(f"`{_replace_prefix('{{prefix}}', prefixes=prefixes)}<command> [subcommand] [arg1...argN]`")
     print(f"")
     print(f"# COMMAND LIST")
-    print(f"Commands with 🛡️ are only available to admins.")
+    print(f"Commands with 🛡️ are only available to moderators.")
+    if DOC_FORMAT == "twitch":
+        print(f"Commands with 🔒 can only be ran in the specified channels.")
+    print(f"")
     for command in commands:
         _process_command_list(commands, command)
 
@@ -75,14 +78,16 @@ def main():
                 print(f"")
 def _process_command_list(commands, command, parent_command=""):
     c_admin = commands[command].get('admin', False) or any(x in ["moderator", "broadcaster", "bot", "bot_owner"] for x in [x.lower() for x in commands[command].get('permissions', [])])
+    c_restricted = commands[command].get('restricted', [])
     c_name = _get_formatted_key(command)
     shield = '🛡️' if c_admin > 0 else ''
+    lock = '🔒' if len(c_restricted) > 0 else ''
 
     padding = "" if len(parent_command) == 0 else "  "
     full_name = ' '.join([parent_command, c_name]).strip()
     link_full_name = ' '.join([parent_command, command]).strip().replace(' ', '-')
     link_name = link_full_name.lower().replace(' ', '-')
-    print(f'{padding}- [{full_name.upper()}{shield}](#{link_name}_command)  ')
+    print(f'{padding}- [{full_name.upper()}{shield}{lock}](#{link_name}_command)  ')
     print(f"")
     c_subcommands = commands[command].get('subcommands', {})
     for sc in c_subcommands:
