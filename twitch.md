@@ -1,7 +1,7 @@
 [⏪ BACK](/ourtacobot)<a name="top"></a>
 
 # OURTACOBOT TWITCH COMMANDS
-### GENERATED: 2022-05-02 17:58:46
+### GENERATED: 2022-05-02 18:03:44
 
 
 ### COMMAND PREFIXES
@@ -601,6 +601,9 @@ Enables the bot to give tacos if someone Epic on the battlefield in streamraider
 
 
 
+![](https://i.imgur.com/Fup71Na.png)  
+
+
 ### PERMISSIONS 🔑
 - `MODERATOR`  
 
@@ -629,6 +632,9 @@ Disables the bot from giving tacos if someone places an Epic on the battlefield 
 - `!taco streamraiders stop`  
 - `!taco streamraiders disable`  
 
+
+
+![](https://i.imgur.com/EJYrl1Y.png)  
 
 
 ### PERMISSIONS 🔑
