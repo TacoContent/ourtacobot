@@ -37,9 +37,9 @@ def main():
     print(f"`{_replace_prefix('{{prefix}}', prefixes=prefixes)}<command> [subcommand] [arg1...argN]`")
     print(f"")
     print(f"# COMMAND LIST")
-    print(f"Commands with 🛡️ are only available to moderators.")
+    print(f"Commands with 🛡️ are only available to moderators.  ")
     if DOC_FORMAT == "twitch":
-        print(f"Commands with 🔒 can only be ran in the specified channels.")
+        print(f"Commands with 🔒 can only be ran in the specified channels.  ")
     print(f"")
     for command in commands:
         _process_command_list(commands, command)
