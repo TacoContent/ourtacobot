@@ -79,12 +79,14 @@ def main():
 def _process_command_list(commands, command, parent_command=""):
     c_admin = commands[command].get('admin', False) or any(x in ["moderator", "broadcaster", "bot", "bot_owner"] for x in [x.lower() for x in commands[command].get('permissions', [])])
     c_restricted = commands[command].get('restricted', [])
+    c_display:str = commands[command].get('label', None)
     c_name = _get_formatted_key(command)
+    c_label = c_display if c_display is not None else c_name
     shield = '🛡️' if c_admin > 0 else ''
     lock = '🔒' if len(c_restricted) > 0 else ''
 
     padding = "" if len(parent_command) == 0 else "  "
-    full_name = ' '.join([parent_command, c_name]).strip()
+    full_name = ' '.join([parent_command, c_label]).strip()
     link_full_name = ' '.join([parent_command, command]).strip().replace(' ', '-')
     link_name = link_full_name.lower().replace(' ', '-')
     print(f'{padding}- [{full_name.upper()}{shield}{lock}](#{link_name}_command)  ')
@@ -117,8 +119,11 @@ def _process_event(event):
 def _process_command(commands, command, parent_command="", prefixes=None):
     c_admin = commands[command].get('admin', False) or any(x in ["moderator", "broadcaster", "bot", "bot_owner"] for x in [x.lower() for x in commands[command].get('permissions', [])])
     shield = '🛡️' if c_admin > 0 else ''
+    c_display:str = commands[command].get('label', None)
     c_name = _get_formatted_key(command)
-    full_name = ' '.join([parent_command, c_name]).strip()
+    c_label = c_display if c_display is not None else c_name
+
+    full_name = ' '.join([parent_command, c_label]).strip()
     link_full_name = ' '.join([parent_command, command]).strip().replace(' ', '-')
     link_name = link_full_name.lower().replace(' ', '-')
     print(f'<a name="{link_name}_command"></a>')
@@ -201,6 +206,8 @@ def _process_arguments(arguments, prefixes=None):
     print(f"|---|---|---|---|---|  ")
     for argument in arguments:
         a_name = argument
+        a_display = arguments[argument].get('label', None)
+        a_label = a_display if a_display is not None else a_name
         a_type = arguments[argument].get('type', 'string')
         a_required = arguments[argument].get('required', False)
         a_description = _replace_prefix(arguments[argument].get('description', ''), prefixes=prefixes)
@@ -218,9 +225,9 @@ def _process_arguments(arguments, prefixes=None):
         else:
             a_required = '🔲'
         if a_type == 'number':
-            print(f"| `{a_name}` | {a_description} | `{a_type}` | DEFAULT: `{a_default}`  MIN: `{a_min}`  MAX: `{a_max}` | `{a_required}` |  ")
+            print(f"| `{a_label}` | {a_description} | `{a_type}` | DEFAULT: `{a_default}`  MIN: `{a_min}`  MAX: `{a_max}` | `{a_required}` |  ")
         else:
-            print(f"| `{a_name}` | {a_description} | `{a_type}` | DEFAULT: `{a_default}` | `{a_required}` |  ")
+            print(f"| `{a_label}` | {a_description} | `{a_type}` | DEFAULT: `{a_default}` | `{a_required}` |  ")
 
 def _get_formatted_key(key):
     return key.replace('_', '')
