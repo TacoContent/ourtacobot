@@ -1,7 +1,7 @@
 [⏪ BACK](/ourtacobot)<a name="top"></a>
 
 # OURTACOBOT TWITCH COMMANDS
-### GENERATED: 2022-05-03 12:31:20
+### GENERATED: 2022-05-03 17:56:40
 
 
 ### COMMAND PREFIXES
@@ -551,7 +551,7 @@ Sets the streamelements tip message so the bot knows what to look for. Make sure
 
 | NAME | DESCRIPTION | TYPE | DEFAULT/MIN/MAX | REQUIRED |  
 |---|---|---|---|---|  
-| `message` | The message to set as the tip message. Make sure to include the `{user}`, `{currency}`, `{amount}` tags. | `string` | DEFAULT: `` | `✅` |  
+| `message` | The message to set as the tip message. Make sure to include the `{user}`, `{currency}`, `{amount}` tags. | `string` | DEFAULT: `""` | `✅` |  
 
 
 [🔼 TOP](#top)  
