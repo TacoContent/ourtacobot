@@ -77,6 +77,9 @@ def main():
                 print(f"[🔼 TOP](#top)  ")
                 print(f"")
 def _process_command_list(commands, command, parent_command=""):
+    c_enabled = commands[command].get('enabled', True)
+    if not c_enabled:
+        return
     c_admin = commands[command].get('admin', False) or any(x in ["moderator", "broadcaster", "bot", "bot_owner"] for x in [x.lower() for x in commands[command].get('permissions', [])])
     c_restricted = commands[command].get('restricted', [])
     c_display:str = commands[command].get('label', None)
@@ -96,6 +99,9 @@ def _process_command_list(commands, command, parent_command=""):
         _process_command_list(c_subcommands, sc, full_name)
 
 def _process_events_list(event):
+    c_enabled = event.get('enabled', True)
+    if not c_enabled:
+        return
     e_name = event.get('name', '')
     link_name = e_name.lower().replace(' ', '-')
     e_description = event.get('description', '')
@@ -105,6 +111,10 @@ def _process_events_list(event):
     print(f"")
 
 def _process_event(event):
+
+    c_enabled = event.get('enabled', True)
+    if not c_enabled:
+        return
     e_name = event.get('name', '')
     link_name = e_name.lower().replace(' ', '-')
     e_description = event.get('description', '')
@@ -122,6 +132,10 @@ def _process_command(commands, command, parent_command="", prefixes=None):
     c_display:str = commands[command].get('label', None)
     c_name = _get_formatted_key(command)
     c_label = c_display if c_display is not None else c_name
+
+    c_enabled = commands[command].get('enabled', True)
+    if not c_enabled:
+        return
 
     full_name = ' '.join([parent_command, c_label]).strip()
     link_full_name = ' '.join([parent_command, command]).strip().replace(' ', '-')
