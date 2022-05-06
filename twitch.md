@@ -1,7 +1,7 @@
 [⏪ BACK](/ourtacobot)<a name="top"></a>
 
 # OURTACOBOT TWITCH COMMANDS
-### GENERATED: 2022-05-06 16:51:49
+### GENERATED: 2022-05-06 16:54:00
 
 
 ### COMMAND PREFIXES
@@ -62,7 +62,7 @@ Commands with 🔒 can only be ran in the specified channels.
 
 - [LINK](#link_command)  
 
-- [LINK <CODE>](#_link_command)  
+- [LINK \<CODE\>](#_link_command)  
 
 
 # EVENT LIST
@@ -807,7 +807,7 @@ Gives you a command and a code to run in discord to link your twitch with your d
 ---
 
 <a name="_link_command"></a>
-## LINK <CODE>  
+## LINK \<CODE\>  
 Links your discord account with your twitch account.
 
 ### USAGE 🤗
