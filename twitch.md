@@ -1,7 +1,7 @@
 [⏪ BACK](/ourtacobot)<a name="top"></a>
 
 # OURTACOBOT TWITCH COMMANDS
-### GENERATED: 2022-05-06 16:00:50
+### GENERATED: 2022-05-06 16:49:43
 
 
 ### COMMAND PREFIXES
@@ -31,12 +31,6 @@ Commands with 🔒 can only be ran in the specified channels.
 - [INVITE🔒](#invite_command)  
 
 - [LEAVE🔒](#leave_command)  
-
-- [POKEMON🛡️](#pokemon_command)  
-
-  - [POKEMON START🛡️](#pokemon-start_command)  
-
-  - [POKEMON STOP🛡️](#pokemon-stop_command)  
 
 - [STREAMELEMENTS🛡️](#streamelements_command)  
 
@@ -87,8 +81,6 @@ Commands with 🔒 can only be ran in the specified channels.
 - [DIXPER](#dixper_event)  
 
 - [STREAM ELEMENTS TIP](#stream-elements-tip_event)  
-
-- [POKEMON COMMUNITY GAME](#pokemon-community-game_event)  
 
 ---
 
@@ -330,97 +322,6 @@ This command is restricted to the following twitch channels:
 [🔼 TOP](#top)  
 
 ---
-
-<a name="pokemon_command"></a>
-## POKEMON🛡️  
-Allows you to control if the bot will participate in the pokemon community game. If you do not have the pokemon game in your channel, the bot will already not participate.
-
-### USAGE 🤗
-
-```!taco pokemon <on/off>```
-
-### COOLDOWN 🕕
-`30s`
-
-### EXAMPLES 📃
-- `!taco pokemon on`  
-- `!taco pokemon start`  
-- `!taco pokemon enable`  
-- `!taco pokemon off`  
-- `!taco pokemon stop`  
-- `!taco pokemon disable`  
-
-
-
-### PERMISSIONS 🔑
-- `MODERATOR`  
-
-
----
-<a name="pokemon-start_command"></a>
-## POKEMON START🛡️  
-Enables the bot to participate in the pokemon community game.
-
-### USAGE 🤗
-
-```!taco pokemon start```
-
-### ALIASES 🔀
-
-- `start`  
-- `on`  
-- `enable`  
-
-
-### COOLDOWN 🕕
-`30s`
-
-### EXAMPLES 📃
-- `!taco pokemon on`  
-- `!taco pokemon start`  
-- `!taco pokemon enable`  
-
-
-
-![](https://i.imgur.com/SP3RlsM.png)  
-
-
-### PERMISSIONS 🔑
-- `MODERATOR`  
-
-
----
-<a name="pokemon-stop_command"></a>
-## POKEMON STOP🛡️  
-Disables the bot from participating in the pokemon community game.
-
-### USAGE 🤗
-
-```!taco pokemon stop```
-
-### ALIASES 🔀
-
-- `stop`  
-- `off`  
-- `disable`  
-
-
-### COOLDOWN 🕕
-`30s`
-
-### EXAMPLES 📃
-- `!taco pokemon off`  
-- `!taco pokemon stop`  
-- `!taco pokemon disable`  
-
-
-
-![](https://i.imgur.com/oc6hRpS.png)  
-
-
-### PERMISSIONS 🔑
-- `MODERATOR`  
-
 
 
 [🔼 TOP](#top)  
@@ -1025,11 +926,6 @@ When someone tips through Stream Elements, I will give them 5 tacos.
 [🔼 TOP](#top)  
 
 ---
-
-<a name="pokemon-community-game_event"></a>
-### POKEMON COMMUNITY GAME  
-
-If you have the Pokemon Community Game running in your channel, I will try to catch Pokemon in your channel.
 
 
 [🔼 TOP](#top)  
