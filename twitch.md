@@ -1,7 +1,7 @@
 [⏪ BACK](/ourtacobot)<a name="top"></a>
 
 # OURTACOBOT TWITCH COMMANDS
-### GENERATED: 2022-05-02 18:34:42
+### GENERATED: 2022-05-06 16:00:50
 
 
 ### COMMAND PREFIXES
@@ -68,7 +68,7 @@ Commands with 🔒 can only be ran in the specified channels.
 
 - [LINK](#link_command)  
 
-- [LINK](#_link_command)  
+- [LINK <CODE>](#_link_command)  
 
 
 # EVENT LIST
@@ -547,6 +547,12 @@ Sets the streamelements tip message so the bot knows what to look for. Make sure
 - `BROADCASTER`  
 
 
+### ARGUMENTS 🔖
+
+| NAME | DESCRIPTION | TYPE | DEFAULT/MIN/MAX | REQUIRED |  
+|---|---|---|---|---|  
+| `message` | The message to set as the tip message. Make sure to include the `{user}`, `{currency}`, `{amount}` tags. | `string` | DEFAULT: `""` | `✅` |  
+
 
 [🔼 TOP](#top)  
 
@@ -900,7 +906,7 @@ Gives you a command and a code to run in discord to link your twitch with your d
 ---
 
 <a name="_link_command"></a>
-## LINK  
+## LINK <CODE>  
 Links your discord account with your twitch account.
 
 ### USAGE 🤗
