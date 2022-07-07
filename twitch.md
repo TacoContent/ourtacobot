@@ -1,7 +1,7 @@
 [⏪ BACK](/ourtacobot)<a name="top"></a>
 
 # OURTACOBOT TWITCH COMMANDS
-### GENERATED: 2022-07-06 13:16:09
+### GENERATED: 2022-07-07 00:55:19
 
 
 ### COMMAND PREFIXES
@@ -27,6 +27,8 @@ Commands with 🔒 can only be ran in the specified channels.
   - [DIXPER START🛡️](#dixper-start_command)  
 
   - [DIXPER STOP🛡️](#dixper-stop_command)  
+
+- [GAME](#game_command)  
 
 - [INVITE🔒](#invite_command)  
 
@@ -234,6 +236,34 @@ Disabled the bot from giving tacos when people purchase dixper packs.
 
 ### PERMISSIONS 🔑
 - `MODERATOR`  
+
+
+
+[🔼 TOP](#top)  
+
+---
+
+<a name="game_command"></a>
+## GAME  
+Shows the name of the game that is currently being offered via the TACO Rewards.
+
+### USAGE 🤗
+
+```!taco game```
+
+### COOLDOWN 🕕
+`30s`
+
+### EXAMPLES 📃
+- `!taco game`  
+
+
+
+![](https://i.imgur.com/9pPPWhz.png)  
+
+
+### PERMISSIONS 🔑
+- `EVERYONE`  
 
 
 
