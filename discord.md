@@ -1,7 +1,7 @@
 [⏪ BACK](/ourtacobot)<a name="top"></a>
 
 # OURTACOBOT DISCORD COMMANDS
-### GENERATED: 2022-12-14 23:22:40
+### GENERATED: 2022-12-14 23:29:26
 
 
 ### COMMAND PREFIXES
@@ -240,7 +240,7 @@ Adds a WDYCTW question.
 ---
 <a name="wdyctw-give_command"></a>
 ## WDYCTW GIVE🛡️  
-Gives WDYCTW tacos to the user who answered the question. The preferred way to give tacos is to use the reaction on the question with the 'W'.
+Gives WDYCTW tacos to the user who answered the question. The preferred way to give tacos is to use the 'W' emoji reaction on their message.
 
 ### USAGE 🤗
 
@@ -273,7 +273,7 @@ Adds a question of the day
 ---
 <a name="tqotd-give_command"></a>
 ## TQOTD GIVE🛡️  
-Gives TQotD tacos to the user who answered the question. The preferred way to give tacos is to use the reaction on the question with the 'T' or a '🌮'.
+Gives TQotD tacos to the user who answered the question. The preferred way to give tacos is to use the 'T' emoji reaction on their message.
 
 ### USAGE 🤗
 
