@@ -1,7 +1,7 @@
 [⏪ BACK](/ourtacobot)<a name="top"></a>
 
 # OURTACOBOT DISCORD COMMANDS
-### GENERATED: 2022-12-14 12:22:28
+### GENERATED: 2022-12-14 20:02:31
 
 
 ### COMMAND PREFIXES
@@ -30,6 +30,10 @@ Commands with 🛡️ are only available to moderators.
 - [MOVE🛡️](#move_command)  
 
 - [SUGGEST](#suggest_command)  
+
+- [WDYCTW🛡️](#wdyctw_command)  
+
+  - [WDYCTW GIVE🛡️](#wdyctw-give_command)  
 
 - [TQOTD🛡️](#tqotd_command)  
 
@@ -225,6 +229,39 @@ Starts a suggestion. I will DM you to ask you questions to create the suggestion
 
 ---
 
+<a name="wdyctw_command"></a>
+## WDYCTW🛡️  
+Adds a WDYCTW question.
+
+### USAGE 🤗
+
+```.taco wdyctw [command]```
+
+---
+<a name="wdyctw-give_command"></a>
+## WDYCTW GIVE🛡️  
+Gives WDYCTW tacos to the user who answered the question. The preferred way to give tacos is to use the reaction on the question with the 'W'.
+
+### USAGE 🤗
+
+```.taco wdyctw give <@user>```
+
+### EXAMPLES 📃
+- `.taco wdyctw give @DarthMinos#1161`  
+
+
+
+### ARGUMENTS 🔖
+
+| NAME | DESCRIPTION | TYPE | DEFAULT/MIN/MAX | REQUIRED |  
+|---|---|---|---|---|  
+| `user` | The user to give tacos to | `user` | DEFAULT: `None` | `✅` |  
+
+
+[🔼 TOP](#top)  
+
+---
+
 <a name="tqotd_command"></a>
 ## TQOTD🛡️  
 Adds a question of the day
@@ -236,7 +273,7 @@ Adds a question of the day
 ---
 <a name="tqotd-give_command"></a>
 ## TQOTD GIVE🛡️  
-Gives TQotD tacos to the user who answered the question
+Gives TQotD tacos to the user who answered the question. The preferred way to give tacos is to use the reaction on the question with the 'T' or a '🌮'.
 
 ### USAGE 🤗
 
