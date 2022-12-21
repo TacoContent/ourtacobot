@@ -1,7 +1,7 @@
 [⏪ BACK](/ourtacobot)<a name="top"></a>
 
 # OURTACOBOT TWITCH COMMANDS
-### GENERATED: 2022-12-21 12:20:42
+### GENERATED: 2022-12-21 15:35:51
 
 
 ### COMMAND PREFIXES
@@ -27,6 +27,14 @@ Commands with 🔒 can only be ran in the specified channels.
   - [DIXPER START🛡️](#dixper-start_command)  
 
   - [DIXPER STOP🛡️](#dixper-stop_command)  
+
+- [RAINMAKER🛡️](#rainmaker_command)  
+
+  - [RAINMAKER START🛡️](#rainmaker-start_command)  
+
+  - [RAINMAKER SET🛡️](#rainmaker-set_command)  
+
+  - [RAINMAKER STOP🛡️](#rainmaker-stop_command)  
 
 - [GAME](#game_command)  
 
@@ -81,6 +89,8 @@ Commands with 🔒 can only be ran in the specified channels.
 - [STREAM RAIDERS EPIC PLACEMENT](#stream-raiders-epic-placement_event)  
 
 - [DIXPER](#dixper_event)  
+
+- [RAINMAKER](#rainmaker_event)  
 
 - [STREAM ELEMENTS TIP](#stream-elements-tip_event)  
 
@@ -231,7 +241,123 @@ Disabled the bot from giving tacos when people purchase dixper packs.
 
 
 
-![](https://i.imgur.com/0a2SjiQ.png)  
+### PERMISSIONS 🔑
+- `MODERATOR`  
+
+
+
+[🔼 TOP](#top)  
+
+---
+
+<a name="rainmaker_command"></a>
+## RAINMAKER🛡️  
+Allows you to control if the bot will give tacos for retweets notified via rainmaker. If you do not use rainmaker in your channel, this will not matter.
+
+### USAGE 🤗
+
+```!taco rainmaker <on/off>```
+
+### COOLDOWN 🕕
+`30s`
+
+### EXAMPLES 📃
+- `!taco rainmaker on`  
+- `!taco rainmaker start`  
+- `!taco rainmaker enable`  
+- `!taco rainmaker off`  
+- `!taco rainmaker stop`  
+- `!taco rainmaker disable`  
+
+
+
+### PERMISSIONS 🔑
+- `MODERATOR`  
+
+
+---
+<a name="rainmaker-start_command"></a>
+## RAINMAKER START🛡️  
+Enables the bot to give tacos when people retweet.
+
+### USAGE 🤗
+
+```!taco rainmaker start```
+
+### ALIASES 🔀
+
+- `start`  
+- `on`  
+- `enable`  
+
+
+### COOLDOWN 🕕
+`30s`
+
+### EXAMPLES 📃
+- `!taco rainmaker on`  
+- `!taco rainmaker start`  
+- `!taco rainmaker enable`  
+
+
+
+![](https://i.imgur.com/3fkoGdY.png)  
+
+
+### PERMISSIONS 🔑
+- `MODERATOR`  
+
+
+---
+<a name="rainmaker-set_command"></a>
+## RAINMAKER SET🛡️  
+Set the retweet message regular expression. By default it is set to match the default rainmaker message. If you have a custom message, you can set it here.
+
+### USAGE 🤗
+
+```!taco rainmaker set <regex>```
+
+### ALIASES 🔀
+
+- `set`  
+
+
+### COOLDOWN 🕕
+`30s`
+
+### EXAMPLES 📃
+- `!taco rainmaker set ^Thank you for tweeting out the stream, (?P<user>@?[a-zA-Z0-9-_]+).$`  
+
+
+
+### PERMISSIONS 🔑
+- `MODERATOR`  
+
+
+---
+<a name="rainmaker-stop_command"></a>
+## RAINMAKER STOP🛡️  
+Disabled the bot from giving tacos when people retweet.
+
+### USAGE 🤗
+
+```!taco rainmaker stop```
+
+### ALIASES 🔀
+
+- `stop`  
+- `off`  
+- `disable`  
+
+
+### COOLDOWN 🕕
+`30s`
+
+### EXAMPLES 📃
+- `!taco rainmaker off`  
+- `!taco rainmaker stop`  
+- `!taco rainmaker disable`  
+
 
 
 ### PERMISSIONS 🔑
@@ -941,6 +1067,16 @@ When someone places an Epic on the Battlefield for Stream Raiders, I will give t
 ### DIXPER  
 
 When someone purchases Dixper packs, I will give them 5 tacos.
+
+
+[🔼 TOP](#top)  
+
+---
+
+<a name="rainmaker_event"></a>
+### RAINMAKER  
+
+When someone retweets the stream, and rainmaker notifies the chat of the retweet, I will give them 5 tacos.
 
 
 [🔼 TOP](#top)  
