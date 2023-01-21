@@ -1,7 +1,7 @@
 [⏪ BACK](/ourtacobot)<a name="top"></a>
 
 # OURTACOBOT DISCORD COMMANDS
-### GENERATED: 2023-01-21 12:18:56
+### GENERATED: 2023-01-21 21:59:49
 
 
 ### COMMAND PREFIXES
@@ -16,6 +16,12 @@ The following prefixes are accepted:
 
 # COMMAND LIST
 Commands with 🛡️ are only available to moderators.  
+
+- [MINECRAFT](#minecraft_command)  
+
+  - [MINECRAFT STATUS](#minecraft-status_command)  
+
+  - [MINECRAFT WHITELIST](#minecraft-whitelist_command)  
 
 - [BIRTHDAY](#birthday_command)  
 
@@ -64,6 +70,52 @@ Commands with 🛡️ are only available to moderators.
   - [TWITCH SET-USER🛡️](#twitch-set-user_command)  
 
   - [TWITCH GET](#twitch-get_command)  
+
+---
+
+<a name="minecraft_command"></a>
+## MINECRAFT  
+Gets the info of the minecraft server
+
+### USAGE 🤗
+
+```.taco minecraft```
+
+### EXAMPLES 📃
+- `.taco minecraft`  
+
+
+
+---
+<a name="minecraft-status_command"></a>
+## MINECRAFT STATUS  
+Gets the info of the minecraft server
+
+### USAGE 🤗
+
+```.taco minecraft status```
+
+### EXAMPLES 📃
+- `.taco minecraft status`  
+
+
+
+---
+<a name="minecraft-whitelist_command"></a>
+## MINECRAFT WHITELIST  
+Get whitelisted on the minecraft server
+
+### USAGE 🤗
+
+```.taco minecraft whitelist```
+
+### EXAMPLES 📃
+- `.taco minecraft whitelist`  
+
+
+
+
+[🔼 TOP](#top)  
 
 ---
 
