@@ -1,7 +1,7 @@
 [⏪ BACK](/ourtacobot)<a name="top"></a>
 
 # OURTACOBOT DISCORD COMMANDS
-### GENERATED: 2023-04-23 12:19:01
+### GENERATED: 2023-04-23 19:57:44
 
 
 ### COMMAND PREFIXES
@@ -22,6 +22,10 @@ Commands with 🛡️ are only available to moderators.
   - [MINECRAFT STATUS](#minecraft-status_command)  
 
   - [MINECRAFT WHITELIST](#minecraft-whitelist_command)  
+
+  - [MINECRAFT START](#minecraft-start_command)  
+
+  - [MINECRAFT STOP🛡️](#minecraft-stop_command)  
 
 - [BIRTHDAY](#birthday_command)  
 
@@ -111,6 +115,34 @@ Get whitelisted on the minecraft server
 
 ### EXAMPLES 📃
 - `.taco minecraft whitelist`  
+
+
+
+---
+<a name="minecraft-start_command"></a>
+## MINECRAFT START  
+Starts the minecraft server. You must be whitelisted to use this command.
+
+### USAGE 🤗
+
+```.taco minecraft start```
+
+### EXAMPLES 📃
+- `.taco minecraft start`  
+
+
+
+---
+<a name="minecraft-stop_command"></a>
+## MINECRAFT STOP🛡️  
+Stops the minecraft server
+
+### USAGE 🤗
+
+```.taco minecraft stop```
+
+### EXAMPLES 📃
+- `.taco minecraft stop`  
 
 
 
