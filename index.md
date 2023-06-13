@@ -34,5 +34,7 @@
 - Subscribe to someone on the TACO Twitch Team - 25 Tacos 🌮
 - Give >= 100 bits to someone on the TACO Twitch Team - 10 Tacos 🌮
 - Send your first message today in the chat of someone on the TACO Twitch Team - 5 Tacos 🌮
+- Promote the TACO Discord by using the `!taco discord` command in your twitch chat (mods or broadcaster) - 10 Tacos 🌮
+- Give users in your chat tacos with the `!taco tacos give` command - The number of tacos you give them
 
 Stream Team members also have the ability (as well as their mods) to give users tacos through the Twitch Taco Bot commands.
