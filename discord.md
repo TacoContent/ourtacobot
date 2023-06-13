@@ -1,7 +1,7 @@
 [⏪ BACK](/ourtacobot)<a name="top"></a>
 
 # OURTACOBOT DISCORD COMMANDS
-### GENERATED: 2023-04-12 12:20:00
+### GENERATED: 2023-06-12 12:19:52
 
 
 ### COMMAND PREFIXES
@@ -23,6 +23,10 @@ Commands with 🛡️ are only available to moderators.
 
   - [MINECRAFT WHITELIST](#minecraft-whitelist_command)  
 
+  - [MINECRAFT START](#minecraft-start_command)  
+
+  - [MINECRAFT STOP🛡️](#minecraft-stop_command)  
+
 - [BIRTHDAY](#birthday_command)  
 
 - [CHANGELOG](#changelog_command)  
@@ -36,6 +40,14 @@ Commands with 🛡️ are only available to moderators.
 - [MOVE🛡️](#move_command)  
 
 - [SUGGEST](#suggest_command)  
+
+- [TECHTHURS🛡️](#techthurs_command)  
+
+  - [TECHTHURS GIVE🛡️](#techthurs-give_command)  
+
+- [MENTALMONDAYS🛡️](#mentalmondays_command)  
+
+  - [MENTALMONDAYS GIVE🛡️](#mentalmondays-give_command)  
 
 - [WDYCTW🛡️](#wdyctw_command)  
 
@@ -111,6 +123,34 @@ Get whitelisted on the minecraft server
 
 ### EXAMPLES 📃
 - `.taco minecraft whitelist`  
+
+
+
+---
+<a name="minecraft-start_command"></a>
+## MINECRAFT START  
+Starts the minecraft server. You must be whitelisted to use this command.
+
+### USAGE 🤗
+
+```.taco minecraft start```
+
+### EXAMPLES 📃
+- `.taco minecraft start`  
+
+
+
+---
+<a name="minecraft-stop_command"></a>
+## MINECRAFT STOP🛡️  
+Stops the minecraft server
+
+### USAGE 🤗
+
+```.taco minecraft stop```
+
+### EXAMPLES 📃
+- `.taco minecraft stop`  
 
 
 
@@ -275,6 +315,72 @@ Starts a suggestion. I will DM you to ask you questions to create the suggestion
 - `.taco suggest`  
 
 
+
+
+[🔼 TOP](#top)  
+
+---
+
+<a name="techthurs_command"></a>
+## TECHTHURS🛡️  
+Adds a Tech Thursday topic.
+
+### USAGE 🤗
+
+```.taco techthurs [command]```
+
+---
+<a name="techthurs-give_command"></a>
+## TECHTHURS GIVE🛡️  
+Gives Tech Thursday tacos to the user who answered the question. The preferred way to give tacos is to use the '💻' emoji reaction on their message.
+
+### USAGE 🤗
+
+```.taco techthurs give <@user>```
+
+### EXAMPLES 📃
+- `.taco techthurs give @DarthMinos#1161`  
+
+
+
+### ARGUMENTS 🔖
+
+| NAME | DESCRIPTION | TYPE | DEFAULT/MIN/MAX | REQUIRED |  
+|---|---|---|---|---|  
+| `user` | The user to give tacos to | `user` | DEFAULT: `None` | `✅` |  
+
+
+[🔼 TOP](#top)  
+
+---
+
+<a name="mentalmondays_command"></a>
+## MENTALMONDAYS🛡️  
+Adds a Mental Monday topic.
+
+### USAGE 🤗
+
+```.taco mentalmondays [command]```
+
+---
+<a name="mentalmondays-give_command"></a>
+## MENTALMONDAYS GIVE🛡️  
+Gives Mental Monday tacos to the user who answered the question. The preferred way to give tacos is to use the '🧠' emoji reaction on their message.
+
+### USAGE 🤗
+
+```.taco mentalmondays give <@user>```
+
+### EXAMPLES 📃
+- `.taco mentalmondays give @DarthMinos#1161`  
+
+
+
+### ARGUMENTS 🔖
+
+| NAME | DESCRIPTION | TYPE | DEFAULT/MIN/MAX | REQUIRED |  
+|---|---|---|---|---|  
+| `user` | The user to give tacos to | `user` | DEFAULT: `None` | `✅` |  
 
 
 [🔼 TOP](#top)  
