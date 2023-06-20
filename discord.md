@@ -1,7 +1,7 @@
 [⏪ BACK](/ourtacobot)<a name="top"></a>
 
 # OURTACOBOT DISCORD COMMANDS
-### GENERATED: 2023-06-20 12:20:56
+### GENERATED: 2023-06-20 22:16:58
 
 
 ### COMMAND PREFIXES
@@ -16,6 +16,12 @@ The following prefixes are accepted:
 
 # COMMAND LIST
 Commands with 🛡️ are only available to moderators.  
+
+- [NEW-ACCOUNT🛡️](#new-account_command)  
+
+  - [NEW-ACCOUNT WHITELIST-ADD🛡️](#new-account-whitelist-add_command)  
+
+  - [NEW-ACCOUNT WHITELIST-REMOVE🛡️](#new-account-whitelist-remove_command)  
 
 - [MINECRAFT](#minecraft_command)  
 
@@ -53,6 +59,12 @@ Commands with 🛡️ are only available to moderators.
 
   - [WDYCTW GIVE🛡️](#wdyctw-give_command)  
 
+- [TUESDAY🛡️](#tuesday_command)  
+
+  - [TUESDAY GIVE🛡️](#tuesday-give_command)  
+
+  - [TUESDAY NEW🛡️](#tuesday-new_command)  
+
 - [TQOTD🛡️](#tqotd_command)  
 
   - [TQOTD GIVE🛡️](#tqotd-give_command)  
@@ -82,6 +94,47 @@ Commands with 🛡️ are only available to moderators.
   - [TWITCH SET-USER🛡️](#twitch-set-user_command)  
 
   - [TWITCH GET](#twitch-get_command)  
+
+---
+
+<a name="new-account_command"></a>
+## NEW-ACCOUNT🛡️  
+Manage the whitelist to allow new accounts to join the server
+
+### USAGE 🤗
+
+```.taco new-account [command]```
+
+---
+<a name="new-account-whitelist-add_command"></a>
+## NEW-ACCOUNT WHITELIST-ADD🛡️  
+Adds a user to the whitelist to allow a 'new account' to be allowed to join the server
+
+### USAGE 🤗
+
+```.taco new-account whitelist-add <userID>```
+
+### EXAMPLES 📃
+- `.taco new-account whitelist-add 123456789012345678`  
+
+
+
+---
+<a name="new-account-whitelist-remove_command"></a>
+## NEW-ACCOUNT WHITELIST-REMOVE🛡️  
+Removes a user from the whitelist to prevent a 'new account' from joining the server
+
+### USAGE 🤗
+
+```.taco new-account whitelist-remove <userID>```
+
+### EXAMPLES 📃
+- `.taco new-account whitelist-remove 123456789012345678`  
+
+
+
+
+[🔼 TOP](#top)  
 
 ---
 
@@ -414,6 +467,60 @@ Gives WDYCTW tacos to the user who answered the question. The preferred way to g
 | NAME | DESCRIPTION | TYPE | DEFAULT/MIN/MAX | REQUIRED |  
 |---|---|---|---|---|  
 | `user` | The user to give tacos to | `user` | DEFAULT: `None` | `✅` |  
+
+
+[🔼 TOP](#top)  
+
+---
+
+<a name="tuesday_command"></a>
+## TUESDAY🛡️  
+Taco Tuesday related commands.
+
+### USAGE 🤗
+
+```.taco tuesday [command]```
+
+---
+<a name="tuesday-give_command"></a>
+## TUESDAY GIVE🛡️  
+Gives Tuesday tacos to the user who answered the question.
+
+### USAGE 🤗
+
+```.taco tuesday give <@user>```
+
+### EXAMPLES 📃
+- `.taco tuesday give @DarthMinos#1161`  
+
+
+
+### ARGUMENTS 🔖
+
+| NAME | DESCRIPTION | TYPE | DEFAULT/MIN/MAX | REQUIRED |  
+|---|---|---|---|---|  
+| `user` | The user to give tacos to | `user` | DEFAULT: `None` | `✅` |  
+
+---
+<a name="tuesday-new_command"></a>
+## TUESDAY NEW🛡️  
+Adds a new Tuesday post.
+
+### USAGE 🤗
+
+```.taco tuesday new <@user> <tweet>```
+
+### EXAMPLES 📃
+- `.taco tuesday new What is your favorite taco?`  
+
+
+
+### ARGUMENTS 🔖
+
+| NAME | DESCRIPTION | TYPE | DEFAULT/MIN/MAX | REQUIRED |  
+|---|---|---|---|---|  
+| `user` | The user that is featured for taco tuesday. | `user` | DEFAULT: `None` | `✅` |  
+| `tweet` | The url to the tweet. | `string` | DEFAULT: `None` | `✅` |  
 
 
 [🔼 TOP](#top)  
