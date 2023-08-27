@@ -1,7 +1,7 @@
 [⏪ BACK](/ourtacobot)<a name="top"></a>
 
 # OURTACOBOT DISCORD COMMANDS
-### GENERATED: 2023-08-27 12:16:37
+### GENERATED: 2023-08-27 21:04:11
 
 
 ### COMMAND PREFIXES
