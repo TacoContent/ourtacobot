@@ -1,7 +1,7 @@
 [⏪ BACK](/ourtacobot)<a name="top"></a>
 
 # OURTACOBOT TWITCH COMMANDS
-### GENERATED: 2023-10-28 15:12:04
+### GENERATED: 2023-10-28 15:26:12
 
 
 ### COMMAND PREFIXES
@@ -93,6 +93,8 @@ Commands with 🔒 can only be ran in the specified channels.
 - [RAINMAKER](#rainmaker_event)  
 
 - [STREAM ELEMENTS TIP](#stream-elements-tip_event)  
+
+- [STREAM AVATARS](#stream-avatars_event)  
 
 ---
 
@@ -1092,6 +1094,16 @@ When someone tips through Stream Elements, I will give them 5 tacos.
 [🔼 TOP](#top)  
 
 ---
+
+
+[🔼 TOP](#top)  
+
+---
+
+<a name="stream-avatars_event"></a>
+### STREAM AVATARS  
+
+When someone challenges me to a duel for 1 or more 'currency', if you win, I will give them 5 tacos.
 
 
 [🔼 TOP](#top)  
