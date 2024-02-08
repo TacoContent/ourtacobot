@@ -1,7 +1,7 @@
 [⏪ BACK](/ourtacobot)<a name="top"></a>
 
 # OURTACOBOT TWITCH COMMANDS
-### GENERATED: 2024-02-07 12:18:06
+### GENERATED: 2024-02-08 12:18:20
 
 
 ### COMMAND PREFIXES
