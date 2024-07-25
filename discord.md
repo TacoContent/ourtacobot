@@ -1,7 +1,7 @@
 [⏪ BACK](/ourtacobot)<a name="top"></a>
 
 # OURTACOBOT DISCORD COMMANDS
-### GENERATED: 2024-07-25 12:22:15
+### GENERATED: 2024-07-25 18:42:26
 
 
 ### COMMAND PREFIXES
@@ -49,6 +49,8 @@ Commands with 🛡️ are only available to moderators.
 
 - [TECHTHURS🛡️](#techthurs_command)  
 
+  - [TECHTHURS AI🛡️](#techthurs-ai_command)  
+
   - [TECHTHURS GIVE🛡️](#techthurs-give_command)  
 
 - [MENTALMONDAYS🛡️](#mentalmondays_command)  
@@ -66,6 +68,8 @@ Commands with 🛡️ are only available to moderators.
   - [TUESDAY NEW🛡️](#tuesday-new_command)  
 
 - [TQOTD🛡️](#tqotd_command)  
+
+  - [TQOTD AI🛡️](#tqotd-ai_command)  
 
   - [TQOTD GIVE🛡️](#tqotd-give_command)  
 
@@ -383,6 +387,21 @@ Adds a Tech Thursday topic.
 ```.taco techthurs [command]```
 
 ---
+<a name="techthurs-ai_command"></a>
+## TECHTHURS AI🛡️  
+Generates a Tech Thursday topic using AI.
+
+### USAGE 🤗
+
+```.taco techthurs ai```
+
+### EXAMPLES 📃
+- `.taco techthurs ai`  
+- `/techthurs ai`  
+
+
+
+---
 <a name="techthurs-give_command"></a>
 ## TECHTHURS GIVE🛡️  
 Gives Tech Thursday tacos to the user who answered the question. The preferred way to give tacos is to use the '💻' emoji reaction on their message.
@@ -536,6 +555,21 @@ Adds a question of the day
 ```.taco tqotd [command]```
 
 ---
+<a name="tqotd-ai_command"></a>
+## TQOTD AI🛡️  
+Generates a question of the day using AI.
+
+### USAGE 🤗
+
+```.taco tqotd ai```
+
+### EXAMPLES 📃
+- `.taco tqotd ai`  
+- `/tqotd ai`  
+
+
+
+---
 <a name="tqotd-give_command"></a>
 ## TQOTD GIVE🛡️  
 Gives TQotD tacos to the user who answered the question. The preferred way to give tacos is to use the 'T' emoji reaction on their message.
@@ -579,6 +613,7 @@ Retrieve the number of tacos you have.
 
 ### EXAMPLES 📃
 - `.taco tacos count`  
+- `/tacos count`  
 
 
 
@@ -617,6 +652,7 @@ Allows an admin to give someone tacos.
 ### EXAMPLES 📃
 - `.taco tacos give @user#1234 10`  
 - `.taco tacos give @user#1234 10 You are awesome!`  
+- `/tacos give @user#1234 10 You are awesome!`  
 
 
 
@@ -640,6 +676,7 @@ Allows an admin to purge all tacos from a user.
 ### EXAMPLES 📃
 - `.taco tacos purge @user#1234`  
 - `.taco tacos purge @user#1234 Exploited the taco system`  
+- `/tacos purge @user#1234 Exploited the taco system`  
 
 
 
